@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/definition.md",
+                "file": "Literature Notes/doxsey2016introducing.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/definition.md"
+                "file": "Literature Notes/doxsey2016introducing.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/definition.md",
+                "file": "Literature Notes/doxsey2016introducing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/definition.md",
+                "file": "Literature Notes/doxsey2016introducing.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -195,14 +195,6 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "a994886042dc03b1",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {}
-            }
           }
         ],
         "currentTab": 6
@@ -224,15 +216,18 @@
       "obsidian-metatable:Metatable": false,
       "periodic-notes:Open today": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "47865e4cc922555b",
+  "active": "ab24a1bf7884ce64",
   "lastOpenFiles": [
     "Glossary/Equi-Join.md",
+    "Literature Notes/doxsey2016introducing.md",
+    "Templates/definition.md",
+    "references.bib",
     "index.md",
     "docs/lib/scripts/tinycolor.js",
     "docs/lib/scripts/graph_view.js",
@@ -243,8 +238,6 @@
     "docs/lib/scripts/webpage.js",
     "docs/lib/scripts",
     "docs/lib/styles/generated-styles.css",
-    "docs/lib/styles/theme.css",
-    "Templates/definition.md",
     "Algorithms/Broadcast Join.md",
     "Algorithms/Standard Repartition Join.md",
     "Algorithms/Repartition Join.md",
