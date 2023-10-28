@@ -1,0 +1,12 @@
+{
+  "accentColor": "#52c79a",
+  "cssTheme": "Slytherin",
+  "baseFontSize": 18,
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "center-images"
+  ],
+  "monospaceFontFamily": "Input Mono"
+}

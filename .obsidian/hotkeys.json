@@ -1,0 +1,66 @@
+{
+  "obsidian-footnotes:insert-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "editor:unfold-all": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [],
+  "workspace:next-tab": [],
+  "darlal-switcher-plus:switcher-plus:open-headings": [],
+  "darlal-switcher-plus:switcher-plus:open-editors": [],
+  "darlal-switcher-plus:switcher-plus:open-symbols": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-citation-plugin:insert-markdown-citation": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ]
+}

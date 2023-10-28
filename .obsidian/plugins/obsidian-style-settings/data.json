@@ -1,0 +1,15 @@
+{
+  "id@@colorblind_protan-deutan": true,
+  "id@@colorblind_tritan": false,
+  "things-style@@mobile-black-background": true,
+  "things-style@@active-line": true,
+  "things-style@@default-font-color": true,
+  "o-theme-settings@@o-color-accent": "o-green",
+  "o-theme-settings@@o-theme-dark": "o-custom-d",
+  "o-theme-settings@@custom-primary@@light": "#BDB7B7",
+  "o-theme-settings@@o-bar": true,
+  "o-theme-settings@@o-font-general": "General Sans",
+  "o-theme-settings@@o-faintselect": true,
+  "o-theme-settings@@custom-primary@@dark": "#000000",
+  "o-theme-settings@@custom-secondary@@dark": "#121212"
+}

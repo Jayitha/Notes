@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "36ab5ae9563cfb70",
+    "type": "split",
+    "children": [
+      {
+        "id": "40defe15381fdf0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64b0caec463c2bb8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f4e3f7e2484d9055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/definition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26896c72bc2e403e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47865e4cc922555b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/definition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a4e95e127f7caa16",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bdbdf475517e9d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab24a1bf7884ce64",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b297b892d7d6b4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "teradata19831012",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ba717ebb38d76b3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "fdb39e9dbfa42947",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373
+  },
+  "right": {
+    "id": "27476bb830b20702",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2fd6a1c7a9291a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "947e00a397461c9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/definition.md"
+              }
+            }
+          },
+          {
+            "id": "4b7fed80dbacb29c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "345f44f03f2e1e0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/definition.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f462ee544b5a1216",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/definition.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a366b7c2a97f8f7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7603aa63579ba730",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "243fd2c679211764",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "a994886042dc03b1",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 344.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-metatable:Metatable": false,
+      "periodic-notes:Open today": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "47865e4cc922555b",
+  "lastOpenFiles": [
+    "Glossary/Equi-Join.md",
+    "index.md",
+    "docs/lib/scripts/tinycolor.js",
+    "docs/lib/scripts/graph_view.js",
+    "docs/lib/scripts/graph_wasm.js",
+    "docs/lib/scripts/graph_wasm.wasm",
+    "docs/lib/scripts/graph-render-worker.js",
+    "docs/lib/scripts/generated.js",
+    "docs/lib/scripts/webpage.js",
+    "docs/lib/scripts",
+    "docs/lib/styles/generated-styles.css",
+    "docs/lib/styles/theme.css",
+    "Templates/definition.md",
+    "Algorithms/Broadcast Join.md",
+    "Algorithms/Standard Repartition Join.md",
+    "Algorithms/Repartition Join.md",
+    "Algorithms/RandJoin.md",
+    "Algorithms/Map-Only Directed Join.md",
+    "Algorithms/Algorithms.md",
+    "Survey.md",
+    "Skew Classification.md",
+    "Load Balancing Algorithm Classification.md",
+    "Annals.md",
+    "Notes/blanas2010comparison.md",
+    "Glossary/Chernoff Bound.md",
+    "Skew Types/Single Skew.md",
+    "Templates/algorithm.md",
+    "Notes/HivePercona2009.md",
+    "Glossary/MapReduce.md",
+    "Glossary/Log Processing.md",
+    "Glossary/Terasort.md",
+    "Glossary/Synchronization Point.md",
+    "Glossary/Speedup.md",
+    "Glossary/Slack.md",
+    "Images/Pasted image 20231007023516.png",
+    "Images/Pasted image 20231006101737.png",
+    "Images/Pasted image 20231006093513.png",
+    "Images/Pasted image 20231006093236.png",
+    "Images/Pasted image 20231006084519.png",
+    "Images/Pasted image 20231004231945.png",
+    "Images/Pasted image 20231004211907.png",
+    "Graphics/Pasted Images/Pasted image 20230701134038.png",
+    "Graphics/Pasted Images/Pasted image 20230701134019.png",
+    "Graphics/Pasted Images/Pasted image 20230701090111.png",
+    "Algorithmic Framework.canvas"
+  ]
+}

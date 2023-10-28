@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "17b856431c276f15",
+    "type": "split",
+    "children": [
+      {
+        "id": "65d36b18892c18c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ea409b6d1f0d24c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Algorithmic Framework.canvas",
+                "viewState": {
+                  "x": 876.1648301905764,
+                  "y": -166.8610422492727,
+                  "zoom": -0.5204642034607778
+                }
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "790a49206f68ae5c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3ade484d9640248a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d4e82b3e80bdbb27",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "27577aba744063c5",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "26b4156c1192ab8c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4fe5a48eb829cc43",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "781cd922af7a9d92",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Algorithmic Framework.canvas",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": true,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "37e73074689f3e3e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Algorithmic Framework.canvas",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "43c1ae983774bf5e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Algorithmic Framework.canvas"
+          }
+        }
+      },
+      {
+        "id": "51a6f672b1cd617a",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "80a22f00ff9a4d97",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-metatable:Metatable": false,
+      "periodic-notes:Open today": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "3ea409b6d1f0d24c",
+  "lastOpenFiles": [
+    "Daily Notes/2023-03-20.md",
+    "Literature/Annotations/baru1988join.md",
+    "Literature/Annotations/hua1991handling.md",
+    "Survey Draft.md"
+  ]
+}
