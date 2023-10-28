@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/doxsey2016introducing.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/doxsey2016introducing.md"
+                "file": "Glossary/Equi-Join.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/doxsey2016introducing.md",
+                "file": "Glossary/Equi-Join.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/doxsey2016introducing.md",
+                "file": "Glossary/Equi-Join.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,12 +221,49 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "47865e4cc922555b",
+  "floating": {
+    "id": "8c3aa24ab7ffa66a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0e474dd3328caa19",
+        "type": "window",
+        "children": [
+          {
+            "id": "0ac8c1fa8a39f1de",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "353b95981f617136",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Glossary/Equi-Join.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "353b95981f617136",
   "lastOpenFiles": [
-    "Glossary/Equi-Join.md",
-    "Literature Notes/doxsey2016introducing.md",
-    "Templates/definition.md",
     "index.md",
+    "Literature Notes/doxsey2016introducing.md",
+    "Glossary/Equi-Join.md",
+    "Templates/definition.md",
     "docs/references.bib",
     "references.bib",
     "docs/lib/scripts/tinycolor.js",

@@ -1,1 +1,1 @@
-let nodes={paths:[],nodeCount:0,linkSources:[],linkTargets:[],labels:[],radii:[],linkCount:0},attractionForce=50,linkLength=10,repulsionForce=60,centralForce=20,edgePruning=100
+let nodes={paths:["glossary/equi-join.html","literature-notes/doxsey2016introducing.html","templates/definition.html","index.html"],nodeCount:4,linkSources:[0],linkTargets:[1],labels:["Equi-Join","doxsey2016introducing","definition","index"],radii:[10,10,5,5],linkCount:1},attractionForce=50,linkLength=10,repulsionForce=60,centralForce=20,edgePruning=100
