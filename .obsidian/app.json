@@ -18,5 +18,7 @@
   "legacyEditor": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Glossary"
+  "newFileFolderPath": "Glossary",
+  "showInlineTitle": true,
+  "propertiesInDocument": "source"
 }

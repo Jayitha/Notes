@@ -1,22 +1,9 @@
 [
   "obsidian-style-settings",
   "notion-like-tables",
-  "table-editor-obsidian",
-  "better-fn",
-  "obsidian-footnotes",
   "obsidian-git",
-  "calendar",
-  "periodic-notes",
-  "obsidian-rollover-daily-todos",
   "dataview",
-  "quick-latex",
   "obsidian-latex",
-  "markdown-table-editor",
-  "obsidian-pandoc-reference-list",
-  "obsidian-dynamic-toc",
-  "darlal-switcher-plus",
   "obsidian-citation-plugin",
-  "hotkeysplus-obsidian",
-  "webpage-html-export",
-  "obsidian42-brat"
+  "webpage-html-export"
 ]

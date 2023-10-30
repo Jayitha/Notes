@@ -4,55 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "40defe15381fdf0d",
+        "id": "f2422c11b5a8ab2e",
         "type": "tabs",
         "children": [
           {
-            "id": "64b0caec463c2bb8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f4e3f7e2484d9055",
+            "id": "25e09a93f2f24a16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Templates/definition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26896c72bc2e403e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47865e4cc922555b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "teradata19831012",
+                "query": "tag:#read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary/Equi-Join.md"
+                "file": "Templates/definition.md"
               }
             }
           },
@@ -147,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary/Equi-Join.md",
+                "file": "Templates/definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,18 +132,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary/Equi-Join.md",
+                "file": "Templates/definition.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "6a366b7c2a97f8f7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -197,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -212,58 +172,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "obsidian42-brat:BRAT": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "periodic-notes:Open today": false
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "8c3aa24ab7ffa66a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0e474dd3328caa19",
-        "type": "window",
-        "children": [
-          {
-            "id": "0ac8c1fa8a39f1de",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "353b95981f617136",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Glossary/Equi-Join.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1440,
-        "height": 900,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "353b95981f617136",
+  "active": "25e09a93f2f24a16",
   "lastOpenFiles": [
+    "Templates/definition.md",
     "index.md",
     "Literature Notes/doxsey2016introducing.md",
     "Glossary/Equi-Join.md",
-    "Templates/definition.md",
     "docs/references.bib",
     "references.bib",
     "docs/lib/scripts/tinycolor.js",

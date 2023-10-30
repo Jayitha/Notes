@@ -6,7 +6,8 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "enabledCssSnippets": [
-    "center-images"
+    "center-images",
+    "empty-headers"
   ],
   "monospaceFontFamily": "Input Mono"
 }
