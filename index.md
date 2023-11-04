@@ -12,28 +12,27 @@ SORT substring(file.name, 0, 1) ASC
 # Papers and Books
 ## Currently Reading
 
-```dataview 
-TABLE title, year, file.tags
-FROM "Literature Notes" AND #reading
-SORT year ASC
+```dataview
+LIST link(rows.file.link, rows.file.frontmatter.title) 
+FROM "Literature Notes" AND #reading 
+GROUP BY year
+SORT year DESC
 ```
-
 
 ## Read
 
-```dataview 
-TABLE title, year, file.tags
-FROM "Literature Notes" AND #read OR #skimmed
-SORT year ASC
+```dataview
+LIST link(rows.file.link, rows.file.frontmatter.title) 
+FROM "Literature Notes" AND #read OR #skimmed 
+GROUP BY year
+SORT year DESC
 ```
-
 
 ## To Read
 
-```dataview 
-TABLE title, year, file.tags
-FROM "Literature Notes" AND #to-read
-SORT year ASC
+```dataview
+LIST link(rows.file.link, rows.file.frontmatter.title) 
+FROM "Literature Notes" AND #to-read  
+GROUP BY year
+SORT year DESC
 ```
-
-
