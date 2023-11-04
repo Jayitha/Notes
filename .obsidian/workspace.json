@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Templates/definition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4387af90035489a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Notes/o1996log.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Literature Notes/o1996log.md"
               }
             }
           },
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/o1996log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/o1996log.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,14 +187,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "25e09a93f2f24a16",
+  "active": "4387af90035489a6",
   "lastOpenFiles": [
-    "docs/literature-notes/o1996log.html",
-    "Templates/definition.md",
+    "index.md",
     "Literature Notes/o1996log.md",
     "Literature Notes/doxsey2016introducing.md",
     "Glossary/Equi-Join.md",
-    "index.md",
+    "Templates/definition.md",
+    "docs/literature-notes/o1996log.html",
     "Private/Work to do for paper revision.md",
     "Private",
     "docs/references.bib",
@@ -192,7 +205,6 @@
     "docs/lib/scripts/graph_wasm.wasm",
     "docs/lib/scripts/graph-render-worker.js",
     "docs/lib/scripts/generated.js",
-    "docs/lib/scripts/webpage.js",
     "Algorithms/Broadcast Join.md",
     "Algorithms/Standard Repartition Join.md",
     "Algorithms/Repartition Join.md",
