@@ -1,1 +1,1 @@
- 
+let nodes={paths:[],nodeCount:0,linkSources:[],linkTargets:[],labels:[],radii:[],linkCount:0},attractionForce=50,linkLength=10,repulsionForce=60,centralForce=20,edgePruning=100

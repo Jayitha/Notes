@@ -7,7 +7,7 @@ Zotero URI: "zotero://select/items/@doxsey2016introducing"
 tags: to-read
 ---
 
-# Introducing go: Build reliable, scalable programs  
+# Introducing go: Build reliable, scalable programs
 _Caleb Doxsey (2016)_
 
 Tags: `=join(this.file.tags, " ")`

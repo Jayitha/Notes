@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/o1996log.md",
-                "mode": "source",
+                "file": "Private/Competitive Skyline Cliques.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/o1996log.md"
+                "file": "Private/Competitive Skyline Cliques.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/o1996log.md",
+                "file": "Private/Competitive Skyline Cliques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/o1996log.md",
+                "file": "Private/Competitive Skyline Cliques.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -189,13 +189,13 @@
   },
   "active": "4387af90035489a6",
   "lastOpenFiles": [
-    "index.md",
-    "Literature Notes/o1996log.md",
     "Literature Notes/doxsey2016introducing.md",
-    "Glossary/Equi-Join.md",
     "Templates/definition.md",
+    "Literature Notes/o1996log.md",
+    "index.md",
+    "Glossary/Equi-Join.md",
     "docs/literature-notes/o1996log.html",
-    "Private/Work to do for paper revision.md",
+    "Private/Competitive Skyline Cliques.md",
     "Private",
     "docs/references.bib",
     "references.bib",
