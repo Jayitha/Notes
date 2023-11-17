@@ -1,3 +1,75 @@
+@book{arenas2022database,
+  title = {Database Theory},
+  author = {Arenas, Marcelo and Barcel{\'o}, Pablo and Libkin, Leonid and Martens, Wim and Pieris, Andreas},
+  year = {2022},
+  publisher = {{Open source at {$<$}a href="https://github.com/pdm-book/community"{$>$}https://github.com/pdm-book/community{$<$}/a{$>$}}},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/arenas2022database.pdf}
+}
+
+@book{arpacidusseau2018operating,
+  title = {Operating Systems: {{Three}} Easy Pieces},
+  author = {{Arpaci-Dusseau}, Remzi H. and {Arpaci-Dusseau}, Andrea C.},
+  year = {2018},
+  month = aug,
+  edition = {1.00},
+  publisher = {{Arpaci-Dusseau Books}}
+}
+
+@article{bailis2015readings,
+  title = {Readings in Database Systems},
+  author = {Bailis, Peter and Hellerstein, Joseph M and Stonebraker, Michael},
+  year = {2015},
+  journal = {URL: http://www. redbook. io/all-chapters. html (26.09. 2017)}
+}
+
+@inproceedings{berchtold1998pyramid,
+  title = {The Pyramid-Technique: {{Towards}} Breaking the Curse of Dimensionality},
+  booktitle = {Proceedings of the 1998 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Berchtold, Stefan and B{\"o}hm, Christian and Kriegal, Hans-Peter},
+  year = {1998},
+  pages = {142--153},
+  abstract = {In this paper, we propose the Pyramid-Technique, a new indexing method for high-dimensional data spaces. The Pyramid-Technique is highly adapted to range query processing using the maximum metric Lmax. In contrast to all other index structures, the performance of the Pyramid-Technique does not deteriorate when processing range queries on data of higher dimensionality. The Pyramid-Technique is based on a special partitioning strategy which is optimized for high-dimensional data. The basic idea is to divide the data space first into 2d pyramids sharing the center point of the space as a top. In a second step, the single pyramids are cut into slices parallel to the basis of the pyramid. These slices from the data pages. Furthermore, we show that this partition provides a mapping from the given d-dimensional space to a 1-dimensional space. Therefore, we are able to use a B+-tree to manage the transformed data. As an analytical evaluation of our technique for hypercube range queries and uniform data distribution shows, the Pyramid-Technique clearly outperforms index structures using other partitioning strategies. To demonstrate the practical relevance of our technique, we experimentally compared the Pyramid-Technique with the X-tree, the Hilbert R-tree, and the Linear Scan. The results of our experiments using both, synthetic and real data, demonstrate that the Pyramid-Technique outperforms the X-tree and the Hilbert R-tree by a factor of up to 14 (number of page accesses) and up to 2500 (total elapsed time) for range queries.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/berchtold1998pyramid.pdf}
+}
+
+@inproceedings{berchtold2000independent,
+  title = {Independent Quantization: {{An}} Index Compression Technique for High-Dimensional Data Spaces},
+  booktitle = {Proceedings of 16th International Conference on Data Engineering (Cat. {{No}}. {{00CB37073}})},
+  author = {Berchtold, Stefan and Bohm, Christian and Jagadish, Hosagrahar V and Kriegel, H-P and Sander, J{\"o}rg},
+  year = {2000},
+  pages = {577--588},
+  publisher = {{IEEE}},
+  abstract = {Two major approaches have been proposed to efficiently process queries in databases: speeding up the search by using index structures, and speeding up the search by operating on a compressed database, such as a signature file. Both approaches have their limitations: indexing techniques are inefficient in extreme configurations, such as high-dimensional spaces, where even a simple scan may be cheaper than an index-based search. Compression techniques are not very efficient in all other situations. We propose to combine both techniques to search for nearest neighbors in a high-dimensional space. For this purpose, we develop a compressed index, called the IQ-tree, with a three-level structure: the first level is a regular (flat) directory consisting of minimum bounding boxes, the second level contains data points in a compressed representation, and the third level contains the actual data. We overcome several engineering challenges in constructing an effective index structure of this type. The most significant of these is to decide how much to compress at the second level. Too much compression will lead to many needless expensive accesses to the third level. Too little compression will increase both the storage and the access cost for the first two levels. We develop a cost model and an optimization algorithm based on this cost model that permits an independent determination of the degree of compression for each second level page to minimize expected query cost. In an experimental evaluation, we demonstrate that the IQ-tree shows a performance that is the "best of both worlds" for a wide range of data distributions and dimensionalities.}
+}
+
+@inproceedings{beyer1999nearest,
+  title = {When Is ``Nearest Neighbor'' Meaningful?},
+  booktitle = {Database {{Theory}}\textemdash{{ICDT}}'99: 7th International Conference Jerusalem, Israel, January 10\textendash 12, 1999 Proceedings 7},
+  author = {Beyer, Kevin and Goldstein, Jonathan and Ramakrishnan, Raghu and Shaft, Uri},
+  year = {1999},
+  pages = {217--235},
+  publisher = {{Springer}},
+  abstract = {We explore the effect of dimensionality on the ``nearest neighbor'' problem. We show that under a broad set of conditions (much broader than independent and identically distributed dimensions), as dimensionality increases, the distance to the nearest data point approaches the distance to the farthest data point. To provide a practical perspective, we present empirical results on both real and synthetic data sets that demonstrate that this effect can occur for as few as 10\textendash 15 dimensions. These results should not be interpreted to mean that high-dimensional indexing is never meaningful; we illustrate this point by identifying some high-dimensional workloads for which this effect does not occur. However, our results do emphasize that the methodology used almost universally in the database literature to evaluate high-dimensional indexing techniques is flawed, and should be modified. In particular, most such techniques proposed in the literature are not evaluated versus simple linear scan, and are evaluated over workloads for which nearest neighbor is not meaningful. Often, even the reported experiments, when analyzed carefully, show that linear scan would outperform the techniques being proposed on the workloads studied in high (10\textendash 15) dimensionality!}
+}
+
+@article{böhm2009high,
+  title = {High Dimensional Indexing},
+  author = {B{\"o}hm, Christian and Plant, Claudia},
+  year = {2009},
+  month = jan,
+  doi = {10.1007/978-0-387-39940-9_804}
+}
+
+@misc{brucedawsonComparingFloatingPoint2012,
+  title = {Comparing {{Floating Point Numbers}}, 2012 {{Edition}}},
+  author = {{brucedawson}},
+  year = {2012},
+  month = feb,
+  journal = {Random ASCII - tech blog of Bruce Dawson},
+  urldate = {2023-11-08},
+  abstract = {This post is a more carefully thought out and peer reviewed version of a floating-point comparison article I wrote many years ago. This one gives solid advice and some surprising observations about\ldots},
+  langid = {english}
+}
 
 @book{doxsey2016introducing,
   title = {Introducing Go: {{Build}} Reliable, Scalable Programs},
@@ -5,6 +77,33 @@
   year = {2016},
   publisher = {{" O'Reilly Media, Inc."}},
   abstract = {Perfect for beginners familiar with programming basics, this hands-on guide provides an easy introduction to Go, the general-purpose programming language from Google. Author Caleb Doxsey covers the language's core features with step-by-step instructions and exercises in each chapter to help you practice what you learn. Go is a general-purpose programming language with a clean syntax and advanced features, including concurrency. This book provides the one-on-one support you need to get started with the language, with short, easily digestible chapters that build on one another. By the time you finish this book, not only will you be able to write real Go programs, you'll be ready to tackle advanced techniques. Jump into Go basics, including data types, variables, and control structures Learn complex types, such as slices, functions, structs, and interfaces Explore Go's core library and learn how to create your own package Write tests for your code by using the language's go test program Learn how to run programs concurrently with goroutines and channels Get suggestions to help you master the craft of programming}
+}
+
+@misc{FloatingPointGuideWhat,
+  title = {The {{Floating-Point Guide}} - {{What Every Programmer Should Know About Floating-Point Arithmetic}}},
+  urldate = {2023-11-08},
+  howpublished = {https://floating-point-gui.de/},
+  file = {/Users/jayithac/Zotero/storage/V8MNAZ4R/floating-point-gui.de.html}
+}
+
+@misc{LittleThingsComparing2021,
+  title = {The {{Little Things}}: {{Comparing Floating Point Numbers}}},
+  shorttitle = {The {{Little Things}}},
+  year = {2021},
+  month = sep,
+  journal = {The Coding Nest},
+  urldate = {2023-11-08},
+  abstract = {There is a lot of confusion about floating-point numbers and a lot of bad advice going around. IEEE-754 floating-point numbers are a complex beast, and comparing them is not always easy, but in this post, we will take a look at different approaches and their tradeoffs.},
+  howpublished = {https://codingnest.com/the-little-things-comparing-floating-point-numbers/},
+  langid = {english}
+}
+
+@misc{LocalitySensitiveHashing,
+  title = {Locality {{Sensitive Hashing}} ({{LSH}}): {{The Illustrated Guide}} | {{Pinecone}}},
+  shorttitle = {Locality {{Sensitive Hashing}} ({{LSH}})},
+  urldate = {2023-11-06},
+  howpublished = {https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/},
+  langid = {english}
 }
 
 @article{o1996log,
@@ -19,4 +118,68 @@
   file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/o1996log.pdf}
 }
 
+@inproceedings{ooi2000indexing,
+  title = {Indexing the Edges\textemdash a Simple and yet Efficient Approach to High-Dimensional Indexing},
+  booktitle = {Proceedings of the Nineteenth {{ACM SIGMOD-SIGACT-SIGART}} Symposium on {{Principles}} of Database Systems},
+  author = {Ooi, Beng Chin and Tan, Kian-Lee and Yu, Cui and Bressan, Stephane},
+  year = {2000},
+  pages = {166--174},
+  abstract = {In this paper, we propose a new tunable index scheme, called iMinMax({$O$}), that maps points in high dimensional spaces to single dimension values determined by their maximum or minimum values among all dimensions. By varying the tuning ``knob'' {$O$}, we can obtain different family of iMinMax structures that are optimized for different distributions of data sets. For a d-dimensional space, a range query need to be transformed into d subqueries. However, some of these subqueries can be pruned away without evaluation, further enhancing the efficiency of the scheme. Experimental results show that iMinMax({$O$}) can outperform the more complex Pyramid technique by a wide margin.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/ooi2000indexing.pdf}
+}
 
+@inproceedings{papadias2003optimal,
+  title = {An Optimal and Progressive Algorithm for Skyline Queries},
+  booktitle = {Proceedings of the 2003 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Papadias, Dimitris and Tao, Yufei and Fu, Greg and Seeger, Bernhard},
+  year = {2003},
+  pages = {467--478},
+  abstract = {The skyline of a set of d-dimensional points contains the points that are not dominated by any other point on all dimensions. Skyline computation has recently received considerable attention in the database community, especially for progressive (or online) algorithms that can quickly return the first skyline points without having to read the entire data file. Currently, the most efficient algorithm is NN ({$<$}u{$>$}n{$<$}/u{$>$}earest {$<$}u{$>$}n{$<$}/u{$>$}eighbors), which applies the divide -and-conquer framework on datasets indexed by R-trees. Although NN has some desirable features (such as high speed for returning the initial skyline points, applicability to arbitrary data distributions and dimensions), it also presents several inherent disadvantages (need for duplicate elimination if d{$>$}2, multiple accesses of the same node, large space overhead). In this paper we develop BBS ({$<$}u{$>$}b{$<$}/u{$>$}ranch-and-{$<$}u{$>$}b{$<$}/u{$>$}ound {$<$}u{$>$}s{$<$}/u{$>$}kyline), a progressive algorithm also based on nearest neighbor search, which is IO optimal, i.e., it performs a single access only to those R-tree nodes that may contain skyline points. Furthermore, it does not retrieve duplicates and its space overhead is significantly smaller than that of NN. Finally, BBS is simple to implement and can be efficiently applied to a variety of alternative skyline queries. An analytical and experimental comparison shows that BBS outperforms NN (usually by orders of magnitude) under all problem instances.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/papadias2003optimal.pdf}
+}
+
+@inproceedings{pillai2013extending,
+  title = {Extending High-Dimensional Indexing Techniques Pyramid and Iminmax ({{\texttheta}}): {{Lessons}} Learned},
+  booktitle = {Big Data: 29th British National Conference on Databases, {{BNCOD}} 2013, Oxford, {{UK}}, July 8-10, 2013. {{Proceedings}} 29},
+  author = {Pillai, Karthik Ganesan and Sturlaugson, Liessman and Banda, Juan M and Angryk, Rafal A},
+  year = {2013},
+  pages = {253--267},
+  publisher = {{Springer}},
+  abstract = {Pyramid Technique and iMinMax(\texttheta ) are two popular high-dimensional indexing approaches that map points in a high-dimensional space to a single-dimensional index. In this work, we perform the first independent experimental evaluation of Pyramid Technique and iMinMax(\texttheta ), and discuss in detail promising extensions for testing k-Nearest Neighbor (kNN) and range queries. For datasets with skewed distributions, the parameters of these algorithms must be tuned to maintain balanced partitions. We show that, by using the medians of the distribution we can optimize these parameters. For the Pyramid Technique, different approximate median methods on data space partitioning are experimentally compared using kNN queries. For the iMinMax(\texttheta ), the default parameter setting and parameters tuned using the distribution median are experimentally compared using range queries. Also, as proposed in the iMinMax(\texttheta ) paper, we investigated the benefit of maintaining a parameter to account for the skewness of each dimension separately instead of a single parameter over all the dimensions.}
+}
+
+@misc{shneorWritingStorageEngine2021,
+  title = {Writing a Storage Engine in {{Rust}}: {{Writing}} a Persistent {{BTree}} ({{Part}} 1)},
+  shorttitle = {Writing a Storage Engine in {{Rust}}},
+  author = {Shneor, Nimrod},
+  year = {2021},
+  month = mar,
+  journal = {Medium},
+  urldate = {2023-11-07},
+  abstract = {As part of a recent personal journey to better understand databases and better learn Rust, I have recently took on the project of writing\ldots},
+  langid = {english},
+  file = {/Users/jayithac/Zotero/storage/5BCEIFT4/writing-a-storage-engine-in-rust-writing-a-persistent-btree-part-1-916b6f3e2934.html;/Users/jayithac/Zotero/storage/UTW2N79I/writing-a-storage-engine-in-rust-writing-a-persistent-btree-part-1-916b6f3e2934.html}
+}
+
+@article{slaney2008locality,
+  title = {Locality-Sensitive Hashing for Finding Nearest Neighbors [Lecture Notes]},
+  author = {Slaney, Malcolm and Casey, Michael},
+  year = {2008},
+  journal = {IEEE Signal processing magazine},
+  volume = {25},
+  number = {2},
+  pages = {128--131},
+  publisher = {{IEEE}},
+  abstract = {This lecture note describes a technique known as locality-sensitive hashing (LSH) that allows one to quickly find similar entries in large databases. This approach belongs to a novel and interesting class of algorithms that are known as randomized algorithms. A randomized algorithm does not guarantee an exact answer but instead provides a high probability guarantee that it will return the correct answer or one close to it. By investing additional computational effort, the probability can be pushed as high as desired.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/slaney2008locality.pdf}
+}
+
+@inproceedings{tan2001efficient,
+  title = {Efficient Progressive Skyline Computation},
+  booktitle = {{{VLDB}}},
+  author = {Tan, Kian-Lee and Eng, Pin-Kwang and Ooi, Beng Chin and others},
+  year = {2001},
+  volume = {1},
+  pages = {301--310},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/tan2001efficient.pdf}
+}
