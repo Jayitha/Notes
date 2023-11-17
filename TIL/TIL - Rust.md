@@ -23,7 +23,7 @@ if let Some(ref mut x: &mut X) = opt_x {
 }
 ```
 
-2. Use `iter_mut` and `map`. The `iter_mut` iterator yields one value if it's the `Some` variant and none otherwise.
+2. Use [`iter_mut`](https://doc.rust-lang.org/std/option/struct.IterMut.html) and `map`. The `iter_mut` iterator yields one value if it's the `Some` variant and none otherwise.
 
 ```rust
 let _ = opt_x.iter_mut().map(|x: &mut X| x.mutate())

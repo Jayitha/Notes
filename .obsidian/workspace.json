@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/TIL - Rust.md",
-                "mode": "source",
+                "file": "index.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/TIL - Rust.md"
+                "file": "index.md"
               }
             }
           },
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/TIL - Rust.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/TIL - Rust.md",
+                "file": "index.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,6 @@
   },
   "active": "fed99f8dc5bc5299",
   "lastOpenFiles": [
-    "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
@@ -230,6 +229,7 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "index.md",
     "TIL",
     "Private/Competitive Skyline Cliques/Untitled.md",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
