@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "Literature Notes/gray1984logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,15 +179,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "e3fa42babefe49eb",
+        "id": "941aee028d59f22f",
         "type": "window",
         "children": [
           {
-            "id": "6d191040b96078de",
+            "id": "8d46ebcec8c4ec7a",
             "type": "tabs",
             "children": [
               {
-                "id": "b2c5d314b7296771",
+                "id": "e3287393e004c4a1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -211,13 +211,14 @@
       }
     ]
   },
-  "active": "b2c5d314b7296771",
+  "active": "e3287393e004c4a1",
   "lastOpenFiles": [
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
     "Literature Notes/o1996log.md",
     "Literature Notes/ierusalimschy2006programming.md",
+    "Literature Notes/gray1984logic.md",
     "Literature Notes/doxsey2016introducing.md",
     "Literature Notes/bos2023rust.md",
     "Literature Notes/berchtold1998pyramid.md",
