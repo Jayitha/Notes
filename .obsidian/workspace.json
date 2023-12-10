@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428,
-    "collapsed": true
+    "width": 428
   },
   "right": {
     "id": "27476bb830b20702",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md"
+                "file": "index.md"
               }
             }
           },
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "index.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -175,11 +174,45 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3d7dd6d7cf2e3a6c",
+  "floating": {
+    "id": "73f9db5305ebc43d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fdeb32e6ac86d559",
+        "type": "window",
+        "children": [
+          {
+            "id": "22bb22316a85bd58",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9be47b3e74010f5a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 270,
+        "y": 375,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "9be47b3e74010f5a",
   "lastOpenFiles": [
-    "docs/literature-notes/ierusalimschy2006programming.html",
-    "docs/literature-notes/bos2023rust.html",
-    "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
@@ -199,6 +232,9 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "index.md",
+    "docs/literature-notes/ierusalimschy2006programming.html",
+    "docs/literature-notes/bos2023rust.html",
     "Literature Notes/bengio2017deep.md",
     "Glossary/Representation Learning.md",
     "Glossary/Machine Learning.md",
@@ -213,7 +249,6 @@
     "references.bib",
     "docs/lib/scripts/tinycolor.js",
     "docs/lib/scripts/graph_view.js",
-    "docs/lib/scripts/graph_wasm.js",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",
     "Images/Pasted image 20231006093513.png",

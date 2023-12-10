@@ -1,10 +1,11 @@
 ---
-title: "Programming in lua"
+title: Programming in lua
 authors: Roberto Ierusalimschy
 year: 2006
 url: ""
-Zotero URI: "zotero://select/items/@ierusalimschy2006programming"
-tags: to-read
+Zotero URI: zotero://select/items/@ierusalimschy2006programming
+tags:
+  - reading
 ---
 
 # Programming in lua  
@@ -228,6 +229,169 @@ concat: 1.61916
 - [ ] Why does `table.concat` perform better? How is this function implemented?
 
 ## 6 Functions
+
+- Parentheses are optional is function has only one argument that is either a string literal or a table constructor
+
+```lua
+print "Hello World"
+f{x=10, y=20}
+type{}
+```
+
+- A Lua program can use functions in both Lua and C (or any other host language). Typically, C is used for better performance and to access facilities not easily accessible directly from Lua, like OS facilities
+- All function arguments are optional, `nil`s are padded
+
+```lua
+function incCount (n)
+	n = n or 1 -- If n is nil, set n to 1, default
+	globalCounter = globalCounter + n
+end
+```
+
+- Lua functions can return multiple values which can be destructed using multiple assignments, arguments to function calls, table constructors or return statements. 
+
+```lua
+function foo()
+	return a, b, c
+end
+
+x, y = foo() -- x = a, y = b
+x, y, z, w = foo() -- x, y, z, w = nil
+x, y = foo(), 20 -- x = a, y = 20
+
+-- when function is last or only call to another function, all results are passed
+
+print(x, foo()) --> x a b c
+print(foo(), x) --> a x
+
+-- table constructor collects all results
+
+t = {foo()} --> {a, b, c}
+
+-- return also returns all results
+
+return foo() --> a, b, c
+
+-- you can force use of one single argument by using parentheses
+
+print((foo())) --> a
+```
+
+- Lua functions can be *variadic* i.e. take a variable number of arguments like `print` in C using the *varag* expression (`...`)
+
+```lua
+--- three dots '...' (called varag expressions) indicate the function is variadic
+
+function add (...)
+	local s = 0
+	for _, v in ipairs{...} do
+		s = s + v
+	end
+	return s
+end
+
+print(add(3, 4, 10, 25, 12)) --> 54
+
+--[[
+local a, b = ... (truncates to first two arguments or uses nil)
+
+function foo (a, b, c) == function foo (...) local a,b,c = ...
+--]]
+
+function fwrite(fmt, ...)
+	return io.write(string.format(fmt, ...))
+end
+```
+
+- You can use `{...}` to collect all the extra arguments, however, there's no way to know if explicit trailing `nils` were provided as some arguments -> use `table.pack` which also has an extra field "`n`" with the total number of arguments
+
+```lua
+function nonils(...)
+	local arg = table.pack(...)
+	for i = 1, arg.n do
+		if arg[i] == nil then return false end
+	end
+	return true
+end
+
+print(nonils(2, 3, nil)) --> false
+print(nonils()) --> true
+```
+
+- Another method to traverse extra arguments is to use the `select` function
+
+```lua
+select(n, ...) --> returns all arguments after the nth one
+select(#, ...) --> returns total number of extra arguments
+
+select(1, "a", "b", "c") --> a b c
+select(3, "a", "b", "c") --> c
+select("#", "a", "b", "c") --> 3
+
+-- select typically used when number of results truncated to one
+-- this version of add is faster when few arguments since it avoids creation of new table however cost of multiple selects adds up as the number increases 
+-- this version has quadratic cost
+function add (...)
+	local s = 0
+	for i = 1, select("#", ...) do
+		s = s + select(i, ...) -- truncates to first argument
+	end
+	return s
+end
+```
+
+- `table.unpack` takes a list and returns all elements as results. Important in *generic call mechanism* which allows us to call any function with any arguments dynamically. Function usually works on sequences since it uses length operator however you can provide explicit limits
+
+```lua
+table.unpack{10, 20, 30} --> 10 20 30
+
+print(table.unpack({"Sun", "Mon", "Tue", "Wed"}, 2, 3)) --> Mon    Tue
+```
+
+- Lua functions do *tail-call elimination*. A *tail call* is a goto dressed as a call. It happens when a function calls another as its last action and has nothing else to do after
+
+```lua
+function f (x) x = x + 1; 
+	return g(x)           -- tail call, without return it isn't a tail call since f has to discard g results
+end 
+
+--[[
+The program does not need to keep any information about f on the stack once g is called. Lua eliminates f information from the stack and therefore tail calls use no stack space
+]]
+
+-- In Lua, you can use an infinite number of nested tail calls and the stack will never overflow
+
+function foo (n)
+	 if n > 0 then return foo(n - 1) end
+end
+```
+
+**Exercises**
+
+```lua
+-- 6.1
+function print_all(a) 
+	for _, v in ipairs(a) do print(v) end
+end
+
+-- 6.2
+function foo(...) 
+	return select(2, ...)
+end
+
+--- 6.3
+function foo(...)
+	local args = table.pack(...)
+	return table.unpack(table.move(args, 1, args.n - 1, {}))
+end
+
+-- 6.4
+
+```
+
+
+
+
 
 
 
