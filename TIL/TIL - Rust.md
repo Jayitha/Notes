@@ -1,6 +1,6 @@
 #Rust
 
-**17/11/23**
+## 17/11/23
 
 If you want to modify a `Some` value behind an `Option` variable in place, there are a few ways to do it. Let's assume we want to modify a variable `opt_x` of type `Option<X>`
 
@@ -30,4 +30,16 @@ let _ = opt_x.iter_mut().map(|x: &mut X| x.mutate())
 ```
 
 you have to assign the map result to something -- since iterators are lazy, the map doesn't get evaluated until it's assigned to something
+
+## 25/11/23
+
+Today on Reddit someone was discussing [integer wielding](https://internals.rust-lang.org/t/pre-rfc-implicit-number-type-widening/10432/19) and how code could be verbose and unreadable without wielding. I loved one comment which said
+
+> I'd rather have an annoyance instead of a bug.
+
+<blockquote class="reddit-embed-bq" data-embed-height="220"><a href="https://www.reddit.com/r/rust/comments/1833k19/comment/kamde3v/">Comment</a><br> by<a href="https://www.reddit.com/user/althahahayes/">u/althahahayes</a> from discussion<a href="https://www.reddit.com/r/rust/comments/1833k19/what_is_the_idiomatic_way_to_deal_with_mixed/"><no value=""></no></a><br> in<a href="https://www.reddit.com/r/rust/">rust</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+
+
+
+
 

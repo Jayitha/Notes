@@ -8,48 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fed99f8dc5bc5299",
+            "id": "3d7dd6d7cf2e3a6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dd591b22f035857",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary/Concurrency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b342f15d82bda61c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary/Persistence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6912632a4b24cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary/Virtualization.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 428,
+    "collapsed": true
   },
   "right": {
     "id": "27476bb830b20702",
@@ -129,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Literature Notes/ierusalimschy2006programming.md"
               }
             }
           },
@@ -150,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -210,14 +175,18 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fed99f8dc5bc5299",
+  "active": "3d7dd6d7cf2e3a6c",
   "lastOpenFiles": [
+    "docs/literature-notes/ierusalimschy2006programming.html",
+    "docs/literature-notes/bos2023rust.html",
     "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
     "Literature Notes/o1996log.md",
+    "Literature Notes/ierusalimschy2006programming.md",
     "Literature Notes/doxsey2016introducing.md",
+    "Literature Notes/bos2023rust.md",
     "Literature Notes/berchtold1998pyramid.md",
     "Literature Notes/arpacidusseau2018operating.md",
     "Glossary/Virtualization.md",
@@ -230,13 +199,14 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "Literature Notes/bengio2017deep.md",
+    "Glossary/Representation Learning.md",
+    "Glossary/Machine Learning.md",
+    "Glossary/Knowledge Base.md",
+    "Glossary/Deep Learning.md",
     "TIL",
-    "Private/Competitive Skyline Cliques/Untitled.md",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
-    "Literature Notes/ArpaciDusseau18-Book.md",
-    "Private/Competitive Skyline Cliques.md",
     "Private/Competitive Skyline Cliques",
-    "Templates/definition.md",
     "docs/literature-notes/o1996log.html",
     "Private",
     "docs/references.bib",
@@ -244,11 +214,6 @@
     "docs/lib/scripts/tinycolor.js",
     "docs/lib/scripts/graph_view.js",
     "docs/lib/scripts/graph_wasm.js",
-    "docs/lib/scripts/graph_wasm.wasm",
-    "Algorithms/Broadcast Join.md",
-    "Algorithms/Standard Repartition Join.md",
-    "Algorithms/Repartition Join.md",
-    "Algorithms/RandJoin.md",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",
     "Images/Pasted image 20231006093513.png",
