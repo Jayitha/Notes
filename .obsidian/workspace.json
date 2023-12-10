@@ -175,19 +175,19 @@
     }
   },
   "floating": {
-    "id": "73f9db5305ebc43d",
+    "id": "f48416f22d9c5769",
     "type": "floating",
     "children": [
       {
-        "id": "fdeb32e6ac86d559",
+        "id": "e3fa42babefe49eb",
         "type": "window",
         "children": [
           {
-            "id": "22bb22316a85bd58",
+            "id": "6d191040b96078de",
             "type": "tabs",
             "children": [
               {
-                "id": "9be47b3e74010f5a",
+                "id": "b2c5d314b7296771",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -211,7 +211,7 @@
       }
     ]
   },
-  "active": "9be47b3e74010f5a",
+  "active": "b2c5d314b7296771",
   "lastOpenFiles": [
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",

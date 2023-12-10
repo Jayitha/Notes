@@ -16,7 +16,7 @@
   "logLevel": "warning",
   "incrementalExport": false,
   "deleteOldExportedFiles": true,
-  "addDarkModeToggle": false,
+  "addDarkModeToggle": true,
   "includeOutline": true,
   "includeGraphView": false,
   "includeFileTree": true,
