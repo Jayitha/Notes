@@ -54,12 +54,12 @@ Tags: `=join(this.file.tags, " ")`
 opnames = {
 ["+"]  = "add",
 ["-"]  = "sub",
-["**"]  = "mul",
-["/"]  = "/",
+["*"]  = "mul",
+["/"]  = "div",
 }
 ```
 
-- A *sequence* is a table where the positive numeric keys comprise a set $\{1,\ldots,n\}$ where for some $n$ i.e. none of the indices store `nil` values (a key with `nil` is technically not in the table)
+- A *sequence* is a table where the positive numeric keys comprise a set $\{1,\ldots,n\}$ for some $n$ i.e. none of the indices store `nil` values (a key with `nil` is technically not in the table)
 - A table with no numeric keys is a sequence with length zero
 - The length operator (`#`) behaves well for sequences but not tables with holes
 - You can traverse all key-value pairs using the `pairs` iterator however the order is undefined
@@ -95,7 +95,7 @@ for k = 1,#t do
 end
 ```
 
-- Suppose you want to know if a given function exists in a given library (`lib.foo`) you can use `lib and lib.foo`. In C#, you can instead use the *safe navigation operator* (`?`). For `a?.b` is `a` is `nil` so is `a?.b`. You can emulate this behavior in Lua by generating an empty table if `a` is `nil` -- `(a or {}).b`
+- Suppose you want to know if a given function exists in a given library (`lib.foo`) you can use `lib and lib.foo`. In C#, you can instead use the *safe navigation operator* (`?`). For `a?.b` if `a` is `nil` so is `a?.b`. You can emulate this behavior in Lua by generating an empty table if `a` is `nil` -- `(a or {}).b`
 
 ```lua
 zip = company and company.director and company.director.address and company.director.address.zipcode
@@ -107,7 +107,7 @@ zip = company?.director?.address?.zipcode
 zip = (((company or {}).director or {}).address or {}).zipcode
 ```
 
-- Table operations are not efficient since the involve *moving* i.e. copying elements to fill gaps
+- Table operations are not efficient since they involve *moving* i.e. copying elements to fill gaps
 ```lua
 table.insert(t, <index>, value) -- inserts value at index moving elements down, defaults to end
 
@@ -152,7 +152,7 @@ a.a.a.a -- same as table a
 a.a.a.a = 3
 --[[
 Let's expand this line using the generic notation
-a["a"] -- which is a again is references over and over 
+a["a"] -- which is a again and is referenced over and over 
 Therefore, a.a.a.a translated to a["a"]
 a["a"] = 3
 --]]
@@ -230,7 +230,7 @@ concat: 1.61916
 
 ## 6 Functions
 
-- Parentheses are optional is function has only one argument that is either a string literal or a table constructor
+- Parentheses are optional if function has only one argument that is either a string literal or a table constructor
 
 ```lua
 print "Hello World"
@@ -239,7 +239,7 @@ type{}
 ```
 
 - A Lua program can use functions in both Lua and C (or any other host language). Typically, C is used for better performance and to access facilities not easily accessible directly from Lua, like OS facilities
-- All function arguments are optional, `nil`s are padded
+- All function arguments are optional, `nil`s are tail-padded
 
 ```lua
 function incCount (n)
@@ -280,7 +280,7 @@ print((foo())) --> a
 - Lua functions can be *variadic* i.e. take a variable number of arguments like `print` in C using the *varag* expression (`...`)
 
 ```lua
---- three dots '...' (called varag expressions) indicate the function is variadic
+--- three dots '...' (called varag expression) indicate the function is variadic
 
 function add (...)
 	local s = 0
@@ -322,7 +322,7 @@ print(nonils()) --> true
 
 ```lua
 select(n, ...) --> returns all arguments after the nth one
-select(#, ...) --> returns total number of extra arguments
+select("#", ...) --> returns total number of extra arguments
 
 select(1, "a", "b", "c") --> a b c
 select(3, "a", "b", "c") --> c
@@ -382,12 +382,47 @@ end
 --- 6.3
 function foo(...)
 	local args = table.pack(...)
-	return table.unpack(table.move(args, 1, args.n - 1, {}))
+	return table.unpack(table.move(args, 1, args.n - 1, 1, {}))
 end
 
--- 6.4
+-- 6.4 using the Fisher-Yates shuffle
+function shuffle(a)
+	for i = 1,#a - 1 do
+		j = math.random(i, #a)
+		a[i], a[j] = a[j], a[i]
+	end                            -- since Lua uses table references, you don't have to return the table
+end
 
+-- 6.5 This implmentation is probably pretty inefficient since I'm copying over tables
+--[[
+A better approach might have been to use indices over one shares table array
+--]]
+function combinations(a, m)
+	local n = #a
+	if n < m then return {} end
+	if m == 0 then return { {} } end
+	local first_elem = a[1]
+	local rem_elems = table.move(a, 2, #a, 1, {}) -- copying all but first element up
+	-- C(n, m) = (c1 = C(n - 1, m - 1)) and (c2 = C(n - 1, m))
+	local c1 = combinations(rem_elems, m - 1)
+	-- for each result in c1, add first_elem to list
+	for _, v in pairs(c1) do table.insert(v, 1, first_elem) end
+	local c2 = combinations(rem_elems, m)
+	table.move(c2, 1, #c2, #c1 + 1, c1)
+	return c1
+end
+
+-- 6.6 circling back
+--[[
+Sometimes, a language with proper-tail calls is called properly tail recursive, with the argu- ment that this property is relevant only when we have recursive calls. (Without recursive calls, the maxi- mum call depth of a program would be statically fixed.)
+
+Show that this argument does not hold in a dynamic language like Lua: write a program that performs an unbounded call chain without recursion. (Hint: see the section called “Compilation”.)
+]]
 ```
+
+- [Passing Parameters by Reference. Lua forces copy semantics for simple value types (nil, boolean, number, string, light userdata) and reference semantics for complex types (function, table, userdata).](https://lua-l.lua.narkive.com/IQTSNTjf/passing-parameters-by-reference#:~:text=Passing%20Parameters%20by%20Reference&text=Lua%20forces%20copy%20semantics%20for,table%2C%20userdata).)
+
+- [ ] Exercise 6.6
 
 
 

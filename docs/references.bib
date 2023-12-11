@@ -1,0 +1,416 @@
+@article{aggarwal2018neural,
+  title = {Neural Networks and Deep Learning},
+  author = {Aggarwal, Charu C and others},
+  year = {2018},
+  journal = {Springer},
+  volume = {10},
+  number = {978},
+  pages = {3},
+  publisher = {{Springer}}
+}
+
+@book{arenas2022database,
+  title = {Database Theory},
+  author = {Arenas, Marcelo and Barcel{\'o}, Pablo and Libkin, Leonid and Martens, Wim and Pieris, Andreas},
+  year = {2022},
+  publisher = {{Open source at {$<$}a href="https://github.com/pdm-book/community"{$>$}https://github.com/pdm-book/community{$<$}/a{$>$}}},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/arenas2022database.pdf}
+}
+
+@book{arpacidusseau2018operating,
+  title = {Operating Systems: {{Three}} Easy Pieces},
+  author = {{Arpaci-Dusseau}, Remzi H. and {Arpaci-Dusseau}, Andrea C.},
+  year = {2018},
+  month = aug,
+  edition = {1.00},
+  publisher = {{Arpaci-Dusseau Books}}
+}
+
+@article{bailis2015readings,
+  title = {Readings in Database Systems},
+  author = {Bailis, Peter and Hellerstein, Joseph M and Stonebraker, Michael},
+  year = {2015},
+  journal = {URL: http://www. redbook. io/all-chapters. html (26.09. 2017)}
+}
+
+@book{bengio2017deep,
+  title = {Deep Learning},
+  author = {Bengio, Yoshua and Goodfellow, Ian and Courville, Aaron},
+  year = {2017},
+  volume = {1},
+  publisher = {{MIT press Cambridge, MA, USA}},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Books/Machine Learning/Deep Learning/Deep Learning.pdf}
+}
+
+@inproceedings{berchtold1998pyramid,
+  title = {The Pyramid-Technique: {{Towards}} Breaking the Curse of Dimensionality},
+  booktitle = {Proceedings of the 1998 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Berchtold, Stefan and B{\"o}hm, Christian and Kriegal, Hans-Peter},
+  year = {1998},
+  pages = {142--153},
+  abstract = {In this paper, we propose the Pyramid-Technique, a new indexing method for high-dimensional data spaces. The Pyramid-Technique is highly adapted to range query processing using the maximum metric Lmax. In contrast to all other index structures, the performance of the Pyramid-Technique does not deteriorate when processing range queries on data of higher dimensionality. The Pyramid-Technique is based on a special partitioning strategy which is optimized for high-dimensional data. The basic idea is to divide the data space first into 2d pyramids sharing the center point of the space as a top. In a second step, the single pyramids are cut into slices parallel to the basis of the pyramid. These slices from the data pages. Furthermore, we show that this partition provides a mapping from the given d-dimensional space to a 1-dimensional space. Therefore, we are able to use a B+-tree to manage the transformed data. As an analytical evaluation of our technique for hypercube range queries and uniform data distribution shows, the Pyramid-Technique clearly outperforms index structures using other partitioning strategies. To demonstrate the practical relevance of our technique, we experimentally compared the Pyramid-Technique with the X-tree, the Hilbert R-tree, and the Linear Scan. The results of our experiments using both, synthetic and real data, demonstrate that the Pyramid-Technique outperforms the X-tree and the Hilbert R-tree by a factor of up to 14 (number of page accesses) and up to 2500 (total elapsed time) for range queries.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/berchtold1998pyramid.pdf}
+}
+
+@inproceedings{berchtold2000independent,
+  title = {Independent Quantization: {{An}} Index Compression Technique for High-Dimensional Data Spaces},
+  booktitle = {Proceedings of 16th International Conference on Data Engineering (Cat. {{No}}. {{00CB37073}})},
+  author = {Berchtold, Stefan and Bohm, Christian and Jagadish, Hosagrahar V and Kriegel, H-P and Sander, J{\"o}rg},
+  year = {2000},
+  pages = {577--588},
+  publisher = {{IEEE}},
+  abstract = {Two major approaches have been proposed to efficiently process queries in databases: speeding up the search by using index structures, and speeding up the search by operating on a compressed database, such as a signature file. Both approaches have their limitations: indexing techniques are inefficient in extreme configurations, such as high-dimensional spaces, where even a simple scan may be cheaper than an index-based search. Compression techniques are not very efficient in all other situations. We propose to combine both techniques to search for nearest neighbors in a high-dimensional space. For this purpose, we develop a compressed index, called the IQ-tree, with a three-level structure: the first level is a regular (flat) directory consisting of minimum bounding boxes, the second level contains data points in a compressed representation, and the third level contains the actual data. We overcome several engineering challenges in constructing an effective index structure of this type. The most significant of these is to decide how much to compress at the second level. Too much compression will lead to many needless expensive accesses to the third level. Too little compression will increase both the storage and the access cost for the first two levels. We develop a cost model and an optimization algorithm based on this cost model that permits an independent determination of the degree of compression for each second level page to minimize expected query cost. In an experimental evaluation, we demonstrate that the IQ-tree shows a performance that is the "best of both worlds" for a wide range of data distributions and dimensionalities.}
+}
+
+@inproceedings{beyer1999nearest,
+  title = {When Is ``Nearest Neighbor'' Meaningful?},
+  booktitle = {Database {{Theory}}{\textemdash}{{ICDT}}'99: 7th International Conference Jerusalem, Israel, January 10{\textendash}12, 1999 Proceedings 7},
+  author = {Beyer, Kevin and Goldstein, Jonathan and Ramakrishnan, Raghu and Shaft, Uri},
+  year = {1999},
+  pages = {217--235},
+  publisher = {{Springer}},
+  abstract = {We explore the effect of dimensionality on the ``nearest neighbor'' problem. We show that under a broad set of conditions (much broader than independent and identically distributed dimensions), as dimensionality increases, the distance to the nearest data point approaches the distance to the farthest data point. To provide a practical perspective, we present empirical results on both real and synthetic data sets that demonstrate that this effect can occur for as few as 10{\textendash}15 dimensions. These results should not be interpreted to mean that high-dimensional indexing is never meaningful; we illustrate this point by identifying some high-dimensional workloads for which this effect does not occur. However, our results do emphasize that the methodology used almost universally in the database literature to evaluate high-dimensional indexing techniques is flawed, and should be modified. In particular, most such techniques proposed in the literature are not evaluated versus simple linear scan, and are evaluated over workloads for which nearest neighbor is not meaningful. Often, even the reported experiments, when analyzed carefully, show that linear scan would outperform the techniques being proposed on the workloads studied in high (10{\textendash}15) dimensionality!}
+}
+
+@article{böhm2009high,
+  title = {High Dimensional Indexing},
+  author = {B{\"o}hm, Christian and Plant, Claudia},
+  year = {2009},
+  month = jan,
+  doi = {10.1007/978-0-387-39940-9_804}
+}
+
+@misc{bos2023rust,
+  title = {Rust Temporary Lifetimes and "Super Let"},
+  author = {Bos, Mara},
+  year = {2023},
+  month = nov,
+  urldate = {2023-12-01},
+  abstract = {The lifetime of temporaries in Rust is a complicated but often ignored topic. In simple cases, Rust keeps temporaries around for exactly long enough, such that we don't have to think about them. However, there are plenty of cases were we might not get exactly what we want, right away. In this post, we (re)discover the rules for the lifetime of temporaries, go over a few use cases for temporary lifetime extension, and explore a new language idea, super let, to give us more control.},
+  howpublished = {https://blog.m-ou.se/super-let/},
+  langid = {english},
+  file = {/Users/jayithac/Zotero/storage/5Q8F2G3B/super-let.html}
+}
+
+@misc{brucedawsonComparingFloatingPoint2012,
+  title = {Comparing {{Floating Point Numbers}}, 2012 {{Edition}}},
+  author = {{brucedawson}},
+  year = {2012},
+  month = feb,
+  journal = {Random ASCII - tech blog of Bruce Dawson},
+  urldate = {2023-11-08},
+  abstract = {This post is a more carefully thought out and peer reviewed version of a floating-point comparison article I wrote many years ago. This one gives solid advice and some surprising observations about{\ldots}},
+  langid = {english}
+}
+
+@misc{BuildingLargescaleDistributed,
+  title = {Building a {{Large-scale Distributed Storage System Based}} on {{Raft}}},
+  urldate = {2023-11-27},
+  abstract = {In recent years, building a large-scale distributed storage system has become a hot topic. Distributed consensus algorithms like Paxos and Raft are the focus of many technical articles. But those articles tend to be introductory, describing the basics of the algorithm and log replication. They seldom cover how to build a large-scale distributed storage system based on the distributed consensus algorithm. Since April 2015, we PingCAP have been building TiKV, a large-scale open-source distributed database based on Raft.},
+  howpublished = {https://tikv.org/blog/building-distributed-storage-system-on-raft/},
+  langid = {american},
+  file = {/Users/jayithac/Zotero/storage/RZNQVAE4/building-distributed-storage-system-on-raft.html}
+}
+
+@inproceedings{chandramouli2018faster,
+  title = {Faster: {{A}} Concurrent Key-Value Store with in-Place Updates},
+  booktitle = {Proceedings of the 2018 International Conference on Management of Data},
+  author = {Chandramouli, Badrish and Prasaad, Guna and Kossmann, Donald and Levandoski, Justin and Hunter, James and Barnett, Mike},
+  year = {2018},
+  pages = {275--290},
+  abstract = {Over the last decade, there has been a tremendous growth in data-intensive applications and services in the cloud. Data is created on a variety of edge sources, e.g., devices, browsers, and servers, and processed by cloud applications to gain insights or take decisions. Applications and services either work on collected data, or monitor and process data in real time. These applications are typically update intensive and involve a large amount of state beyond what can fit in main memory. However, they display significant temporal locality in their access pattern. This paper presents FASTER, a new key-value store for point read, blind update, and read-modify-write operations. FASTER combines a highly cache-optimized concurrent hash index with a hybrid log: a concurrent log-structured record store that spans main memory and storage, while supporting fast in-place updates of the hot set in memory. Experiments show that FASTER achieves orders-of-magnitude better throughput - up to 160M operations per second on a single machine - than alternative systems deployed widely today, and exceeds the performance of pure in-memory data structures when the workload fits in memory.}
+}
+
+@article{cheung2021new,
+  title = {New Directions in Cloud Programming},
+  author = {Cheung, Alvin and Crooks, Natacha and Hellerstein, Joseph M and Milano, Matthew},
+  year = {2021},
+  journal = {arXiv preprint arXiv:2101.01159},
+  eprint = {2101.01159},
+  abstract = {Nearly twenty years after the launch of AWS, it remains difficult for most developers to harness the enormous potential of the cloud. In this paper we lay out an agenda for a new generation of cloud programming research aimed at bringing research ideas to programmers in an evolutionary fashion. Key to our approach is a separation of distributed programs into a PACT of four facets: Program semantics, Availablity, Consistency and Targets of optimization. We propose to migrate developers gradually to PACT programming by lifting familiar code into our more declarative level of abstraction. We then propose a multi-stage compiler that emits human-readable code at each stage that can be hand-tuned by developers seeking more control. Our agenda raises numerous research challenges across multiple areas including language design, query optimization, transactions, distributed consistency, compilers and program synthesis.},
+  archiveprefix = {arxiv}
+}
+
+@misc{DixinHomepage,
+  title = {Dixin's {{Homepage}}},
+  urldate = {2023-11-15},
+  howpublished = {https://people.eecs.berkeley.edu/{\textasciitilde}totemtang/hiring.html}
+}
+
+@book{doxsey2016introducing,
+  title = {Introducing Go: {{Build}} Reliable, Scalable Programs},
+  author = {Doxsey, Caleb},
+  year = {2016},
+  publisher = {{" O'Reilly Media, Inc."}},
+  abstract = {Perfect for beginners familiar with programming basics, this hands-on guide provides an easy introduction to Go, the general-purpose programming language from Google. Author Caleb Doxsey covers the language's core features with step-by-step instructions and exercises in each chapter to help you practice what you learn. Go is a general-purpose programming language with a clean syntax and advanced features, including concurrency. This book provides the one-on-one support you need to get started with the language, with short, easily digestible chapters that build on one another. By the time you finish this book, not only will you be able to write real Go programs, you'll be ready to tackle advanced techniques. Jump into Go basics, including data types, variables, and control structures Learn complex types, such as slices, functions, structs, and interfaces Explore Go's core library and learn how to create your own package Write tests for your code by using the language's go test program Learn how to run programs concurrently with goroutines and channels Get suggestions to help you master the craft of programming}
+}
+
+@inproceedings{faleiro2017latch,
+  title = {Latch-Free Synchronization in Database Systems: {{Silver}} Bullet or Fool's Gold?},
+  booktitle = {{{CIDR}} (Conference on Innovative Data Systems Research)},
+  author = {Faleiro, Jose M and Abadi, Daniel J},
+  year = {2017},
+  abstract = {Recent research on multi-core database architectures has made the argument that, when possible, database systems should abandon the use of latches in favor of latch-free algorithms. Latch-based algorithms are thought to scale poorly due to their use of synchronization based on mutual exclusion. In contrast, latch-free algorithms make strong theoretical guarantees which ensure that the progress of a thread is never impeded due to the delay or failure of other threads. In this paper, we analyze the various factors that influence the performance and scalability of latch-free and latch-based algorithms, and perform a microbenchmark evaluation of latch-free and latch-based synchronization algorithms. Our findings indicate that the argument for latch-free algorithms' superior scalability is far more nuanced than the current state-of-the-art in multi-core database architectures suggests.}
+}
+
+@misc{FloatingPointGuideWhat,
+  title = {The {{Floating-Point Guide}} - {{What Every Programmer Should Know About Floating-Point Arithmetic}}},
+  urldate = {2023-11-08},
+  howpublished = {https://floating-point-gui.de/},
+  file = {/Users/jayithac/Zotero/storage/V8MNAZ4R/floating-point-gui.de.html}
+}
+
+@book{gray1984logic,
+  title = {Logic, Algebra and Databases},
+  author = {Gray, Peter},
+  year = {1984},
+  publisher = {{John Wiley \& Sons, Inc.}}
+}
+
+@misc{IdiomaticRustDevs,
+  title = {Idiomatic {{Rust}} (for {{C}}++ {{Devs}}): {{Constructors}} \& {{Conversions}} {\textendash} {{Geo}}'s {{Notepad}} {\textendash} {{Mostly Programming}} and {{Math}}},
+  urldate = {2023-11-28},
+  howpublished = {https://geo-ant.github.io/blog/2023/rust-for-cpp-developers-constructors/}
+}
+
+@book{ierusalimschy2006programming,
+  title = {Programming in Lua},
+  author = {Ierusalimschy, Roberto},
+  year = {2006},
+  publisher = {{Roberto Ierusalimschy}}
+}
+
+@article{kersten2018everything,
+  title = {Everything You Always Wanted to Know about Compiled and Vectorized Queries but Were Afraid to Ask},
+  author = {Kersten, Timo and Leis, Viktor and Kemper, Alfons and Neumann, Thomas and Pavlo, Andrew and Boncz, Peter},
+  year = {2018},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {11},
+  number = {13},
+  pages = {2209--2222},
+  publisher = {{VLDB Endowment}},
+  abstract = {The query engines of most modern database systems are either based on vectorization or data-centric code generation. These two state-of-the-art query processing paradigms are fundamentally different in terms of system structure and query execution code. Both paradigms were used to build fast systems. However, until today it is not clear which paradigm yields faster query execution, as many implementation-specific choices obstruct a direct comparison of architectures. In this paper, we experimentally compare the two models by implementing both within the same test system. This allows us to use for both models the same query processing algorithms, the same data structures, and the same parallelization framework to ultimately create an apples-to-apples comparison. We find that both are efficient, but have different strengths and weaknesses. Vectorization is better at hiding cache miss latency, whereas data-centric compilation requires fewer CPU instructions, which benefits cache-resident workloads. Besides raw, single-threaded performance, we also investigate SIMD as well as multi-core parallelization and different hardware architectures. Finally, we analyze qualitative differences as a guide for system architects.}
+}
+
+@article{laddad2022keep,
+  title = {Keep {{CALM}} and {{CRDT}} On},
+  author = {Laddad, Shadaj and Power, Conor and Milano, Mae and Cheung, Alvin and Crooks, Natacha and Hellerstein, Joseph M},
+  year = {2022},
+  journal = {arXiv preprint arXiv:2210.12605},
+  eprint = {2210.12605},
+  abstract = {Despite decades of research and practical experience, developers have few tools for programming reliable distributed applications without resorting to expensive coordination techniques. Conflict-free replicated datatypes (CRDTs) are a promising line of work that enable coordination-free replication and offer certain eventual consistency guarantees in a relatively simple object-oriented API. Yet CRDT guarantees extend only to data updates; observations of CRDT state are unconstrained and unsafe. We propose an agenda that embraces the simplicity of CRDTs, but provides richer, more uniform guarantees. We extend CRDTs with a query model that reasons about which queries are safe without coordination by applying monotonicity results from the CALM Theorem, and lay out a larger agenda for developing CRDT data stores that let developers safely and efficiently interact with replicated application state.},
+  archiveprefix = {arxiv}
+}
+
+@inproceedings{leis2013adaptive,
+  title = {The Adaptive Radix Tree: {{ARTful}} Indexing for Main-Memory Databases},
+  booktitle = {2013 {{IEEE}} 29th International Conference on Data Engineering ({{ICDE}})},
+  author = {Leis, Viktor and Kemper, Alfons and Neumann, Thomas},
+  year = {2013},
+  pages = {38--49},
+  publisher = {{IEEE}},
+  abstract = {Main memory capacities have grown up to a point where most databases fit into RAM. For main-memory database systems, index structure performance is a critical bottleneck. Traditional in-memory data structures like balanced binary search trees are not efficient on modern hardware, because they do not optimally utilize on-CPU caches. Hash tables, also often used for main-memory indexes, are fast but only support point queries. To overcome these shortcomings, we present ART, an adaptive radix tree (trie) for efficient indexing in main memory. Its lookup performance surpasses highly tuned, read-only search trees, while supporting very efficient insertions and deletions as well. At the same time, ART is very space efficient and solves the problem of excessive worst-case space consumption, which plagues most radix trees, by adaptively choosing compact and efficient data structures for internal nodes. Even though ART's performance is comparable to hash tables, it maintains the data in sorted order, which enables additional operations like range scan and prefix lookup.}
+}
+
+@misc{LittleThingsComparing2021,
+  title = {The {{Little Things}}: {{Comparing Floating Point Numbers}}},
+  shorttitle = {The {{Little Things}}},
+  year = {2021},
+  month = sep,
+  journal = {The Coding Nest},
+  urldate = {2023-11-08},
+  abstract = {There is a lot of confusion about floating-point numbers and a lot of bad advice going around. IEEE-754 floating-point numbers are a complex beast, and comparing them is not always easy, but in this post, we will take a look at different approaches and their tradeoffs.},
+  howpublished = {https://codingnest.com/the-little-things-comparing-floating-point-numbers/},
+  langid = {english}
+}
+
+@misc{LocalitySensitiveHashing,
+  title = {Locality {{Sensitive Hashing}} ({{LSH}}): {{The Illustrated Guide}} | {{Pinecone}}},
+  shorttitle = {Locality {{Sensitive Hashing}} ({{LSH}})},
+  urldate = {2023-11-06},
+  howpublished = {https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/},
+  langid = {english}
+}
+
+@article{o1996log,
+  title = {The Log-Structured Merge-Tree ({{LSM-tree}})},
+  author = {O'Neil, Patrick and Cheng, Edward and Gawlick, Dieter and O'Neil, Elizabeth},
+  year = {1996},
+  journal = {Acta Informatica},
+  volume = {33},
+  pages = {351--385},
+  publisher = {{Springer}},
+  abstract = {High-performance transaction system applications typically insert rows in a History table to provide an activity trace; at the same time the transaction system generates log records for purposes of system recovery. Both types of generated information can benefit from efficient indexing. An example in a well-known setting is the TPC-A benchmark application, modified to support efficient queries on the history for account activity for specific accounts. This requires an index by account-id on the fast-growing History table. Unfortunately, standard disk-based index structures such as the B-tree will effectively double the I/O cost of the transaction to maintain an index such as this in real time, increasing the total system cost up to fifty percent. Clearly a method for maintaining a real-time index at low cost is desirable. The log-structured mergetree (LSM-tree) is a disk-based data structure designed to provide low-cost indexing for a file experiencing a high rate of record inserts (and deletes) over an extended period. The LSM-tree uses an algorithm that defers and batches index changes, cascading the changes from a memory-based component through one or more disk components in an efficient manner reminiscent of merge sort. During this process all index values are continuously accessible to retrievals (aside from very short locking periods), either through the memory component or one of the disk components. The algorithm has greatly reduced disk arm movements compared to a traditional access methods such as B-trees, and will improve cost-performance in domains where disk arm costs for inserts with traditional access methods overwhelm storage media costs. The LSM-tree approach also generalizes to operations other than insert and delete. However, indexed finds requiring immediate response will lose I/O efficiency in some cases, so the LSM-tree is most useful in applications where index inserts are more common than finds that retrieve the entries. This seems to be a common property for history tables and log files, for example. The conclusions of Sect. 6 compare the hybrid use of memory and disk components in the LSM-tree access method with the commonly understood advantage of the hybrid method to buffer disk pages in memory.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/o1996log.pdf}
+}
+
+@misc{ObsidianMarpElevating2023,
+  title = {Obsidian + {{Marp}}: {{Elevating Note Presentations}} (without {{Power Point}})},
+  shorttitle = {Obsidian + {{Marp}}},
+  year = {2023},
+  month = nov,
+  journal = {Samuele Cozzi},
+  urldate = {2023-11-29},
+  abstract = {In the ever-evolving landscape of note-taking and presentation tools, enthusiasts are always on the lookout for innovative solutions that seamlessly integrate into their workflow. Enter Obsidian and Marp - an extraordinary power duo that transforms the way we present and share our notes. Obsidian: Your Personal Knowledge Hub in Markdown Obsidian doesn't need a presentation. It is a powerful knowledge management and note-taking application that emphasizes the interconnectedness of ideas. It uses a markdown-based approach to capture and organize your thoughts, creating a network of knowledge that grows with your intellectual journey.},
+  chapter = {posts},
+  howpublished = {https://samuele-cozzi-io.github.io/website/posts/2023/marp-obsidian/},
+  langid = {english},
+  file = {/Users/jayithac/Zotero/storage/GJYE4LZT/marp-obsidian.html}
+}
+
+@inproceedings{oki1988viewstamped,
+  title = {Viewstamped Replication: {{A}} New Primary Copy Method to Support Highly-Available Distributed Systems},
+  booktitle = {Proceedings of the Seventh Annual {{ACM Symposium}} on {{Principles}} of Distributed Computing},
+  author = {Oki, Brian M and Liskov, Barbara H},
+  year = {1988},
+  pages = {8--17}
+}
+
+@inproceedings{ooi2000indexing,
+  title = {Indexing the Edges{\textemdash}a Simple and yet Efficient Approach to High-Dimensional Indexing},
+  booktitle = {Proceedings of the Nineteenth {{ACM SIGMOD-SIGACT-SIGART}} Symposium on {{Principles}} of Database Systems},
+  author = {Ooi, Beng Chin and Tan, Kian-Lee and Yu, Cui and Bressan, Stephane},
+  year = {2000},
+  pages = {166--174},
+  abstract = {In this paper, we propose a new tunable index scheme, called iMinMax({$O$}), that maps points in high dimensional spaces to single dimension values determined by their maximum or minimum values among all dimensions. By varying the tuning ``knob'' {$O$}, we can obtain different family of iMinMax structures that are optimized for different distributions of data sets. For a d-dimensional space, a range query need to be transformed into d subqueries. However, some of these subqueries can be pruned away without evaluation, further enhancing the efficiency of the scheme. Experimental results show that iMinMax({$O$}) can outperform the more complex Pyramid technique by a wide margin.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/ooi2000indexing.pdf}
+}
+
+@inproceedings{papadias2003optimal,
+  title = {An Optimal and Progressive Algorithm for Skyline Queries},
+  booktitle = {Proceedings of the 2003 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Papadias, Dimitris and Tao, Yufei and Fu, Greg and Seeger, Bernhard},
+  year = {2003},
+  pages = {467--478},
+  abstract = {The skyline of a set of d-dimensional points contains the points that are not dominated by any other point on all dimensions. Skyline computation has recently received considerable attention in the database community, especially for progressive (or online) algorithms that can quickly return the first skyline points without having to read the entire data file. Currently, the most efficient algorithm is NN ({$<$}u{$>$}n{$<$}/u{$>$}earest {$<$}u{$>$}n{$<$}/u{$>$}eighbors), which applies the divide -and-conquer framework on datasets indexed by R-trees. Although NN has some desirable features (such as high speed for returning the initial skyline points, applicability to arbitrary data distributions and dimensions), it also presents several inherent disadvantages (need for duplicate elimination if d{$>$}2, multiple accesses of the same node, large space overhead). In this paper we develop BBS ({$<$}u{$>$}b{$<$}/u{$>$}ranch-and-{$<$}u{$>$}b{$<$}/u{$>$}ound {$<$}u{$>$}s{$<$}/u{$>$}kyline), a progressive algorithm also based on nearest neighbor search, which is IO optimal, i.e., it performs a single access only to those R-tree nodes that may contain skyline points. Furthermore, it does not retrieve duplicates and its space overhead is significantly smaller than that of NN. Finally, BBS is simple to implement and can be efficiently applied to a variety of alternative skyline queries. An analytical and experimental comparison shows that BBS outperforms NN (usually by orders of magnitude) under all problem instances.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/papadias2003optimal.pdf}
+}
+
+@inproceedings{pillai2013extending,
+  title = {Extending High-Dimensional Indexing Techniques Pyramid and Iminmax ({{{\texttheta}}}): {{Lessons}} Learned},
+  booktitle = {Big Data: 29th British National Conference on Databases, {{BNCOD}} 2013, Oxford, {{UK}}, July 8-10, 2013. {{Proceedings}} 29},
+  author = {Pillai, Karthik Ganesan and Sturlaugson, Liessman and Banda, Juan M and Angryk, Rafal A},
+  year = {2013},
+  pages = {253--267},
+  publisher = {{Springer}},
+  abstract = {Pyramid Technique and iMinMax({\texttheta}) are two popular high-dimensional indexing approaches that map points in a high-dimensional space to a single-dimensional index. In this work, we perform the first independent experimental evaluation of Pyramid Technique and iMinMax({\texttheta}), and discuss in detail promising extensions for testing k-Nearest Neighbor (kNN) and range queries. For datasets with skewed distributions, the parameters of these algorithms must be tuned to maintain balanced partitions. We show that, by using the medians of the distribution we can optimize these parameters. For the Pyramid Technique, different approximate median methods on data space partitioning are experimentally compared using kNN queries. For the iMinMax({\texttheta}), the default parameter setting and parameters tuned using the distribution median are experimentally compared using range queries. Also, as proposed in the iMinMax({\texttheta}) paper, we investigated the benefit of maintaining a parameter to account for the skewness of each dimension separately instead of a single parameter over all the dimensions.}
+}
+
+@article{qiao2019hyper,
+  title = {Hyper Dimension Shuffle: {{Efficient}} Data Repartition at Petabyte Scale in Scope},
+  author = {Qiao, Shi and Nicoara, Adrian and Sun, Jin and Friedman, Marc and Patel, Hiren and Ekanayake, Jaliya},
+  year = {2019},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {12},
+  number = {10},
+  pages = {1113--1125},
+  publisher = {{VLDB Endowment}},
+  abstract = {In distributed query processing, data shuffle is one of the most costly operations. We examined scaling limitations to data shuffle that current systems and the research literature do not solve. As the number of input and output partitions increases, na{\"i}ve shuffling will result in high fan-out and fan-in. There are practical limits to fan-out, as a consequence of limits on memory buffers, network ports and I/O handles. There are practical limits to fan-in because it multiplies the communication errors due to faults in commodity clusters impeding progress. Existing solutions that limit fan-out and fan-in do so at the cost of scaling quadratically in the number of nodes in the data flow graph. This dominates the costs of shuffling large datasets. We propose a novel algorithm called Hyper Dimension Shuffle that we have introduced in production in SCOPE, Microsoft's internal big data analytics system. Hyper Dimension Shuffle is inspired by the divide and conquer concept, and utilizes a recursive partitioner with intermediate aggregations. It yields quasilinear complexity of the shuffling graph with tight guarantees on fan-out and fan-in. We demonstrate how it avoids the shuffling graph blow-up of previous algorithms to shuffle at petabyte-scale efficiently on both synthetic benchmarks and real applications.}
+}
+
+@misc{RelativePerformanceRust,
+  title = {The Relative Performance of {{C}} and {{Rust}} {\textendash} {{The Observation Deck}}},
+  urldate = {2023-11-27},
+  howpublished = {https://bcantrill.dtrace.org/2018/09/28/the-relative-performance-of-c-and-rust/},
+  file = {/Users/jayithac/Zotero/storage/GK2LPT4K/the-relative-performance-of-c-and-rust.html}
+}
+
+@misc{RustCollectionsCase,
+  title = {Rust {{Collections Case Study}}: {{BTreeMap}}},
+  urldate = {2023-11-27},
+  howpublished = {https://cglab.ca/{\textasciitilde}abeinges/blah/rust-btree-case/},
+  file = {/Users/jayithac/Zotero/storage/3RG6QI6Y/rust-btree-case.html}
+}
+
+@phdthesis{samuel2021hydroflow,
+  title = {Hydroflow: {{A}} Model and Runtime for Distributed Systems Programming},
+  author = {Samuel, Mingwei and Hellerstein, Joseph M and Cheung, Alvin},
+  year = {2021},
+  school = {Master's thesis. EECS Department, University of California, Berkeley. http {\ldots}}
+}
+
+@misc{shneorWritingStorageEngine2021,
+  title = {Writing a Storage Engine in {{Rust}}: {{Writing}} a Persistent {{BTree}} ({{Part}} 1)},
+  shorttitle = {Writing a Storage Engine in {{Rust}}},
+  author = {Shneor, Nimrod},
+  year = {2021},
+  month = mar,
+  journal = {Medium},
+  urldate = {2023-11-07},
+  abstract = {As part of a recent personal journey to better understand databases and better learn Rust, I have recently took on the project of writing{\ldots}},
+  langid = {english},
+  file = {/Users/jayithac/Zotero/storage/5BCEIFT4/writing-a-storage-engine-in-rust-writing-a-persistent-btree-part-1-916b6f3e2934.html;/Users/jayithac/Zotero/storage/UTW2N79I/writing-a-storage-engine-in-rust-writing-a-persistent-btree-part-1-916b6f3e2934.html}
+}
+
+@article{slaney2008locality,
+  title = {Locality-Sensitive Hashing for Finding Nearest Neighbors [Lecture Notes]},
+  author = {Slaney, Malcolm and Casey, Michael},
+  year = {2008},
+  journal = {IEEE Signal processing magazine},
+  volume = {25},
+  number = {2},
+  pages = {128--131},
+  publisher = {{IEEE}},
+  abstract = {This lecture note describes a technique known as locality-sensitive hashing (LSH) that allows one to quickly find similar entries in large databases. This approach belongs to a novel and interesting class of algorithms that are known as randomized algorithms. A randomized algorithm does not guarantee an exact answer but instead provides a high probability guarantee that it will return the correct answer or one close to it. By investing additional computational effort, the probability can be pushed as high as desired.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/slaney2008locality.pdf}
+}
+
+@article{sun2019end,
+  title = {An End-to-End Learning-Based Cost Estimator},
+  author = {Sun, Ji and Li, Guoliang},
+  year = {2019},
+  journal = {VLDB},
+  abstract = {Cost and cardinality estimation is vital to query optimizer, which can guide the plan selection. However traditional empirical cost and cardinality estimation techniques cannot provide high-quality estimation, because they cannot capture the correlation between multiple columns. Recently the database community shows that the learning-based cardinality estimation is better than the empirical methods. However, existing learning-based methods have several limitations. Firstly, they can only estimate the cardinality, but cannot estimate the cost. Secondly, convolutional neural network (CNN) with average pooling is hard to represent complicated structures, e.g., complex predicates, and the model is hard to be generalized. To address these challenges, we propose an effective end-to-end learning-based cost estimation framework based on a tree-structured model, which can estimate both cost and cardinality simultaneously. To the best of our knowledge, this is the first end-to-end cost estimator based on deep learning. We propose effective feature extraction and encoding techniques, which consider both queries and physical operations in feature extraction. We embed these features into our tree-structured model. We propose an effective method to encode string values, which can improve the generalization ability for predicate matching. As it is prohibitively expensive to enumerate all string values, we design a patten-based method, which selects patterns to cover string values and utilizes the patterns to embed string values. We conducted experiments on real-world datasets and experimental results showed that our method outperformed baselines.}
+}
+
+@inproceedings{tan2001efficient,
+  title = {Efficient Progressive Skyline Computation},
+  booktitle = {{{VLDB}}},
+  author = {Tan, Kian-Lee and Eng, Pin-Kwang and Ooi, Beng Chin and others},
+  year = {2001},
+  volume = {1},
+  pages = {301--310},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/tan2001efficient.pdf}
+}
+
+@misc{TiKVBlogBuilding,
+  title = {The {{TiKV}} Blog | {{Building}} a {{Large-scale Distributed Storage System Based}} on {{Raft}}},
+  urldate = {2023-11-27},
+  howpublished = {https://tikv.org/blog/building-distributed-storage-system-on-raft/}
+}
+
+@inproceedings{wang2018building,
+  title = {Building a Bw-Tree Takes More than Just Buzz Words},
+  booktitle = {Proceedings of the 2018 International Conference on Management of Data},
+  author = {Wang, Ziqi and Pavlo, Andrew and Lim, Hyeontaek and Leis, Viktor and Zhang, Huanchen and Kaminsky, Michael and Andersen, David G},
+  year = {2018},
+  pages = {473--488},
+  abstract = {In 2013, Microsoft Research proposed the Bw-Tree (humorously termed the "Buzz Word Tree''), a lock-free index that provides high throughput for transactional database workloads in SQL Server's Hekaton engine. The Buzz Word Tree avoids locks by appending delta record to tree nodes and using an indirection layer that allows it to atomically update physical pointers using compare-and-swap (CaS). Correctly implementing this techniques requires careful attention to detail. Unfortunately, the Bw-Tree papers from Microsoft are missing important details and the source code has not been released. This paper has two contributions: First, it is the missing guide for how to build a lock-free Bw-Tree. We clarify missing points in Microsoft's original design documents and then present techniques to improve the index's performance. Although our focus here is on the Bw-Tree, many of our methods apply more broadly to designing and implementing future lock-free in-memory data structures. Our experimental evaluation shows that our optimized variant achieves 1.1--2.5{\texttimes} better performance than the original Microsoft proposal for highly concurrent workloads. Second, our evaluation shows that despite our improvements, the Bw-Tree still does not perform as well as other concurrent data structures that use locks.}
+}
+
+@inproceedings{wang2022conjunctive,
+  title = {Conjunctive Queries with Comparisons},
+  booktitle = {Proceedings of the 2022 International Conference on Management of Data},
+  author = {Wang, Qichen and Yi, Ke},
+  year = {2022},
+  series = {{{SIGMOD}} '22},
+  pages = {108--121},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/3514221.3517830},
+  abstract = {Conjunctive queries with predicates in the form of comparisons that span multiple relations have regained interest recently, due to their relevance in OLAP queries, spatiotemporal databases, and machine learning over relational data. The standard technique, predicate pushdown, has limited efficacy on such comparisons. A technique by Willard can be used to process short comparisons that are adjacent in the join tree in time linear in the input size plus output size. In this paper, we describe a new algorithm for evaluating conjunctive queries with both short and long comparisons, and identify an acyclic condition under which linear time can be achieved. We have also implemented the new algorithm on top of Spark, and our experimental results demonstrate order-of-magnitude speedups over SparkSQL on a variety of graph pattern and analytical queries.},
+  isbn = {978-1-4503-9249-5},
+  keywords = {acyclic joins,conjunctive query,inequality joins}
+}
+
+@article{wu2019anna,
+  title = {Anna: {{A}} Kvs for Any Scale},
+  author = {Wu, Chenggang and Faleiro, Jose M and Lin, Yihan and Hellerstein, Joseph M},
+  year = {2019},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {33},
+  number = {2},
+  pages = {344--358},
+  publisher = {{IEEE}},
+  abstract = {Modern cloud providers offer dense hardware with multiple cores and large memories, hosted in global platforms. This raises the challenge of implementing high-performance software systems that can effectively scale from a single core to multicore to the globe. Conventional wisdom says that software designed for one scale point needs to be rewritten when scaling up by 10 - 100{\texttimes} [1]. In contrast, we explore how a system can be architected to scale across many orders of magnitude by design. We explore this challenge in the context of a new key-value store system called Anna: a partitioned, multi-mastered system that achieves high performance and elasticity via wait-free execution and coordination-free consistency. Our design rests on a simple architecture of coordination-free actors that perform state update via merge of lattice-based composite data structures. We demonstrate that a wide variety of consistency models can be elegantly implemented in this architecture with unprecedented consistency, smooth fine-grained elasticity, and performance that far exceeds the state of the art.}
+}
