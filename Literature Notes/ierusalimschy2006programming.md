@@ -663,7 +663,7 @@ end
 -- 7.3
 
 --[[
-Generated a 1GB file of random lenth lines made of lowercase alphabets. 
+Generated a 1GB file of random-lenth lines with of lowercase alphabets. 
 	Byte by byte 531.462083
 	Line by line 5.488547
 	Chunk by chunk 1.788245
@@ -672,7 +672,39 @@ Generated a 1GB file of random lenth lines made of lowercase alphabets.
 See more here - https://www.lua.org/pil/21.2.1.html
 --]]
 
--- 7.4
+-- 7.4 & 7.5
+
+local function whole_file_read(f)
+-- First character has been read
+	return f:seek() == 1
+end
+
+  
+function last_line_from_stream(f)
+	local last_line = ""
+	while true do
+		f:seek("cur", -2)
+		local c = f:read(1)
+		if c == "\n" or c == nil then break end
+		last_line = c .. last_line
+		if whole_file_read(f) then break end
+	end
+	return last_line
+end
+
+function last_n_lines(input_file, n)
+	local f = assert(io.open(input_file, "r"))
+	f:seek("end")
+	local lines = {}
+	for _ = 1, n do
+		lines[#lines + 1] = last_line_from_stream(f)
+		if whole_file_read(f) then break end
+	end
+	lines = reverse(lines)
+	return table.concat(lines, "\n")
+end
+
+--- 7.6
 
 
 

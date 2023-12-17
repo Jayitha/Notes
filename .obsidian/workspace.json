@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "27476bb830b20702",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md"
+                "file": "index.md"
               }
             }
           },
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "index.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -195,9 +194,45 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3d7dd6d7cf2e3a6c",
+  "floating": {
+    "id": "7d86a6bbab6c28fb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b4ae3c947319d922",
+        "type": "window",
+        "children": [
+          {
+            "id": "206ff71c928657d3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a123731a31d5bec7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a123731a31d5bec7",
   "lastOpenFiles": [
-    "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
@@ -218,6 +253,7 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "index.md",
     "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
     "Temp",
     "Temp Files",

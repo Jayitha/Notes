@@ -489,7 +489,7 @@ f<span class="token punctuation">:</span><span class="token function">close</spa
 <span class="token comment">-- 7.3</span>
 
 <span class="token comment">--[[
-Generated a 1GB file of random lenth lines made of lowercase alphabets. 
+Generated a 1GB file of random-lenth lines with of lowercase alphabets. 
 	Byte by byte 531.462083
 	Line by line 5.488547
 	Chunk by chunk 1.788245
@@ -498,7 +498,39 @@ Generated a 1GB file of random lenth lines made of lowercase alphabets.
 See more here - https://www.lua.org/pil/21.2.1.html
 --]]</span>
 
-<span class="token comment">-- 7.4</span>
+<span class="token comment">-- 7.4 &amp; 7.5</span>
+
+<span class="token keyword">local</span> <span class="token keyword">function</span> <span class="token function">whole_file_read</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+<span class="token comment">-- First character has been read</span>
+	<span class="token keyword">return</span> f<span class="token punctuation">:</span><span class="token function">seek</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span>
+<span class="token keyword">end</span>
+
+  
+<span class="token keyword">function</span> <span class="token function">last_line_from_stream</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+	<span class="token keyword">local</span> last_line <span class="token operator">=</span> <span class="token string">""</span>
+	<span class="token keyword">while</span> <span class="token keyword">true</span> <span class="token keyword">do</span>
+		f<span class="token punctuation">:</span><span class="token function">seek</span><span class="token punctuation">(</span><span class="token string">"cur"</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">)</span>
+		<span class="token keyword">local</span> c <span class="token operator">=</span> f<span class="token punctuation">:</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+		<span class="token keyword">if</span> c <span class="token operator">==</span> <span class="token string">"\n"</span> <span class="token keyword">or</span> c <span class="token operator">==</span> <span class="token keyword">nil</span> <span class="token keyword">then</span> <span class="token keyword">break</span> <span class="token keyword">end</span>
+		last_line <span class="token operator">=</span> c <span class="token operator">..</span> last_line
+		<span class="token keyword">if</span> <span class="token function">whole_file_read</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span> <span class="token keyword">then</span> <span class="token keyword">break</span> <span class="token keyword">end</span>
+	<span class="token keyword">end</span>
+	<span class="token keyword">return</span> last_line
+<span class="token keyword">end</span>
+
+<span class="token keyword">function</span> <span class="token function">last_n_lines</span><span class="token punctuation">(</span>input_file<span class="token punctuation">,</span> n<span class="token punctuation">)</span>
+	<span class="token keyword">local</span> f <span class="token operator">=</span> <span class="token function">assert</span><span class="token punctuation">(</span>io<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span>input_file<span class="token punctuation">,</span> <span class="token string">"r"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	f<span class="token punctuation">:</span><span class="token function">seek</span><span class="token punctuation">(</span><span class="token string">"end"</span><span class="token punctuation">)</span>
+	<span class="token keyword">local</span> lines <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+	<span class="token keyword">for</span> _ <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> n <span class="token keyword">do</span>
+		lines<span class="token punctuation">[</span><span class="token operator">#</span>lines <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">last_line_from_stream</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+		<span class="token keyword">if</span> <span class="token function">whole_file_read</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span> <span class="token keyword">then</span> <span class="token keyword">break</span> <span class="token keyword">end</span>
+	<span class="token keyword">end</span>
+	lines <span class="token operator">=</span> <span class="token function">reverse</span><span class="token punctuation">(</span>lines<span class="token punctuation">)</span>
+	<span class="token keyword">return</span> table<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>lines<span class="token punctuation">,</span> <span class="token string">"\n"</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+
+<span class="token comment">--- 7.6</span>
 
 
 
