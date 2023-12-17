@@ -122,7 +122,7 @@ table.move(a, 1, #a, 1, {}) -- copies table a into provided table and returns ta
 table.move(a, 1, #a, #b + 1, b) -- appends all elements from list a to end of list b
 ```
 
-[Exercises]()
+[Exercises](https://github.com/Jayitha/Notes/blob/main/Misc/Lua/chapter_5.lua)
 
 - [ ] Why does `table.concat` perform better? How is this function implemented?
 
@@ -264,7 +264,7 @@ function foo (n)
 end
 ```
 
-[Exercises](https://github.com/Jayitha/Notes/blob/main/Literature%20Notes/ierusalimschy2006programming.md)
+[Exercises](https://github.com/Jayitha/Notes/blob/main/Misc/Lua/chapter_6.lua)
 
 - [Passing Parameters by Reference. Lua forces copy semantics for simple value types (nil, boolean, number, string, light userdata) and reference semantics for complex types (function, table, userdata).](https://lua-l.lua.narkive.com/IQTSNTjf/passing-parameters-by-reference#:~:text=Passing%20Parameters%20by%20Reference&text=Lua%20forces%20copy%20semantics%20for,table%2C%20userdata).)
 
@@ -450,7 +450,7 @@ Nothing important to say.
 f:close()
 ```
 
-[Exercises](https://github.com/Jayitha/Notes/blob/main/Literature%20Notes/ierusalimschy2006programming.md)
+[Exercises](https://github.com/Jayitha/Notes/blob/main/Misc/Lua/chapter_7.lua)
 
 - [ ] 7.3 I'm not sure about the exact answer to the second part. This [Link](https://luajit.org/ext_buffer.html#:~:text=The%20maximum%20size%20of%20a,memory%20limit%20of%20your%20OS.) says the maximum size of the Lua string is just under 2GB 
 
