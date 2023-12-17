@@ -10,13 +10,33 @@
           {
             "id": "3d7dd6d7cf2e3a6c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/gray1984logic.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "44d8a7499feae2a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e87f4188d70e93a5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf"
+              },
+              "pinned": true
             }
           }
         ]
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "27476bb830b20702",
@@ -93,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Literature Notes/ierusalimschy2006programming.md"
               }
             }
           },
@@ -114,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Literature Notes/ierusalimschy2006programming.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,45 +195,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "c50da3dbf2f2f1ee",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8f073bcf0ab0f493",
-        "type": "window",
-        "children": [
-          {
-            "id": "4bf2a4df636634d1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "85d61526a5e3abae",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "index.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 270,
-        "y": 375,
-        "width": 800,
-        "height": 400,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "85d61526a5e3abae",
+  "active": "3d7dd6d7cf2e3a6c",
   "lastOpenFiles": [
+    "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
@@ -233,22 +218,21 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
-    "index.md",
+    "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
+    "Temp",
+    "Temp Files",
+    "untitled folder",
+    "inbox/Testing Obsidian Smart Capture.md",
+    "inbox",
     "docs/references.bib",
     "docs/literature-notes/ierusalimschy2006programming.html",
     "docs/literature-notes/bos2023rust.html",
     "Literature Notes/bengio2017deep.md",
     "Glossary/Representation Learning.md",
     "Glossary/Machine Learning.md",
-    "Glossary/Knowledge Base.md",
     "TIL",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Private/Competitive Skyline Cliques",
-    "docs/literature-notes/o1996log.html",
-    "Private",
-    "references.bib",
-    "docs/lib/scripts/tinycolor.js",
-    "docs/lib/scripts/graph_view.js",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",
     "Images/Pasted image 20231006093513.png",

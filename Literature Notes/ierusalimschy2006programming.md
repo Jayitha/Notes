@@ -6,6 +6,8 @@ url: ""
 Zotero URI: zotero://select/items/@ierusalimschy2006programming
 tags:
   - reading
+aliases:
+  - Programming in Lua
 ---
 
 # Programming in lua  
@@ -120,7 +122,7 @@ table.move(a, 1, #a, 1, {}) -- copies table a into provided table and returns ta
 table.move(a, 1, #a, #b + 1, b) -- appends all elements from list a to end of list b
 ```
 
-**Exercises**
+#### Exercises
 
 ```lua
 -- 5.1
@@ -366,7 +368,7 @@ function foo (n)
 end
 ```
 
-**Exercises**
+#### Exercises
 
 ```lua
 -- 6.1
@@ -423,6 +425,267 @@ Show that this argument does not hold in a dynamic language like Lua: write a pr
 - [Passing Parameters by Reference. Lua forces copy semantics for simple value types (nil, boolean, number, string, light userdata) and reference semantics for complex types (function, table, userdata).](https://lua-l.lua.narkive.com/IQTSNTjf/passing-parameters-by-reference#:~:text=Passing%20Parameters%20by%20Reference&text=Lua%20forces%20copy%20semantics%20for,table%2C%20userdata).)
 
 - [ ] Exercise 6.6
+
+## 7 The External World
+
+- Lua doesn't offer much to communicate with the external world. Like ISO C, it only offers basic file manipulation plus some extras. Most I/O is done either by the host application or through external libraries
+
+The I/O library uses two models for file manipulations
+
+1. *Simple Model*
+		- Assumes the existence of a *current input* and a *current output* streams set using the `io.input` and `io.output` functions resp and initialized to `stdin` and `stdout` resp
+		- `io.write` takes an arbitrary number of strings or numbers and writes them to the output stream (avoid explicit concatenation and avoid using `print` unless for dirty debugging)
+		- `io.read` reads strings controlled by the arguments passed to it
+		- Can only read from (write to) a single file at a point
+
+```lua
+-- to control the conversion of numbers to string, use string.format
+io.write("sin(3) = ", math.sin(3), "\n") --> sin(3) = 0.14112000805987
+io.write(string.format("sin(3) = %.4f\n", math.sin(3))) --> sin(3) = 0.1411
+
+--[[
+-- io.read reads strings based on the arguments passed to it
+
+a - read whole file, return empty string if file is empty
+l - default; read next line dropping newline, return nil if file is empty
+L - read next line keeping newline, same as above
+n - reads a number skipping whitespaces; if not number, return nil
+num - reads st most num chars as string if eof, returns nil
+
+io.read(0) returns nil if eof, else empty string ""
+--]]
+
+-- Lua handles strings well, filters can be written like
+t = io.read("a") -- read whole file
+t = string.gsub(t, "bad", "good") -- do job
+io.write(t) -- write the file
+
+-- copy input to output with line numbers
+local count = 0
+for line in io.lines() do 
+	count = count + 1
+	io.write(string.format("%6d ", count), line, "\n")
+end
+
+-- Sort a file
+local lines = {}
+-- read lines to table lines
+for line in io.lines() do
+	lines[#lines + 1] = line
+end
+-- sort
+table.sort(lines)
+-- write
+for _,l in ipairs(lines) do
+	io.write(l, "\n")
+end
+
+-- Efficient: Copy input to output in blocks
+while true do
+	local block = io.read(2^13)           -- block size = 8K
+	if not block then break end
+	io.write(block)
+end
+
+-- You can call read with multiple args
+while true do
+	local n1, n2, n3 = io.read("n", "n", "n")
+	if not n1 then break end
+	print(math.max(n1, n2, n3))
+end
+```
+
+2. *Complete I/O Model* 
+	- `io.open(<name>, <mode>)` opens file `name` (as a stream) in one of three modes (`r` - read, `w` - truncate and write, `a` - append, `b` - optional; binary)
+	- You can use methods  (on the stream objects) `read` and `write` to read from and write to the opened stream
+
+```lua
+print(io.open("non-existent-file", "r")) --> nil non-existent-file: No such file or directory 2
+print(io.open("/etc/passwd", "w")) --> nil /etc/passwd: Permission denied 13
+
+-- idiomatic way
+local f = assert(io.open(filename, mode)) -- error message goes to second arg of assert
+
+-- Read whole file
+local f = assert(io.open(filename, "r"))
+local t = f:read("a")
+f:close()
+
+-- Accessing predefined C streams - io.stdin, io.stdout and io.stderr
+io.stderr:write(message)
+
+-- Mix both models by setting streams
+local temp = io.input() -- save current input stream (which is returned when no args are passed)
+io.input("newinput") -- open new current stream
+-- do something with stream
+io.input():close() -- close current stream
+io.input(temp) -- restore original input stream
+
+-- io.read(args) === io.input():read(args)
+-- io.write(args) === io.output():write(args)
+
+-- io.lines provides an iterator that reads from a stream
+-- You can provide a file name to io.lines which will open a stream over the file in read mode and will close it after reachine eof
+-- iterate over blocks
+for block in io.input():lines(2^13) so -- lines accepts same args as read
+	io.write(block)
+end
+```
+
+- Other operations on files include
+	- `io.tmpfile` - returns stream over temporary file that gets deleted when program ends
+	- `flush` - executes all pending write to file
+	- `setvbuf` - sets buffering mode; accepts two arguments - 1. (`"no"` - no buffering, `"full"` - write when buffer is full and `"line"` - write when newline is output) 2. Size of buffer
+		- `io.stderr` is not buffered and `io.stdout` is line buffered
+	- `f:seek(whence, offset)` - `seek` can both get and set the current position of a stream; 
+		- `whence`: 
+			- `"set"` - offsets related to beginning of file, 
+			- `"cur"` - default; offsets relative to current position and 
+			- `"end"` - offsets relative to end of file)
+		- `offset`
+			- `0` - default
+		- Returns current position of stream measured in bytes from the beginning of the file. 
+	- `os.rename` - changes name of file
+	- `os.remove` - deletes a file
+	- All functions return `nil` + error message in case of errors
+
+```lua
+-- file:seek(whence, offset)
+file:seek() --> current stream position
+file:seek("set") --> resets position to beginning and returns 0
+file:seek("end") --> sets position to eof and returns its size
+
+function fsize (file)
+	local current = file:seek()   -- save current position
+	local size = file:seek("end") -- get file size
+	file:seek("set", current)     -- restore position
+	return size
+end
+```
+
+Other system calls:
+- `os.exit(status)` - terminates execution of program
+	- `status` - (`0/true` - successful execution)
+- `os.getenv(var)` - gets value of an environment variable; returns `nil` for undefined variables
+- `os.execute` - runs a system command and returns command status; returns three results
+	1. Boolean 
+		- `true` - program exited with no errors
+	2. String 
+		- `"exit"` - terminated normally
+		- `"signal"` - interrupted by a signal
+	3. return status if terminated normally or the number of the signal that terminated the program
+- `os.popen` - also runs system command but also connects the command output (or input) to a new local stream and returns that stream
+
+For more extended capabilities, use libraries `LuaFileSystem` and `luaposix`
+
+```lua
+--- os.getenv
+print(os.getenv("HOME")) --> /home/lua
+
+-- Create new directories
+function createDir (dirname)
+	os.execute("mkdir " .. disname)
+end
+
+-- Build table with entries in current directories
+local f = io.popen("ls .", "r") -- "r" means to read; default
+local dir = {}
+for entry in f:lines() so
+	dir[#dir + 1] = entry
+end
+
+-- Send email
+local subject = "some news"
+local address = "someone@somewhere.org"
+local cmd = string.format("mail -s '%s' '%s'", subject, address)
+local f = io.popen(cmd, "w") -- in write mode
+f:write([[
+Nothing important to say.
+-- me
+]])
+f:close()
+```
+
+#### Exercises
+
+```lua 
+-- 7.1 Works except for stdin, how does it know when to stop reading from stdin?
+function sort_file(...)
+	local input_file, output_file = ...
+	output_file = output_file or input_file or nil
+	
+	-- read lines
+	local input_stream = input_file and assert(io.open(input_file, "r")) or io.stdin
+	local lines = {}
+	for line in input_stream:lines() do
+		lines[#lines + 1] = line
+	end
+	input_stream:close()
+
+	-- sort lines
+	table.sort(lines)
+
+	-- write to output
+	local output_stream = output_file and assert(io.open(output_file, "w")) or io.stdout
+	for _,l in ipairs(lines) do
+		output_stream:write(l,"\n")
+	end
+	output_stream:close()
+end
+
+-- 7.2 
+
+--- https://stackoverflow.com/a/40195356/7496319
+--- Check if a file or directory exists in this path
+function exists(file)
+	local ok, err, code = os.rename(file, file)
+	if not ok then
+		if code == 13 then
+			-- Permission denied, but it exists
+			return true
+		end
+	end
+	return ok, err
+end
+
+-- Added lines after sorting
+-- check if output file exists
+
+if (exists(output_file)) then
+	io.write("File " .. output_file .. " already exists. Are you sure you want to overwrite it? [y/N] ")
+	local answer = io.read()
+	if answer == "N" then
+		print("Aborting.")
+		return
+	end
+end
+
+-- 7.3
+
+--[[
+Generated a 1GB file of random lenth lines made of lowercase alphabets. 
+	Byte by byte 531.462083
+	Line by line 5.488547
+	Chunk by chunk 1.788245
+	Whole file 2.788003
+
+See more here - https://www.lua.org/pil/21.2.1.html
+--]]
+
+-- 7.4
+
+
+
+```
+
+- [ ] 7.3 I'm not sure about the exact answer to the second part. This [Link](https://luajit.org/ext_buffer.html#:~:text=The%20maximum%20size%20of%20a,memory%20limit%20of%20your%20OS.) says the maximum size of the Lua string is just under 2GB 
+
+
+
+
+
+
+
 
 
 

@@ -109,4 +109,46 @@ However, it is possible to go round in circles and the normal form makes all the
 ## 3 Lambda Expressions and List Processing
 
 - One class of database languages is based on predicate calculus (SQL), others are based on 'Applicative' or 'Functional' languages
-- 
+- *Partial functions* - Functions not defined over their whole domain
+```
+Restriction and Union of functions
+
+G(x) = if P(x) then F1(x) else F2(x)
+
+Translates to 
+
+G = (F1 restrict P) union (F2 restrict not P)
+
+Where (F1 restrict P) translates to function P defined on the intersection between the domain of F1 and the extension of P
+```
+
+- When evaluating restrictions, the extension of the predicate $P$ is evaluated first since $F1$ can be a partial function
+- In Lambda Calculus, Constructor of new functions is done using the greek symbol $\lambda$ and the process is called *function abstraction*
+
+$$\begin{aligned} g &= \lambda x. 2 \ast x + 3\\
+h &= \lambda x. \text{ if } x > 4 \text{ then } g(x) \text{ else } -x\\
+\phantom{f} &\phantom{=} (\lambda x. x \ast 3)((\lambda y. \text{ if } y > 4 \text{ then } y + 2 \text{ else } 1)(5))\\
+G &= \lambda P. (\lambda x. \text{ if } P(x) \text{ then } 2 \ast x \text{ else } x/2)\\
+G((\lambda y. y > 2))(5) &= (\lambda x. \text{ if } (\lambda y. y > 2) \text{ then } 2 \ast x \text{ else } x/2)(5)\\
+&= 2 \ast 5 = 10
+\end{aligned}$$
+- A lambda expression denotes an unnamed function
+- In the functional model, iteration is done using recursion
+```
+fac = lambda n. if n = 0 then 1 else n * fac(n - 1)*
+```
+- There are two version of recursion
+	1. *Down-going* - Breaks the problem down into smaller problems where the result of the smaller problem is needed to *build* the answer from the answer from the smaller problems
+	2. *Up-going* - Intermediate results are computed and passed down to the smaller subproblems using a *workspace parameter* where the final answer is built and is simply passed back through the call chain (for instance, you can do tail-call elimination maybe from [[ierusalimschy2006programming|Programming in Lua]])
+- A list is a sequence of items that are accessed sequentially. There are two functions used to access lists
+	1. car(list): list -> element - returns the first element of the list
+	2. cdr(list): list -> list - returns a list of all but the first element of the list
+```
+car([2, 3, 4]) = 2
+cdr([2, 3, 4]) = [3, 4]
+car(cdr([2, 3, 4])) = 3
+
+-- suppose you want to get the nth element of the list
+select(n, l) = lambda n,l. if n = 1 then car(s) else select(n-1, cdr(s))
+```
+
