@@ -198,6 +198,13 @@ function last_line_from_stream(f)
     return last_line
 end
 
+local function reverse(tab)
+    for i = 1, #tab // 2, 1 do
+        tab[i], tab[#tab - i + 1] = tab[#tab - i + 1], tab[i]
+    end
+    return tab
+end
+
 function last_n_lines(input_file, n)
     local f = assert(io.open(input_file, "r"))
     f:seek("end")
@@ -211,3 +218,26 @@ function last_n_lines(input_file, n)
 end
 
 --- 7.6
+function create_directory(dirname)
+    os.execute("mkdir " .. dirname)
+end
+
+function delete_directory(dirname)
+    os.execute("rm -rf " .. dirname)
+end
+
+function directory_contents(dirname)
+    local f = assert(io.popen("ls -a " .. dirname))
+    local dir = {}
+    for file in f:lines() do
+        dir[#dir + 1] = file
+    end
+    f:close()
+    return dir
+end
+
+--- 7.7
+--[[
+    os.execute spaws a child process and so the "change directory" command is only applicable to the child process.
+    https://itecnote.com/tecnote/r-lua-change-current-working-dir-linux-without-lfs-or-any-non-std-modules/
+--]]
