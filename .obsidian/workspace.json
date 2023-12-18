@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md"
+                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
+                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -194,9 +194,8 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3d7dd6d7cf2e3a6c",
+  "active": "e87f4188d70e93a5",
   "lastOpenFiles": [
-    "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
     "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
@@ -218,6 +217,8 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
+    "Misc/Lua/chapter_8.lua",
     "Misc/Lua/a",
     "Misc/Lua/chapter_7.lua",
     "Misc/Lua/chapter_6.lua",
@@ -226,7 +227,6 @@
     "Misc",
     "Temp",
     "Temp Files",
-    "untitled folder",
     "inbox/Testing Obsidian Smart Capture.md",
     "Literature Notes/bengio2017deep.md",
     "Glossary/Representation Learning.md",

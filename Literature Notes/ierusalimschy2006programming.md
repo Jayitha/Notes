@@ -454,11 +454,133 @@ f:close()
 
 - [ ] 7.3 I'm not sure about the exact answer to the second part. This [Link](https://luajit.org/ext_buffer.html#:~:text=The%20maximum%20size%20of%20a,memory%20limit%20of%20your%20OS.) says the maximum size of the Lua string is just under 2GB 
 
+## 8 Filling Some Gaps
 
+Local variables and blocks:
+- By default, variables are global in Lua.
+- Local variables are scope-limited to the declaration block
+- in interactive mode each line is a chunk, so if you were to use `local a = 1`, `a` goes out of scope immediately after
+- To define blocks as in other languages using `{}`, you can use `do ... end` blocks in Lua
+- It is good programming practice to use Local variables to avoid cluttering the global environment
+- Book encourages declarations in the middle of blocks so we don't forget to initialize them
 
+```lua
+-- blocks
+do
+	-- something
+end
 
+-- common idiom
+local foo = foo -- done to preserve global foo
+```
 
+Control Structures
+- `if then else`:
+	- Lua has no `switch` statement
+- `while`
+- `repeat-until`
+	- An interesting aspect of Lua's `repeat` clause is that local variables declared in the `repeat` block are accessible in the `until` condition
+- Numerical for
+	- `for var = expr1, expr2, expr3` where `expr3` is the step size. 
+	- All three expressions are computed only once at the beginning of the loop
+	- `expr3` is optional; default 1
+	- The control variable is local to the loop and should not be reassigned inside the loop; it'll lead to unexpected behavior
+- Generic for
+	- Traverses all values returned by an iterator function
+	- Covered in detail in [[ierusalimschy2006programming#18 Iterators and the Generic For|18 Iterators and the Generic For]]
+- `break`
+- `return`
+	- Implicit return at end of every function
+	- `return` can only appear as the last statement of a block
+	- If you want to use `return` in the middle of a block, use a `do ... end` block
+- `goto`
+	- Labels have a (intentionally) convoluted syntax `::label::`
+	- Labels follow the usual visibility rules; cannot jump into a block because a label inside a block is not visible outside it
+	- Cannot jump out of a function (why?)
+	- Cannot jump into the scope of a local variable (labels are *void* statements). Scope of a local variable ends on the last *non-void* statement of the block where the label is defined
+	- Usually used to simulate programming constructs from other languages like `redo` and `continue`
+	- Good at directly translating state machines
 
+```lua
+-- if then else
+if op == '+' then
+	r = a + b
+elseif op == '-' then
+	r = a - b
+else -- optional
+	error("invalid operation")
+
+-- while
+local i = 1
+while a[i] do
+	print(a[i])
+	i = i + 1
+end
+
+-- repeat-until
+-- computes square root of 'x' using Newton-Raphson method
+local sqr = x / 2
+repeat
+	sqr = (sqr + x/sqr) / 2
+	local error = math.abs(sqr^2 - x)
+until error < x / 10000                -- local 'error' 
+
+-- Numerical for
+-- syntax
+for var = expr2, expr2, expr3 do
+	-- something
+end
+
+-- when you want a loop without an upper limit, use math.huge
+for i = 1, math.huge do                 -- what's the value of math.huge?
+	-- something
+end
+
+--- goto
+-- simulate redo and continue
+while some_condition do
+	::redo::
+	if some_other_condition then goto continue
+	else if yet_another_condition then goto redo
+	end
+	-- some code
+	::continue::
+end
+
+-- labels are void statements
+while some_condition do
+	if some_other_condition then goto continue end
+	local var = something
+	::continue::                  -- scope of 'var' ends before continue
+end
+
+-- state machine to check if input has even number of zeros
+::s1:: do                 -- does this not automatically start executing?
+	local c = io.read(1)
+	if c == '0' then goto s2
+	elseif c == nil then print "ok"; return
+	else goto s1
+	end
+end
+
+::s2:: do
+	local c = io.read(1)
+	if c == '0' then goto s1
+	elseif c == nil then print "not ok"; return
+	else goto s2
+	end
+end
+
+goto s1            -- not needed to start the program
+```
+
+[Exercises](https://github.com/Jayitha/Notes/blob/main/Misc/Lua/chapter_8.lua)
+
+- [x] what's the value of `math.huge` ?
+- [ ] The [Link](http://lua-users.org/wiki/MathLibraryTutorial) says `math.huge` is a constant and represents infinity
+
+## 18 Iterators and the Generic For
+#todo
 
 
 
