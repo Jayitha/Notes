@@ -4,39 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f2422c11b5a8ab2e",
+        "id": "844ecb5079cbec82",
         "type": "tabs",
         "children": [
           {
-            "id": "3d7dd6d7cf2e3a6c",
+            "id": "53bd7e651b491812",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/ierusalimschy2006programming.md",
-                "mode": "source",
+                "file": "index.md",
+                "mode": "preview",
                 "source": false
-              },
-              "pinned": true
-            }
-          }
-        ]
-      },
-      {
-        "id": "44d8a7499feae2a9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e87f4188d70e93a5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf"
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -113,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf"
+                "file": "index.md"
               }
             }
           },
@@ -134,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
+                "file": "index.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -194,9 +174,45 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e87f4188d70e93a5",
+  "floating": {
+    "id": "c9022212280520db",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4d3e3ea32ade7f33",
+        "type": "window",
+        "children": [
+          {
+            "id": "cb0a2750906596b8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1c1228ca312c1a2f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 270,
+        "y": 375,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1c1228ca312c1a2f",
   "lastOpenFiles": [
-    "index.md",
     "TIL/TIL - Rust.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/ooi2000indexing.md",
@@ -217,6 +233,7 @@
     "Glossary/Curse of Dimensionality.md",
     "Glossary/Concurrency.md",
     "Glossary/Chebyshev Metric.md",
+    "index.md",
     "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
     "Misc/Lua/chapter_8.lua",
     "Misc/Lua/a",

@@ -52,7 +52,7 @@ Tags: `=join(this.file.tags, " ")`
 - Creating a table with a proper constructor is more efficient because the table is created with the right size
 - There is a general form constructor format where indices are written as expressions between square brackets
 
-```lua
+```lua 
 opnames = {
 ["+"]  = "add",
 ["-"]  = "sub",
@@ -60,6 +60,7 @@ opnames = {
 ["/"]  = "div",
 }
 ```
+
 
 - A *sequence* is a table where the positive numeric keys comprise a set $\{1,\ldots,n\}$ for some $n$ i.e. none of the indices store `nil` values (a key with `nil` is technically not in the table)
 - A table with no numeric keys is a sequence with length zero
@@ -148,7 +149,7 @@ end
 
 - Lua functions can return multiple values which can be destructed using multiple assignments, arguments to function calls, table constructors or return statements. 
 
-```lua
+```lua title:"Functions can return multiple values" hl:2
 function foo()
 	return a, b, c
 end
@@ -201,7 +202,7 @@ function fwrite(fmt, ...)
 end
 ```
 
-- You can use `{...}` to collect all the extra arguments, however, there's no way to know if explicit trailing `nils` were provided as some arguments -> use `table.pack` which also has an extra field "`n`" with the total number of arguments
+- You can use `{...}` to collect all the extra arguments, however, there's no way to know if explicit trailing `{lua} nil` were provided as some arguments -> use `table.pack` which also has an extra field "`n`" with the total number of arguments
 
 ```lua
 function nonils(...)
@@ -577,7 +578,7 @@ goto s1            -- not needed to start the program
 [Exercises](https://github.com/Jayitha/Notes/blob/main/Misc/Lua/chapter_8.lua)
 
 - [x] what's the value of `math.huge` ?
-- [ ] The [Link](http://lua-users.org/wiki/MathLibraryTutorial) says `math.huge` is a constant and represents infinity
+- The [Link](http://lua-users.org/wiki/MathLibraryTutorial) says `math.huge` is a constant and represents infinity
 
 ## 18 Iterators and the Generic For
 #todo
