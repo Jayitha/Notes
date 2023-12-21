@@ -10,6 +10,11 @@ SORT substring(file.name, 0, 1) ASC
 ```
 
 # Papers and Books
+
+## Streams
+
+[[Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems]]
+[[UC Berkeley's CS264a - Advanced Topics in Computer Systems]]
 ## Currently Reading
 
 ```dataview

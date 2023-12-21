@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "844ecb5079cbec82",
+        "id": "3d1d1b1cdfb71b40",
         "type": "tabs",
         "children": [
           {
-            "id": "53bd7e651b491812",
+            "id": "e5109003eb3cc87d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#read",
+                "query": "tag:#Tim-Kraska",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,15 +179,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "4d3e3ea32ade7f33",
+        "id": "11802f7b03bb56fc",
         "type": "window",
         "children": [
           {
-            "id": "cb0a2750906596b8",
+            "id": "b29f435c75aff1d5",
             "type": "tabs",
             "children": [
               {
-                "id": "1c1228ca312c1a2f",
+                "id": "cb2ad82522bd6648",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -202,52 +202,53 @@
           }
         ],
         "direction": "vertical",
-        "x": 270,
-        "y": 375,
-        "width": 800,
-        "height": 400,
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "1c1228ca312c1a2f",
+  "active": "cb2ad82522bd6648",
   "lastOpenFiles": [
+    "docs/literature-notes/prabhakaran2005analysis.html",
+    "docs/literature-notes/patterson1988case.html",
+    "docs/literature-notes/park2008reconfigurable.html",
+    "docs/literature-notes/mohan1999repeating.html",
+    "docs/literature-notes/mohan1992aries.html",
+    "docs/literature-notes/mckusick1984fast.html",
+    "docs/literature-notes/letia2009crdts.html",
+    "docs/literature-notes/lee2015f2fs.html",
+    "docs/literature-notes/lamport2019time.html",
+    "docs/literature-notes/kuo1996model.html",
+    "docs/literature-notes/hellwig2009xfs.html",
     "TIL/TIL - Rust.md",
+    "Misc/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
+    "Misc/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
+    "Literature Notes/yang2022balsa.md",
+    "Literature Notes/wilkes1996hp.md",
+    "Literature Notes/welsh2001seda.md",
+    "Literature Notes/waldspurger1994lottery.md",
+    "Literature Notes/sweeney1996scalability.md",
+    "Literature Notes/stonebraker1976design.md",
     "Literature Notes/slaney2008locality.md",
+    "Literature Notes/shapiro2011conflict.md",
+    "Literature Notes/sears2009segment.md",
+    "Literature Notes/satyanarayanan1994lightweight.md",
+    "Literature Notes/santana2016fast.md",
+    "Literature Notes/saltzer1984end.md",
+    "Literature Notes/sabek2022can.md",
+    "Literature Notes/rosenblum1992design.md",
+    "Literature Notes/ritchie1978unix.md",
+    "Literature Notes/rao2000making.md",
+    "Literature Notes/prabhakaran2005analysis.md",
+    "Literature Notes/pavlo2017self.md",
+    "Literature Notes/patterson1988case.md",
+    "Literature Notes/park2008reconfigurable.md",
     "Literature Notes/ooi2000indexing.md",
     "Literature Notes/o1996log.md",
-    "Literature Notes/ierusalimschy2006programming.md",
-    "Literature Notes/gray1984logic.md",
-    "Literature Notes/doxsey2016introducing.md",
-    "Literature Notes/bos2023rust.md",
-    "Literature Notes/berchtold1998pyramid.md",
-    "Literature Notes/arpacidusseau2018operating.md",
-    "Glossary/Virtualization.md",
-    "Glossary/VA-File.md",
-    "Glossary/Pyramid Technique.md",
-    "Glossary/Persistence.md",
-    "Glossary/Locality Sensitive Hashing.md",
-    "Glossary/iMinMax.md",
-    "Glossary/Equi-Join.md",
-    "Glossary/Curse of Dimensionality.md",
-    "Glossary/Concurrency.md",
-    "Glossary/Chebyshev Metric.md",
-    "index.md",
-    "Temp/Roberto Ierusalimschy - Programming in Lua-Lua.org (2016).pdf",
-    "Misc/Lua/chapter_8.lua",
-    "Misc/Lua/a",
-    "Misc/Lua/chapter_7.lua",
-    "Misc/Lua/chapter_6.lua",
-    "Misc/Lua/chapter_5.lua",
-    "Misc/Lua",
-    "Misc",
-    "Temp",
-    "Temp Files",
-    "inbox/Testing Obsidian Smart Capture.md",
-    "Literature Notes/bengio2017deep.md",
-    "Glossary/Representation Learning.md",
-    "Glossary/Machine Learning.md",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",

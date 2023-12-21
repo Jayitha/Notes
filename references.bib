@@ -1,3 +1,53 @@
+@inproceedings{abadi2006integrating,
+  title = {Integrating Compression and Execution in Column-Oriented Database Systems},
+  booktitle = {Proceedings of the 2006 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Abadi, Daniel and Madden, Samuel and Ferreira, Miguel},
+  year = {2006},
+  pages = {671--682},
+  abstract = {Column-oriented database system architectures invite a re-evaluation of how and when data in databases is compressed. Storing data in a column-oriented fashion greatly increases the similarity of adjacent records on disk and thus opportunities for compression. The ability to compress many adjacent tuples at once lowers the per-tuple cost of compression, both in terms of CPU and space overheads.In this paper, we discuss how we extended C-Store (a column-oriented DBMS) with a compression sub-system. We show how compression schemes not traditionally used in row-oriented DBMSs can be applied to column-oriented systems. We then evaluate a set of compression schemes and show that the best scheme depends not only on the properties of the data but also on the nature of the query workload.}
+}
+
+@inproceedings{abadi2008column,
+  title = {Column-Stores vs. Row-Stores: How Different Are They Really?},
+  booktitle = {Proceedings of the 2008 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Abadi, Daniel J and Madden, Samuel R and Hachem, Nabil},
+  year = {2008},
+  pages = {967--980},
+  abstract = {There has been a significant amount of excitement and recent work on column-oriented database systems ("column-stores"). These database systems have been shown to perform more than an order of magnitude better than traditional row-oriented database systems ("row-stores") on analytical workloads such as those found in data warehouses, decision support, and business intelligence applications. The elevator pitch behind this performance difference is straightforward: column-stores are more I/O efficient for read-only queries since they only have to read from disk (or from memory) those attributes accessed by a query. This simplistic view leads to the assumption that one can obtain the performance benefits of a column-store using a row-store: either by vertically partitioning the schema, or by indexing every column so that columns can be accessed independently. In this paper, we demonstrate that this assumption is false. We compare the performance of a commercial row-store under a variety of different configurations with a column-store and show that the row-store performance is significantly slower on a recently proposed data warehouse benchmark. We then analyze the performance difference and show that there are some important differences between the two systems at the query executor level (in addition to the obvious differences at the storage layer level). Using the column-store, we then tease apart these differences, demonstrating the impact on performance of a variety of column-oriented query execution techniques, including vectorized query processing, compression, and a new join algorithm we introduce in this paper. We conclude that while it is not impossible for a row-store to achieve some of the performance advantages of a column-store, changes must be made to both the storage layer and the query executor to fully obtain the benefits of a column-oriented approach.}
+}
+
+@inproceedings{abeni1998integrating,
+  title = {Integrating Multimedia Applications in Hard Real-Time Systems},
+  booktitle = {Proceedings 19th {{IEEE}} Real-Time Systems Symposium (Cat. {{No}}. {{98CB36279}})},
+  author = {Abeni, Luca and Buttazzo, Giorgio},
+  year = {1998},
+  pages = {4--13},
+  publisher = {{IEEE}},
+  abstract = {This paper focuses on the problem of providing efficient run-time support to multimedia applications in a real-time system, where two types of tasks can coexist simultaneously: multimedia soft real-time tasks and hard real-time tasks. Hard tasks are guaranteed based on worst case execution times and minimum interarrival times, whereas multimedia and soft tasks are served based on mean parameters. The paper describes a server-based mechanism for scheduling soft and multimedia tasks without jeopardizing the a priori guarantee of hard real-time activities. The performance of the proposed method is compared with that of similar service mechanisms through extensive simulation experiments and several multimedia applications have been implemented on the HARTIK kerne}
+}
+
+@article{adya1995efficient,
+  title = {Efficient Optimistic Concurrency Control Using Loosely Synchronized Clocks},
+  author = {Adya, Atul and Gruber, Robert and Liskov, Barbara and Maheshwari, Umesh},
+  year = {1995},
+  journal = {ACM SIGMOD Record},
+  volume = {24},
+  number = {2},
+  pages = {23--34},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {This paper describes an efficient optimistic concurrency control scheme for use in distributed database systems in which objects are cached and manipulated at client machines while persistent storage and transactional support are provided by servers. The scheme provides both serializability and external consistency for committed transactions; it uses loosely synchronized clocks to achieve global serialization. It stores only a single version of each object, and avoids maintaining any concurrency control information on a per-object basis; instead, it tracks recent invalidations on a per-client basis, an approach that has low in-memory space overhead and no per-object disk overhead. In addition to its low space overheads, the scheme also performs well. The paper presents a simulation study that compares the scheme to adaptive callback locking, the best concurrency control scheme for client-server object-oriented database systems studied to date. The study shows that our scheme outperforms adaptive callback locking for low to moderate contention workloads, and scales better with the number of clients. For high contention workloads, optimism can result in a high abort rate; the scheme presented here is a first step toward a hybrid scheme that we expect to perform well across the full range of workloads.}
+}
+
+@inproceedings{adya2000generalized,
+  title = {Generalized Isolation Level Definitions},
+  booktitle = {Proceedings of 16th International Conference on Data Engineering (Cat. {{No}}. {{00CB37073}})},
+  author = {Adya, Atul and Liskov, Barbara and O'Neil, Patrick},
+  year = {2000},
+  pages = {67--78},
+  publisher = {{IEEE}},
+  abstract = {Commercial databases support different isolation levels to allow programmers to trade off consistency for a potential gain in performance. The isolation levels are defined in the current ANSI standard, but the definitions are ambiguous and revised definitions proposed to correct the problem are too constrained since they allow only pessimistic (locking) implementations. This paper presents new specifications for the ANSI levels. Our specifications are portable: they apply not only to locking implementations, but also to optimistic and multi-version concurrency control schemes. Furthermore, unlike earlier definitions, our new specifications handle predicates in a correct and flexible manner at all levels.}
+}
+
 @article{aggarwal2018neural,
   title = {Neural Networks and Deep Learning},
   author = {Aggarwal, Charu C and others},
@@ -7,6 +57,16 @@
   number = {978},
   pages = {3},
   publisher = {{Springer}}
+}
+
+@article{albutiu2012massively,
+  title = {Massively Parallel Sort-Merge Joins in Main Memory Multi-Core Database Systems},
+  author = {Albutiu, Martina-Cezara and Kemper, Alfons and Neumann, Thomas},
+  year = {2012},
+  journal = {arXiv preprint arXiv:1207.0145},
+  eprint = {1207.0145},
+  abstract = {Two emerging hardware trends will dominate the database system technology in the near future: increasing main memory capacities of several TB per server and massively parallel multi-core processing. Many algorithmic and control techniques in current database technology were devised for disk-based systems where I/O dominated the performance. In this work we take a new look at the well-known sort-merge join which, so far, has not been in the focus of research in scalable massively parallel multi-core data processing as it was deemed inferior to hash joins. We devise a suite of new massively parallel sort-merge (MPSM) join algorithms that are based on partial partition-based sorting. Contrary to classical sort-merge joins, our MPSM algorithms do not rely on a hard to parallelize final merge step to create one complete sort order. Rather they work on the independently created runs in parallel. This way our MPSM algorithms are NUMA-affine as all the sorting is carried out on local memory partitions. An extensive experimental evaluation on a modern 32-core machine with one TB of main memory proves the competitive performance of MPSM on large main memory databases with billions of objects. It scales (almost) linearly in the number of employed cores and clearly outperforms competing hash join proposals - in particular it outperforms the "cutting-edge" Vectorwise parallel query engine by a factor of four.},
+  archiveprefix = {arxiv}
 }
 
 @book{arenas2022database,
@@ -26,11 +86,68 @@
   publisher = {{Arpaci-Dusseau Books}}
 }
 
+@inproceedings{avnur2000eddies,
+  title = {Eddies: {{Continuously}} Adaptive Query Processing},
+  booktitle = {Proceedings of the 2000 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Avnur, Ron and Hellerstein, Joseph M},
+  year = {2000},
+  pages = {261--272},
+  abstract = {In large federated and shared-nothing databases, resources can exhibit widely fluctuating characteristics. Assumptions made at the time a query is submitted will rarely hold throughout the duration of query processing. As a result, traditional static query optimization and execution techniques are ineffective in these environments. In this paper we introduce a query processing mechanism called an eddy, which continuously reorders operators in a query plan as it runs. We characterize the moments of symmetry during which pipelined joins can be easily reordered, and the synchronization barriers that require inputs from different sources to be coordinated. By combining eddies with appropriate join algorithms, we merge the optimization and execution phases of query processing, allowing each tuple to have a flexible ordering of the query operators. This flexibility is controlled by a combination of fluid dynamics and a simple learning algorithm. Our initial implementation demonstrates promising results, with eddies performing nearly as well as a static optimizer/executor in static scenarios, and providing dramatic improvements in dynamic execution environments.}
+}
+
+@article{bailis2014coordination,
+  title = {Coordination Avoidance in Database Systems ({{Extended}} Version)},
+  author = {Bailis, Peter and Fekete, Alan and Franklin, Michael J and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  year = {2014},
+  journal = {arXiv preprint arXiv:1402.2237},
+  eprint = {1402.2237},
+  abstract = {Minimizing coordination, or blocking communication between concurrently executing operations, is key to maximizing scalability, availability, and high performance in database systems. However, uninhibited coordination-free execution can compromise application correctness, or consistency. When is coordination necessary for correctness? The classic use of serializable transactions is sufficient to maintain correctness but is not necessary for all applications, sacrificing potential scalability. In this paper, we develop a formal framework, invariant confluence, that determines whether an application requires coordination for correct execution. By operating on application-level invariants over database states (e.g., integrity constraints), invariant confluence analysis provides a necessary and sufficient condition for safe, coordination-free execution. When programmers specify their application invariants, this analysis allows databases to coordinate only when anomalies that might violate invariants are possible. We analyze the invariant confluence of common invariants and operations from real-world database systems (i.e., integrity constraints) and applications and show that many are invariant confluent and therefore achievable without coordination. We apply these results to a proof-of-concept coordination-avoiding database prototype and demonstrate sizable performance gains compared to serializable execution, notably a 25-fold improvement over prior TPC-C New-Order performance on a 200 server cluster.},
+  archiveprefix = {arxiv}
+}
+
 @article{bailis2015readings,
   title = {Readings in Database Systems},
   author = {Bailis, Peter and Hellerstein, Joseph M and Stonebraker, Michael},
   year = {2015},
   journal = {URL: http://www. redbook. io/all-chapters. html (26.09. 2017)}
+}
+
+@article{bailis2016scalable,
+  title = {Scalable Atomic Visibility with {{RAMP}} Transactions},
+  author = {Bailis, Peter and Fekete, Alan and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  year = {2016},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {41},
+  number = {3},
+  pages = {1--45},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Databases can provide scalability by partitioning data across several servers. However, multipartition, multioperation transactional access is often expensive, employing coordination-intensive locking, validation, or scheduling mechanisms. Accordingly, many real-world systems avoid mechanisms that provide useful semantics for multipartition operations. This leads to incorrect behavior for a large class of applications including secondary indexing, foreign key enforcement, and materialized view maintenance. In this work, we identify a new isolation model{\textemdash}Read Atomic (RA) isolation{\textemdash}that matches the requirements of these use cases by ensuring atomic visibility: either all or none of each transaction's updates are observed by other transactions. We present algorithms for Read Atomic Multipartition (RAMP) transactions that enforce atomic visibility while offering excellent scalability, guaranteed commit despite partial failures (via coordination-free execution), and minimized communication between servers (via partition independence). These RAMP transactions correctly mediate atomic visibility of updates and provide readers with snapshot access to database state by using limited multiversioning and by allowing clients to independently resolve nonatomic reads. We demonstrate that, in contrast with existing algorithms, RAMP transactions incur limited overhead{\textemdash}even under high contention{\textemdash}and scale linearly to 100 servers.}
+}
+
+@inproceedings{bandle2021partition,
+  title = {To Partition, or Not to Partition, That Is the Join Question in a Real System},
+  booktitle = {Proceedings of the 2021 International Conference on Management of Data},
+  author = {Bandle, Maximilian and Giceva, Jana and Neumann, Thomas},
+  year = {2021},
+  pages = {168--180},
+  abstract = {An efficient implementation of a hash join has been a highly researched problem for decades. Recently, the radix join has been shown to have superior performance over the alternatives (e.g., the non-partitioned hash join), albeit on synthetic microbenchmarks. Therefore, it is unclear whether one can simply replace the hash join in an RDBMS or use the radix join as a performance booster for selected queries. If the latter, it is still unknown when one should rely on the radix join to improve performance. In this paper, we address these questions, show how to integrate the radix join in Umbra, a code-generating DBMS, and make it competitive for selective queries by introducing a Bloom-filter based semi-join reducer. We have evaluated how well it runs when used in queries from more representative workloads like TPC-H. Surprisingly, the radix join brings a noticeable improvement in only one out of all 59 joins in TPC-H. Thus, with an extensive range of microbenchmarks, we have isolated the effects of the most important workload factors and synthesized the range of values where partitioning the data for the radix join pays off. Our analysis shows that the benefit of data partitioning quickly diminishes as soon as we deviate from the optimal parameters, and even late materialization rarely helps in real workloads. We thus, conclude that integrating the radix join within a code-generating database rarely justifies the increase in code and optimizer complexity and advise against it for processing real-world workloads.}
+}
+
+@inproceedings{baruah2002implementing,
+  title = {Implementing Constant-Bandwidth Servers upon Multiprocessor Platforms},
+  booktitle = {Proceedings. {{Eighth IEEE}} Real-Time and Embedded Technology and Applications Symposium},
+  author = {Baruah, Sanjoy and Goossens, Jo{\"e}l and Lipari, Giuseppe},
+  year = {2002},
+  pages = {154--163},
+  publisher = {{IEEE}},
+  abstract = {In constant-bandwidth server (CBS) systems, several different applications are executed upon a shared computing platform in such a manner that each application seems to be executing on a slower dedicated processor. CBS systems have thus far only been implemented upon uniprocessors; here, a multiprocessor extension, which can be implemented upon computing platforms comprised of several identical preemptable processors, is proposed and proven correct.}
+}
+
+@inproceedings{beaver2010finding,
+  title = {Finding a Needle in Haystack: {{Facebook}}'s Photo Storage},
+  booktitle = {9th {{USENIX}} Symposium on Operating Systems Design and Implementation ({{OSDI}} 10)},
+  author = {Beaver, Doug and Kumar, Sanjeev and Li, Harry C and Sobel, Jason and Vajgel, Peter},
+  year = {2010}
 }
 
 @book{bengio2017deep,
@@ -62,6 +179,18 @@
   abstract = {Two major approaches have been proposed to efficiently process queries in databases: speeding up the search by using index structures, and speeding up the search by operating on a compressed database, such as a signature file. Both approaches have their limitations: indexing techniques are inefficient in extreme configurations, such as high-dimensional spaces, where even a simple scan may be cheaper than an index-based search. Compression techniques are not very efficient in all other situations. We propose to combine both techniques to search for nearest neighbors in a high-dimensional space. For this purpose, we develop a compressed index, called the IQ-tree, with a three-level structure: the first level is a regular (flat) directory consisting of minimum bounding boxes, the second level contains data points in a compressed representation, and the third level contains the actual data. We overcome several engineering challenges in constructing an effective index structure of this type. The most significant of these is to decide how much to compress at the second level. Too much compression will lead to many needless expensive accesses to the third level. Too little compression will increase both the storage and the access cost for the first two levels. We develop a cost model and an optimization algorithm based on this cost model that permits an independent determination of the degree of compression for each second level page to minimize expected query cost. In an experimental evaluation, we demonstrate that the IQ-tree shows a performance that is the "best of both worlds" for a wide range of data distributions and dimensionalities.}
 }
 
+@article{berenson1995critique,
+  title = {A Critique of {{ANSI SQL}} Isolation Levels},
+  author = {Berenson, Hal and Bernstein, Phil and Gray, Jim and Melton, Jim and O'Neil, Elizabeth and O'Neil, Patrick},
+  year = {1995},
+  journal = {ACM SIGMOD Record},
+  volume = {24},
+  number = {2},
+  pages = {1--10},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {ANSI SQL-92 [MS, ANSI] defines Isolation Levels in terms of phenomena: Dirty Reads, Non-Repeatable Reads, and Phantoms. This paper shows that these phenomena and the ANSI SQL definitions fail to properly characterize several popular isolation levels, including the standard locking implementations of the levels covered. Ambiguity in the statement of the phenomena is investigated and a more formal statement is arrived at; in addition new phenomena that better characterize isolation types are introduced. Finally, an important multiversion isolation type, called Snapshot Isolation, is defined.}
+}
+
 @inproceedings{beyer1999nearest,
   title = {When Is ``Nearest Neighbor'' Meaningful?},
   booktitle = {Database {{Theory}}{\textemdash}{{ICDT}}'99: 7th International Conference Jerusalem, Israel, January 10{\textendash}12, 1999 Proceedings 7},
@@ -70,6 +199,18 @@
   pages = {217--235},
   publisher = {{Springer}},
   abstract = {We explore the effect of dimensionality on the ``nearest neighbor'' problem. We show that under a broad set of conditions (much broader than independent and identically distributed dimensions), as dimensionality increases, the distance to the nearest data point approaches the distance to the farthest data point. To provide a practical perspective, we present empirical results on both real and synthetic data sets that demonstrate that this effect can occur for as few as 10{\textendash}15 dimensions. These results should not be interpreted to mean that high-dimensional indexing is never meaningful; we illustrate this point by identifying some high-dimensional workloads for which this effect does not occur. However, our results do emphasize that the methodology used almost universally in the database literature to evaluate high-dimensional indexing techniques is flawed, and should be modified. In particular, most such techniques proposed in the literature are not evaluated versus simple linear scan, and are evaluated over workloads for which nearest neighbor is not meaningful. Often, even the reported experiments, when analyzed carefully, show that linear scan would outperform the techniques being proposed on the workloads studied in high (10{\textendash}15) dimensionality!}
+}
+
+@article{blaum1994evenodd,
+  title = {{{EVENODD}}: {{An}} Optimal Scheme for Tolerating Double Disk Failures in {{RAID}} Architectures},
+  author = {Blaum, Mario and Brady, Jim and Bruck, Jehoshua and Menon, Jai},
+  year = {1994},
+  journal = {ACM SIGARCH Computer Architecture News},
+  volume = {22},
+  number = {2},
+  pages = {245--254},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {We present a novel method, that we call EVENODD, for tolerating up to two disk failures in RAID architectures. EVENODD is the first known scheme for tolerating double disk failures that is optimal with regard to both storage and performance. EVENODD employs the addition of only two redundant disks and consists of simple exclusive-OR computations. A major advantage of EVENODD is that it only requires parity hardware, which is typically present in standard RAID-5 controllers. Hence, EVENODD can be implemented on standard RAID-5 controllers without any hardware changes. The only previously known scheme that employes optimal redundant storage (i.e. two extra disks) is based on Reed-Solomon (RS) error-correcting codes, requires computation over finite fields and results in a more complex implementation. For example, we show that the number of exclusive-OR operations involved in implementing EVENODD in a disk array with 15 disks is about 50\% of the number required when using the RS scheme.}
 }
 
 @article{böhm2009high,
@@ -112,6 +253,18 @@
   file = {/Users/jayithac/Zotero/storage/RZNQVAE4/building-distributed-storage-system-on-raft.html}
 }
 
+@article{chamberlin1981history,
+  title = {A History and Evaluation of {{System R}}},
+  author = {Chamberlin, Donald D and Astrahan, Morton M and Blasgen, Michael W and Gray, James N and King, W Frank and Lindsay, Bruce G and Lorie, Raymond and Mehl, James W and Price, Thomas G and Putzolu, Franco and others},
+  year = {1981},
+  journal = {Communications of the ACM},
+  volume = {24},
+  number = {10},
+  pages = {632--646},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {System R, an experimental database system, was constructed to demonstrate that the usability advantages of the relational data model can be realized in a system with the complete function and high performance required for everyday production use. This paper describes the three principal phases of the System R project and discusses some of the lessons learned from System R about the design of relational systems and database systems in general.}
+}
+
 @inproceedings{chandramouli2018faster,
   title = {Faster: {{A}} Concurrent Key-Value Store with in-Place Updates},
   booktitle = {Proceedings of the 2018 International Conference on Management of Data},
@@ -137,6 +290,18 @@
   howpublished = {https://people.eecs.berkeley.edu/{\textasciitilde}totemtang/hiring.html}
 }
 
+@article{doshi2023kepler,
+  title = {Kepler: {{Robust}} Learning for Parametric Query Optimization},
+  author = {Doshi, Lyric and Zhuang, Vincent and Jain, Gaurav and Marcus, Ryan and Huang, Haoyu and Altinb{\"u}ken, Deniz and Brevdo, Eugene and Fraser, Campbell},
+  year = {2023},
+  journal = {Proceedings of the ACM on Management of Data},
+  volume = {1},
+  number = {1},
+  pages = {1--25},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Most existing parametric query optimization (PQO) techniques rely on traditional query optimizer cost models, which are often inaccurate and result in suboptimal query performance. We propose Kepler, an end-to-end learning-based approach to PQO that demonstrates significant speedups in query latency over a traditional query optimizer. Central to our method is Row Count Evolution (RCE), a novel plan generation algorithm based on perturbations in the sub-plan cardinality space. While previous approaches require accurate cost models, we bypass this requirement by evaluating candidate plans via actual execution data and training anML model to predict the fastest plan given parameter binding values. Our models leverage recent advances in neural network uncertainty in order to robustly predict faster plans while avoiding regressions in query performance. Experimentally, we show that Kepler achieves significant improvements in query runtime on multiple datasets on PostgreSQL.}
+}
+
 @book{doxsey2016introducing,
   title = {Introducing Go: {{Build}} Reliable, Scalable Programs},
   author = {Doxsey, Caleb},
@@ -160,11 +325,117 @@
   file = {/Users/jayithac/Zotero/storage/V8MNAZ4R/floating-point-gui.de.html}
 }
 
+@article{freitag2020adopting,
+  title = {Adopting Worst-Case Optimal Joins in Relational Database Systems},
+  author = {Freitag, Michael and Bandle, Maximilian and Schmidt, Tobias and Kemper, Alfons and Neumann, Thomas},
+  year = {2020},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {13},
+  number = {12},
+  pages = {1891--1904},
+  publisher = {{VLDB Endowment}},
+  abstract = {Worst-case optimal join algorithms are attractive from a theoretical point of view, as they offer asymptotically better runtime than binary joins on certain types of queries. In particular, they avoid enumerating large intermediate results by processing multiple input relations in a single multi-way join. However, existing implementations incur a sizable overhead in practice, primarily since they rely on suitable ordered index structures on their input. Systems that support worst-case optimal joins often focus on a specific problem domain, such as read-only graph analytic queries, where extensive precomputation allows them to mask these costs. In this paper, we present a comprehensive implementation approach for worst-case optimal joins that is practical within general-purpose relational database management systems supporting both hybrid transactional and analytical workloads. The key component of our approach is a novel hash-based worst-case optimal join algorithm that relies only on data structures that can be built efficiently during query execution. Furthermore, we implement a hybrid query optimizer that intelligently and transparently combines both binary and multi-way joins within the same query plan. We demonstrate that our approach far outperforms existing systems when worst-case optimal joins are beneficial while sacrificing no performance when they are not.}
+}
+
+@article{gervasi2019will,
+  title = {Will Carbon Nanotube Memory Replace {{DRAM}}?},
+  author = {Gervasi, Bill},
+  year = {2019},
+  journal = {IEEE Micro},
+  volume = {39},
+  number = {2},
+  pages = {45--51},
+  publisher = {{IEEE}},
+  abstract = {In this paper, we discuss an exciting memory technology made from carbon nanotubes. Carbon nanotubes provide a predictable resistive element that can be used to fabricate very dense and very fast-switching memory cells. Nantero NRAM employs electrostatic forces to connect and disconnect these nanotubes in a memory design notably impervious to external effects including heat, shock and vibration, magnetism, and radiation. NRAM maintains its state permanently and may be rewritten arbitrarily many times without degrading. Not only NRAM is well positioned to replace DRAM in existing applications, but also its combination of high speed, persistence, density, and low power enables a slew of exciting new applications. Production of NRAM devices is on track for near-term commercialization through Nantero licensees.}
+}
+
+@article{goossens2003priority,
+  title = {Priority-Driven Scheduling of Periodic Task Systems on Multiprocessors},
+  author = {Goossens, Jo{\"e}l and Funk, Shelby and Baruah, Sanjoy},
+  year = {2003},
+  journal = {Real-time systems},
+  volume = {25},
+  pages = {187--205},
+  publisher = {{Springer}},
+  abstract = {The scheduling of systems of periodic tasks upon multiprocessor platforms is considered. Utilization-based conditions are derived for determining whether a periodic task system meets all deadlines when scheduled using the earliest deadline first scheduling algorithm (EDF) upon a given multiprocessor platform. A new priority-driven algorithm is proposed for scheduling periodic task systems upon multiprocessor platforms: this algorithm is shown to successfully schedule some task systems for which EDF may fail to meet all deadlines.}
+}
+
+@article{graefe2012survey,
+  title = {A Survey of {{B-tree}} Logging and Recovery Techniques},
+  author = {Graefe, Goetz},
+  year = {2012},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {37},
+  number = {1},
+  pages = {1--35},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {B-trees have been ubiquitous in database management systems for several decades, and they serve in many other storage systems as well. Their basic structure and their basic operations are well understood including search, insertion, and deletion. However, implementation of transactional guarantees such as all-or-nothing failure atomicity and durability in spite of media and system failures seems to be difficult. High-performance techniques such as pseudo-deleted records, allocation-only logging, and transaction processing during crash recovery are widely used in commercial B-tree implementations but not widely understood. This survey collects many of these techniques as a reference for students, researchers, system architects, and software developers. Central in this discussion are physical data independence, separation of logical database contents and physical representation, and the concepts of user transactions and system transactions. Many of the techniques discussed are applicable beyond B-trees.}
+}
+
+@article{gray1976granularity,
+  title = {Granularity of Locks and Degrees of Consistency},
+  author = {Gray, R Lorie J and Putzolu, {\relax GF} and Traiger, {\relax IL}},
+  year = {1976},
+  journal = {Modeling in Data Base Management Systems, GM Nijssen ed., North Holland Pub}
+}
+
+@inproceedings{gray1981transaction,
+  title = {The Transaction Concept: {{Virtues}} and Limitations},
+  booktitle = {{{VLDB}}},
+  author = {Gray, Jim and others},
+  year = {1981},
+  volume = {81},
+  pages = {144--154}
+}
+
 @book{gray1984logic,
   title = {Logic, Algebra and Databases},
   author = {Gray, Peter},
   year = {1984},
   publisher = {{John Wiley \& Sons, Inc.}}
+}
+
+@article{haerder1983principles,
+  title = {Principles of Transaction-Oriented Database Recovery},
+  author = {Haerder, Theo and Reuter, Andreas},
+  year = {1983},
+  journal = {ACM computing surveys (CSUR)},
+  volume = {15},
+  number = {4},
+  pages = {287--317},
+  publisher = {{ACM New York, NY, USA}}
+}
+
+@article{hellerstein2007architecture,
+  title = {Architecture of a Database System},
+  author = {Hellerstein, Joseph M and Stonebraker, Michael and Hamilton, James and others},
+  year = {2007},
+  journal = {Foundations and Trends{\textregistered} in Databases},
+  volume = {1},
+  number = {2},
+  pages = {141--259},
+  publisher = {{Now Publishers, Inc.}},
+  abstract = {Database Management Systems (DBMSs) are a ubiquitous and critical component of modern computing, and the result of decades of research and development in both academia and industry. Historically, DBMSs were among the earliest multi-user server systems to be developed, and thus pioneered many systems design techniques for scalability and reliability now in use in many other contexts. While many of the algorithms and abstractions used by a DBMS are textbook material, there has been relatively sparse coverage in the literature of the systems design issues that make a DBMS work. This paper presents an architectural discussion of DBMS design principles, including process models, parallel architecture, storage system design, transaction system implementation, query processor and optimizer architectures, and typical shared components and utilities. Successful commercial and open-source systems are used as points of reference, particularly when multiple alternative designs have been adopted by different groups.}
+}
+
+@article{hellwig2009xfs,
+  title = {{{XFS}}: The Big Storage File System for {{Linux}}},
+  author = {Hellwig, Christoph},
+  year = {2009},
+  journal = {; login:: the magazine of USENIX \& SAGE},
+  volume = {34},
+  number = {5},
+  pages = {10--18},
+  publisher = {{USENIX Association}}
+}
+
+@inproceedings{hentschel2018column,
+  title = {Column Sketches: {{A}} Scan Accelerator for Rapid and Robust Predicate Evaluation},
+  booktitle = {Proceedings of the 2018 International Conference on Management of Data},
+  author = {Hentschel, Brian and Kester, Michael S and Idreos, Stratos},
+  year = {2018},
+  pages = {857--872},
+  abstract = {While numerous indexing and storage schemes have been developed to address the core functionality of predicate evaluation in data systems, they all require specific workload properties (query selectivity, data distribution, data clustering) to provide good performance and fail in other cases. We present a new class of indexing scheme, termed a Column Sketch, which improves the performance of predicate evaluation independently of workload properties. Column Sketches work primarily through the use of lossy compression schemes which are designed so that the index ingests data quickly, evaluates any query performantly, and has small memory footprint. A Column Sketch works by applying this lossy compression on a value-by-value basis, mapping base data to a representation of smaller fixed width codes. Queries are evaluated affirmatively or negatively for the vast majority of values using the compressed data, and only if needed check the base data for the remaining values. Column Sketches work over column, row, and hybrid storage layouts. We demonstrate that by using a Column Sketch, the select operator in modern analytic systems attains better CPU efficiency and less data movement than state-of-the-art storage and indexing schemes. Compared to standard scans, Column Sketches provide an improvement of 3x-6x for numerical attributes and 2.7x for categorical attributes. Compared to state-of-the-art scan accelerators such as Column Imprints and BitWeaving, Column Sketches perform 1.4 - 4.8{\texttimes} better.}
 }
 
 @misc{IdiomaticRustDevs,
@@ -192,6 +463,58 @@
   abstract = {The query engines of most modern database systems are either based on vectorization or data-centric code generation. These two state-of-the-art query processing paradigms are fundamentally different in terms of system structure and query execution code. Both paradigms were used to build fast systems. However, until today it is not clear which paradigm yields faster query execution, as many implementation-specific choices obstruct a direct comparison of architectures. In this paper, we experimentally compare the two models by implementing both within the same test system. This allows us to use for both models the same query processing algorithms, the same data structures, and the same parallelization framework to ultimately create an apples-to-apples comparison. We find that both are efficient, but have different strengths and weaknesses. Vectorization is better at hiding cache miss latency, whereas data-centric compilation requires fewer CPU instructions, which benefits cache-resident workloads. Besides raw, single-threaded performance, we also investigate SIMD as well as multi-core parallelization and different hardware architectures. Finally, we analyze qualitative differences as a guide for system architects.}
 }
 
+@article{kersten2018everything,
+  title = {Everything You Always Wanted to Know about Compiled and Vectorized Queries but Were Afraid to Ask},
+  author = {Kersten, Timo and Leis, Viktor and Kemper, Alfons and Neumann, Thomas and Pavlo, Andrew and Boncz, Peter},
+  year = {2018},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {11},
+  number = {13},
+  pages = {2209--2222},
+  publisher = {{VLDB Endowment}},
+  abstract = {The query engines of most modern database systems are either based on vectorization or data-centric code generation. These two state-of-the-art query processing paradigms are fundamentally different in terms of system structure and query execution code. Both paradigms were used to build fast systems. However, until today it is not clear which paradigm yields faster query execution, as many implementation-specific choices obstruct a direct comparison of architectures. In this paper, we experimentally compare the two models by implementing both within the same test system. This allows us to use for both models the same query processing algorithms, the same data structures, and the same parallelization framework to ultimately create an apples-to-apples comparison. We find that both are efficient, but have different strengths and weaknesses. Vectorization is better at hiding cache miss latency, whereas data-centric compilation requires fewer CPU instructions, which benefits cache-resident workloads. Besides raw, single-threaded performance, we also investigate SIMD as well as multi-core parallelization and different hardware architectures. Finally, we analyze qualitative differences as a guide for system architects.}
+}
+
+@article{kipf2018learned,
+  title = {Learned Cardinalities: {{Estimating}} Correlated Joins with Deep Learning},
+  author = {Kipf, Andreas and Kipf, Thomas and Radke, Bernhard and Leis, Viktor and Boncz, Peter and Kemper, Alfons},
+  year = {2018},
+  journal = {arXiv preprint arXiv:1809.00677},
+  eprint = {1809.00677},
+  abstract = {We describe a new deep learning approach to cardinality estimation. MSCN is a multi-set convolutional network, tailored to representing relational query plans, that employs set semantics to capture query features and true cardinalities. MSCN builds on sampling-based estimation, addressing its weaknesses when no sampled tuples qualify a predicate, and in capturing join-crossing correlations. Our evaluation of MSCN using a real-world dataset shows that deep learning significantly enhances the quality of cardinality estimation, which is the core problem in query optimization.},
+  archiveprefix = {arxiv}
+}
+
+@inproceedings{kraska2018case,
+  title = {The Case for Learned Index Structures},
+  booktitle = {Proceedings of the 2018 International Conference on Management of Data},
+  author = {Kraska, Tim and Beutel, Alex and Chi, Ed H and Dean, Jeffrey and Polyzotis, Neoklis},
+  year = {2018},
+  pages = {489--504},
+  abstract = {Indexes are models: a {\textbackslash}btree-Index can be seen as a model to map a key to the position of a record within a sorted array, a Hash-Index as a model to map a key to a position of a record within an unsorted array, and a BitMap-Index as a model to indicate if a data record exists or not. In this exploratory research paper, we start from this premise and posit that all existing index structures can be replaced with other types of models, including deep-learning models, which we term {\textbackslash}em learned indexes. We theoretically analyze under which conditions learned indexes outperform traditional index structures and describe the main challenges in designing learned index structures. Our initial results show that our learned indexes can have significant advantages over traditional indexes. More importantly, we believe that the idea of replacing core components of a data management system through learned models has far reaching implications for future systems designs and that this work provides just a glimpse of what might be possible.}
+}
+
+@inproceedings{kristo2020case,
+  title = {The Case for a Learned Sorting Algorithm},
+  booktitle = {Proceedings of the 2020 {{ACM SIGMOD}} International Conference on Management of Data},
+  author = {Kristo, Ani and Vaidya, Kapil and {\c C}etintemel, Ugur and Misra, Sanchit and Kraska, Tim},
+  year = {2020},
+  pages = {1001--1016},
+  abstract = {Sorting is one of the most fundamental algorithms in Computer Science and a common operation in databases not just for sorting query results but also as part of joins (i.e., sort-merge-join) or indexing. In this work, we introduce a new type of distribution sort that leverages a learned model of the empirical CDF of the data. Our algorithm uses a model to efficiently get an approximation of the scaled empirical CDF for each record key and map it to the corresponding position in the output array. We then apply a deterministic sorting algorithm that works well on nearly-sorted arrays (e.g., Insertion Sort) to establish a totally sorted order. We compared this algorithm against common sorting approaches and measured its performance for up to 1 billion normally-distributed double-precision keys. The results show that our approach yields an average 3.38x performance improvement over C++ STL sort, which is an optimized Quicksort hybrid, 1.49x improvement over sequential Radix Sort, and 5.54x improvement over a C++ implementation of Timsort, which is the default sorting function for Java and Python.}
+}
+
+@article{kuo1996model,
+  title = {Model and Verification of a Data Manager Based on {{ARIES}}},
+  author = {Kuo, Dean},
+  year = {1996},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {21},
+  number = {4},
+  pages = {427--479},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {In this article, we model and verify a data manager whose algorithm is based on ARIES. The work uses the I/O automata method as the formal model and the definition of correctness is defined on the interface between the scheduler and the data manager.}
+}
+
 @article{laddad2022keep,
   title = {Keep {{CALM}} and {{CRDT}} On},
   author = {Laddad, Shadaj and Power, Conor and Milano, Mae and Cheung, Alvin and Crooks, Natacha and Hellerstein, Joseph M},
@@ -202,6 +525,23 @@
   archiveprefix = {arxiv}
 }
 
+@incollection{lamport2019time,
+  title = {Time, Clocks, and the Ordering of Events in a Distributed System},
+  booktitle = {Concurrency: The Works of Leslie Lamport},
+  author = {Lamport, Leslie},
+  year = {2019},
+  pages = {179--196}
+}
+
+@inproceedings{lee2015f2fs,
+  title = {\{\vphantom\}{{F2FS}}\vphantom\{\}: {{A}} New File System for Flash Storage},
+  booktitle = {13th {{USENIX}} Conference on File and Storage Technologies ({{FAST}} 15)},
+  author = {Lee, Changman and Sim, Dongho and Hwang, Jooyoung and Cho, Sangyeun},
+  year = {2015},
+  pages = {273--286},
+  abstract = {F2FS is a Linux file system designed to perform well on modern flash storage devices. The file system builds on append-only logging and its key design decisions were made with the characteristics of flash storage in mind. This paper describes the main design ideas, data structures, algorithms and the resulting performance of F2FS. Experimental results highlight the desirable performance of F2FS; on a state-of-the-art mobile system, it outperforms EXT4 under synthetic workloads by up to 3.1  (iozone) and 2  (SQLite). It reduces elapsed time of several realistic workloads by up to 40\%. On a server system, F2FS is shown to perform better than EXT4 by up to 2.5  (SATA SSD) and 1.8  (PCIe SSD).}
+}
+
 @inproceedings{leis2013adaptive,
   title = {The Adaptive Radix Tree: {{ARTful}} Indexing for Main-Memory Databases},
   booktitle = {2013 {{IEEE}} 29th International Conference on Data Engineering ({{ICDE}})},
@@ -210,6 +550,28 @@
   pages = {38--49},
   publisher = {{IEEE}},
   abstract = {Main memory capacities have grown up to a point where most databases fit into RAM. For main-memory database systems, index structure performance is a critical bottleneck. Traditional in-memory data structures like balanced binary search trees are not efficient on modern hardware, because they do not optimally utilize on-CPU caches. Hash tables, also often used for main-memory indexes, are fast but only support point queries. To overcome these shortcomings, we present ART, an adaptive radix tree (trie) for efficient indexing in main memory. Its lookup performance surpasses highly tuned, read-only search trees, while supporting very efficient insertions and deletions as well. At the same time, ART is very space efficient and solves the problem of excessive worst-case space consumption, which plagues most radix trees, by adaptively choosing compact and efficient data structures for internal nodes. Even though ART's performance is comparable to hash tables, it maintains the data in sorted order, which enables additional operations like range scan and prefix lookup.}
+}
+
+@article{leis2015good,
+  title = {How Good Are Query Optimizers, Really?},
+  author = {Leis, Viktor and Gubichev, Andrey and Mirchev, Atanas and Boncz, Peter and Kemper, Alfons and Neumann, Thomas},
+  year = {2015},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {9},
+  number = {3},
+  pages = {204--215},
+  publisher = {{VLDB Endowment}},
+  abstract = {Finding a good join order is crucial for query performance. In this paper, we introduce the Join Order Benchmark (JOB) and experimentally revisit the main components in the classic query optimizer architecture using a complex, real-world data set and realistic multi-join queries. We investigate the quality of industrial-strength cardinality estimators and find that all estimators routinely produce large errors. We further show that while estimates are essential for finding a good join order, query performance is unsatisfactory if the query engine relies too heavily on these estimates. Using another set of experiments that measure the impact of the cost model, we find that it has much less influence on query performance than the cardinality estimates. Finally, we investigate plan enumeration techniques comparing exhaustive dynamic programming with heuristic algorithms and find that exhaustive enumeration improves performance despite the sub-optimal cardinality estimates.}
+}
+
+@article{letia2009crdts,
+  title = {{{CRDTs}}: {{Consistency}} without Concurrency Control},
+  author = {Letia, Mihai and Pregui{\c c}a, Nuno and Shapiro, Marc},
+  year = {2009},
+  journal = {arXiv preprint arXiv:0907.0929},
+  eprint = {0907.0929},
+  abstract = {A CRDT is a data type whose operations commute when they are concurrent. Replicas of a CRDT eventually converge without any complex concurrency control. As an existence proof, we exhibit a non-trivial CRDT: a shared edit buffer called Treedoc. We outline the design, implementation and performance of Treedoc. We discuss how the CRDT concept can be generalised, and its limitations.},
+  archiveprefix = {arxiv}
 }
 
 @misc{LittleThingsComparing2021,
@@ -230,6 +592,88 @@
   urldate = {2023-11-06},
   howpublished = {https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/},
   langid = {english}
+}
+
+@article{marcus2019neo,
+  title = {Neo: {{A}} Learned Query Optimizer},
+  author = {Marcus, Ryan and Negi, Parimarjan and Mao, Hongzi and Zhang, Chi and Alizadeh, Mohammad and Kraska, Tim and Papaemmanouil, Olga and Tatbul, Nesime},
+  year = {2019},
+  journal = {arXiv preprint arXiv:1904.03711},
+  eprint = {1904.03711},
+  abstract = {Query optimization is one of the most challenging problems in database systems. Despite the progress made over the past decades, query optimizers remain extremely complex components that require a great deal of hand-tuning for specific workloads and datasets. Motivated by this shortcoming and inspired by recent advances in applying machine learning to data management challenges, we introduce Neo (Neural Optimizer), a novel learning-based query optimizer that relies on deep neural networks to generate query executions plans. Neo bootstraps its query optimization model from existing optimizers and continues to learn from incoming queries, building upon its successes and learning from its failures. Furthermore, Neo naturally adapts to underlying data patterns and is robust to estimation errors. Experimental results demonstrate that Neo, even when bootstrapped from a simple optimizer like PostgreSQL, can learn a model that offers similar performance to state-of-the-art commercial optimizers, and in some cases even surpass them.},
+  archiveprefix = {arxiv}
+}
+
+@article{marcus2020benchmarking,
+  title = {Benchmarking Learned Indexes},
+  author = {Marcus, Ryan and Kipf, Andreas and {van Renen}, Alexander and Stoian, Mihail and Misra, Sanchit and Kemper, Alfons and Neumann, Thomas and Kraska, Tim},
+  year = {2020},
+  journal = {arXiv preprint arXiv:2006.12804},
+  eprint = {2006.12804},
+  abstract = {Recent advancements in learned index structures propose replacing existing index structures, like B-Trees, with approximate learned models. In this work, we present a unified benchmark that compares well-tuned implementations of three learned index structures against several state-of-the-art "traditional" baselines. Using four real-world datasets, we demonstrate that learned index structures can indeed outperform non-learned indexes in read-only in-memory workloads over a dense array. We also investigate the impact of caching, pipelining, dataset size, and key size. We study the performance profile of learned index structures, and build an explanation for why learned models achieve such good performance. Finally, we investigate other important properties of learned index structures, such as their performance in multi-threaded systems and their build times.},
+  archiveprefix = {arxiv}
+}
+
+@inproceedings{marcus2021bao,
+  title = {Bao: {{Making}} Learned Query Optimization Practical},
+  booktitle = {Proceedings of the 2021 International Conference on Management of Data},
+  author = {Marcus, Ryan and Negi, Parimarjan and Mao, Hongzi and Tatbul, Nesime and Alizadeh, Mohammad and Kraska, Tim},
+  year = {2021},
+  pages = {1275--1288},
+  abstract = {Recent efforts applying machine learning techniques to query optimization have shown few practical gains due to substantive training overhead, inability to adapt to changes, and poor tail performance. Motivated by these difficulties, we introduce Bao (the {\textbackslash}underlineBa ndit {\textbackslash}underlineo ptimizer). Bao takes advantage of the wisdom built into existing query optimizers by providing per-query optimization hints. Bao combines modern tree convolutional neural networks with Thompson sampling, a well-studied reinforcement learning algorithm. As a result, Bao automatically learns from its mistakes and adapts to changes in query workloads, data, and schema. Experimentally, we demonstrate that Bao can quickly learn strategies that improve end-to-end query execution performance, including tail latency, for several workloads containing long-running queries. In cloud environments, we show that Bao can offer both reduced costs and better performance compared with a commercial system.}
+}
+
+@article{mckusick1984fast,
+  title = {A Fast File System for {{UNIX}}},
+  author = {McKusick, Marshall K and Joy, William N and Leffler, Samuel J and Fabry, Robert S},
+  year = {1984},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  volume = {2},
+  number = {3},
+  pages = {181--197},
+  publisher = {{ACM New York, NY, USA}}
+}
+
+@article{mohan1992aries,
+  title = {{{ARIES}}: {{A}} Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging},
+  author = {Mohan, Chandrasekaran and Haderle, Don and Lindsay, Bruce and Pirahesh, Hamid and Schwarz, Peter},
+  year = {1992},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {17},
+  number = {1},
+  pages = {94--162},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {DB2TM, IMS, and TandemTM systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems. ARIES has been implemented, to varying degrees, in IBM's OS/2TM Extended Edition Database Manager, DB2, Workstation Data Save Facility/VM, Starburst and QuickSilver, and in the University of Wisconsin's EXODUS and Gamma database machine.}
+}
+
+@inproceedings{mohan1999repeating,
+  title = {Repeating History beyond {{ARIES}}},
+  booktitle = {{{VLDB}}},
+  author = {Mohan, C},
+  year = {1999},
+  volume = {99},
+  pages = {7--10}
+}
+
+@inproceedings{nathan2020learning,
+  title = {Learning Multi-Dimensional Indexes},
+  booktitle = {Proceedings of the 2020 {{ACM SIGMOD}} International Conference on Management of Data},
+  author = {Nathan, Vikram and Ding, Jialin and Alizadeh, Mohammad and Kraska, Tim},
+  year = {2020},
+  pages = {985--1000},
+  abstract = {Scanning and filtering over multi-dimensional tables are key operations in modern analytical database engines. To optimize the performance of these operations, databases often create clustered indexes over a single dimension or multi-dimensional indexes such as R-Trees, or use complex sort orders (e.g., Z-ordering). However, these schemes are often hard to tune and their performance is inconsistent across different datasets and queries. In this paper, we introduce Flood, a multi-dimensional in-memory read-optimized index that automatically adapts itself to a particular dataset and workload by jointly optimizing the index structure and data storage layout. Flood achieves up to three orders of magnitude faster performance for range scans with predicates than state-of-the-art multi-dimensional indexes or sort orders on real-world datasets and workloads. Our work serves as a building block towards an end-to-end learned database system.}
+}
+
+@article{neumann2011efficiently,
+  title = {Efficiently Compiling Efficient Query Plans for Modern Hardware},
+  author = {Neumann, Thomas},
+  year = {2011},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {4},
+  number = {9},
+  pages = {539--550},
+  publisher = {{VLDB Endowment}},
+  abstract = {As main memory grows, query performance is more and more determined by the raw CPU costs of query processing itself. The classical iterator style query processing technique is very simple and exible, but shows poor performance on modern CPUs due to lack of locality and frequent instruction mispredictions. Several techniques like batch oriented processing or vectorized tuple processing have been proposed in the past to improve this situation, but even these techniques are frequently out-performed by hand-written execution plans. In this work we present a novel compilation strategy that translates a query into compact and efficient machine code using the LLVM compiler framework. By aiming at good code and data locality and predictable branch layout the resulting code frequently rivals the performance of hand-written C++ code. We integrated these techniques into the HyPer main memory database system and show that this results in excellent query performance while requiring only modest compilation time.}
 }
 
 @article{o1996log,
@@ -286,6 +730,36 @@
   file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/papadias2003optimal.pdf}
 }
 
+@article{park2008reconfigurable,
+  title = {A Reconfigurable {{FTL}} (Flash Translation Layer) Architecture for {{NAND}} Flash-Based Applications},
+  author = {Park, Chanik and Cheon, Wonmoon and Kang, Jeonguk and Roh, Kangho and Cho, Wonhee and Kim, Jin-Soo},
+  year = {2008},
+  journal = {ACM Transactions on Embedded Computing Systems (TECS)},
+  volume = {7},
+  number = {4},
+  pages = {1--23},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {In this article, a novel FTL (flash translation layer) architecture is proposed for NAND flash-based applications such as MP3 players, DSCs (digital still cameras) and SSDs (solid-state drives). Although the basic function of an FTL is to translate a logical sector address to a physical sector address in flash memory, efficient algorithms of an FTL have a significant impact on performance as well as the lifetime. After the dominant parameters that affect the performance and endurance are categorized, the design space of the FTL architecture is explored based on a diverse workload analysis. With the proposed FTL architectural framework, it is possible to decide which configuration of FTL mapping parameters yields the best performance, depending on the differing characteristics of various NAND flash-based applications.}
+}
+
+@inproceedings{patterson1988case,
+  title = {A Case for Redundant Arrays of Inexpensive Disks ({{RAID}})},
+  booktitle = {Proceedings of the 1988 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Patterson, David A and Gibson, Garth and Katz, Randy H},
+  year = {1988},
+  pages = {109--116},
+  abstract = {Increasing performance of CPUs and memories will be squandered if not matched by a similar performance increase in I/O. While the capacity of Single Large Expensive Disks (SLED) has grown rapidly, the performance improvement of SLED has been modest. Redundant Arrays of Inexpensive Disks (RAID), based on the magnetic disk technology developed for personal computers, offers an attractive alternative to SLED, promising improvements of an order of magnitude in performance, reliability, power consumption, and scalability. This paper introduces five levels of RAIDs, giving their relative cost/performance, and compares RAID to an IBM 3380 and a Fujitsu Super Eagle.}
+}
+
+@inproceedings{pavlo2017self,
+  title = {Self-Driving Database Management Systems.},
+  booktitle = {{{CIDR}}},
+  author = {Pavlo, Andrew and Angulo, Gustavo and Arulraj, Joy and Lin, Haibin and Lin, Jiexi and Ma, Lin and Menon, Prashanth and Mowry, Todd C and Perron, Matthew and Quah, Ian and others},
+  year = {2017},
+  volume = {4},
+  pages = {1}
+}
+
 @inproceedings{pillai2013extending,
   title = {Extending High-Dimensional Indexing Techniques Pyramid and Iminmax ({{{\texttheta}}}): {{Lessons}} Learned},
   booktitle = {Big Data: 29th British National Conference on Databases, {{BNCOD}} 2013, Oxford, {{UK}}, July 8-10, 2013. {{Proceedings}} 29},
@@ -294,6 +768,16 @@
   pages = {253--267},
   publisher = {{Springer}},
   abstract = {Pyramid Technique and iMinMax({\texttheta}) are two popular high-dimensional indexing approaches that map points in a high-dimensional space to a single-dimensional index. In this work, we perform the first independent experimental evaluation of Pyramid Technique and iMinMax({\texttheta}), and discuss in detail promising extensions for testing k-Nearest Neighbor (kNN) and range queries. For datasets with skewed distributions, the parameters of these algorithms must be tuned to maintain balanced partitions. We show that, by using the medians of the distribution we can optimize these parameters. For the Pyramid Technique, different approximate median methods on data space partitioning are experimentally compared using kNN queries. For the iMinMax({\texttheta}), the default parameter setting and parameters tuned using the distribution median are experimentally compared using range queries. Also, as proposed in the iMinMax({\texttheta}) paper, we investigated the benefit of maintaining a parameter to account for the skewness of each dimension separately instead of a single parameter over all the dimensions.}
+}
+
+@inproceedings{prabhakaran2005analysis,
+  title = {Analysis and Evolution of Journaling File Systems.},
+  booktitle = {{{USENIX}} Annual Technical Conference, General Track},
+  author = {Prabhakaran, Vijayan and {Arpaci-Dusseau}, Andrea C and {Arpaci-Dusseau}, Remzi H},
+  year = {2005},
+  volume = {194},
+  pages = {196--215},
+  abstract = {We develop and apply two new methods for analyzing file system behavior and evaluating file system changes. First, semantic block-level analysis (SBA) combines knowledge of on-disk data structures with a trace of disk traffic to infer file system behavior; in contrast to standard benchmarking approaches, SBA enables users to understand why the file system behaves as it does. Second, semantic trace playback (STP) enables traces of disk traffic to be easily modified to represent changes in the file system implementation; in contrast to directly modifying the file system, STP enables users to rapidly gauge the benefits of new policies. We use SBA to analyze Linux ext3, ReiserFS, JFS, and Windows NTFS; in the process, we uncover many strengths and weaknesses of these journaling file systems. We also apply STP to evaluate several modifications to ext3, demonstrating the benefits of various optimizations without incurring the costs of a real implementation.}
 }
 
 @article{qiao2019hyper,
@@ -308,11 +792,44 @@
   abstract = {In distributed query processing, data shuffle is one of the most costly operations. We examined scaling limitations to data shuffle that current systems and the research literature do not solve. As the number of input and output partitions increases, na{\"i}ve shuffling will result in high fan-out and fan-in. There are practical limits to fan-out, as a consequence of limits on memory buffers, network ports and I/O handles. There are practical limits to fan-in because it multiplies the communication errors due to faults in commodity clusters impeding progress. Existing solutions that limit fan-out and fan-in do so at the cost of scaling quadratically in the number of nodes in the data flow graph. This dominates the costs of shuffling large datasets. We propose a novel algorithm called Hyper Dimension Shuffle that we have introduced in production in SCOPE, Microsoft's internal big data analytics system. Hyper Dimension Shuffle is inspired by the divide and conquer concept, and utilizes a recursive partitioner with intermediate aggregations. It yields quasilinear complexity of the shuffling graph with tight guarantees on fan-out and fan-in. We demonstrate how it avoids the shuffling graph blow-up of previous algorithms to shuffle at petabyte-scale efficiently on both synthetic benchmarks and real applications.}
 }
 
+@inproceedings{rao2000making,
+  title = {Making {{B}}+-Trees Cache Conscious in Main Memory},
+  booktitle = {Proceedings of the 2000 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Rao, Jun and Ross, Kenneth A},
+  year = {2000},
+  pages = {475--486},
+  abstract = {Previous research has shown that cache behavior is important for main memory index structures. Cache conscious index structures such as Cache Sensitive Search Trees (CSS-Trees) perform lookups much faster than binary search and T-Trees. However, CSS-Trees are designed for decision support workloads with relatively static data. Although B+-Trees are more cache conscious than binary search and T-Trees, their utilization of a cache line is low since half of the space is used to store child pointers. Nevertheless, for applications that require incremental updates, traditional B+-Trees perform well. Our goal is to make B+-Trees as cache conscious as CSS-Trees without increasing their update cost too much. We propose a new indexing technique called ``Cache Sensitive B+-Trees'' (CSB+-Trees). It is a variant of B+-Trees that stores all the child nodes of any given node contiguously, and keeps only the address of the first child in each node. The rest of the children can be found by adding an offset to that address. Since only one child pointer is stored explicitly, the utilization of a cache line is high. CSB+-Trees support incremental updates in a way similar to B+-Trees. We also introduce two variants of CSB+-Trees. Segmented CSB+-Trees divide the child nodes into segments. Nodes within the same segment are stored contiguously and only pointers to the beginning of each segment are stored explicitly in each node. Segmented CSB+-Trees can reduce the copying cost when there is a split since only one segment needs to be moved. Full CSB+-Trees preallocate space for the full node group and thus reduce the split cost. Our performance studies show that CSB+-Trees are useful for a wide range of applications.}
+}
+
 @misc{RelativePerformanceRust,
   title = {The Relative Performance of {{C}} and {{Rust}} {\textendash} {{The Observation Deck}}},
   urldate = {2023-11-27},
   howpublished = {https://bcantrill.dtrace.org/2018/09/28/the-relative-performance-of-c-and-rust/},
   file = {/Users/jayithac/Zotero/storage/GK2LPT4K/the-relative-performance-of-c-and-rust.html}
+}
+
+@article{ritchie1978unix,
+  title = {The {{UNIX}} Time-Sharing System},
+  author = {Ritchie, Dennis M and Thompson, Ken},
+  year = {1978},
+  journal = {Bell System Technical Journal},
+  volume = {57},
+  number = {6},
+  pages = {1905--1929},
+  publisher = {{Wiley Online Library}},
+  abstract = {unix* is a general-purpose, multi-user, interactive operating system for the larger Digital Equipment Corporation pdp-11 and the Interdata 8/32 computers. It offers a number of features seldom found even in larger operating systems, including (i) A hierarchical file system incorporating demountable volumes, (ii) Compatible file, device, and inter-process I/O, (iii) The ability to initiate asynchronous processes, (iv) System command language selectable on a per-user basis, (v) Over 100 subsystems including a dozen languages, (vi) High degree of portability. This paper discusses the nature and implementation of the file system and of the user command interface.}
+}
+
+@article{rosenblum1992design,
+  title = {The Design and Implementation of a Log-Structured File System},
+  author = {Rosenblum, Mendel and Ousterhout, John K},
+  year = {1992},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  volume = {10},
+  number = {1},
+  pages = {26--52},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {This paper presents a new technique for disk storage management called a log-structured file system. A log-structured file system writes all modifications to disk sequentially in a log-like structure, thereby speeding up both file writing and crash recovery. The log is the only structure on disk; it contains indexing information so that files can be read back from the log efficiently. In order to maintain large free areas on disk for fast writing, we divide the log intosegmentsand use a segment cleaner to compress the live information from heavily fragmented segments. We present a series of simulations that demonstrate the efficiency of a simple cleaning policy based on cost and benefit. We have implemented a prototype log-structured file system called Sprite LFS; it outperforms current Unix file systems by an order of magnitude for small-file writes while matching or exceeding Unix performance for reads and large writes. Even when the overhead for cleaning is included, Sprite LFS can use 70\% of the disk bandwidth for writing, whereas Unix file systems typically can use only 5{\textendash}10\%.}
 }
 
 @misc{RustCollectionsCase,
@@ -322,11 +839,80 @@
   file = {/Users/jayithac/Zotero/storage/3RG6QI6Y/rust-btree-case.html}
 }
 
+@article{sabek2022can,
+  title = {Can Learned Models Replace Hash Functions?},
+  author = {Sabek, Ibrahim and Vaidya, Kapil and Horn, Dominik and Kipf, Andreas and Mitzenmacher, Michael and Kraska, Tim},
+  year = {2022},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {16},
+  number = {3},
+  pages = {532--545},
+  publisher = {{VLDB Endowment}},
+  abstract = {Hashing is a fundamental operation in database management, playing a key role in the implementation of numerous core database data structures and algorithms. Traditional hash functions aim to mimic a function that maps a key to a random value, which can result in collisions, where multiple keys are mapped to the same value. There are many well-known schemes like chaining, probing, and cuckoo hashing to handle collisions. In this work, we aim to study if using learned models instead of traditional hash functions can reduce collisions and whether such a reduction translates to improved performance, particularly for indexing and joins. We show that learned models reduce collisions in some cases, which depend on how the data is distributed. To evaluate the effectiveness of learned models as hash function, we test them with bucket chaining, linear probing, and cuckoo hash tables. We find that learned models can (1) yield a 1.4x lower probe latency, and (2) reduce the non-partitioned hash join runtime with 28\% over the next best baseline for certain datasets. On the other hand, if the data distribution is not suitable, we either do not see gains or see worse performance. In summary, we find that learned models can indeed outperform hash functions, but only for certain data distributions.}
+}
+
+@article{saltzer1984end,
+  title = {End-to-End Arguments in System Design},
+  author = {Saltzer, Jerome H and Reed, David P and Clark, David D},
+  year = {1984},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  volume = {2},
+  number = {4},
+  pages = {277--288},
+  publisher = {{Acm New York, NY, USA}}
+}
+
 @phdthesis{samuel2021hydroflow,
   title = {Hydroflow: {{A}} Model and Runtime for Distributed Systems Programming},
   author = {Samuel, Mingwei and Hellerstein, Joseph M and Cheung, Alvin},
   year = {2021},
   school = {Master's thesis. EECS Department, University of California, Berkeley. http {\ldots}}
+}
+
+@article{santana2016fast,
+  title = {A Fast and Slippery Slope for File Systems},
+  author = {Santana, Ricardo and Rangaswami, Raju and Tarasov, Vasily and Hildebrand, Dean},
+  year = {2016},
+  journal = {ACM SIGOPS Operating Systems Review},
+  volume = {49},
+  number = {2},
+  pages = {27--34},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {There is a vast number and variety of file systems currently available, each optimizing for an ever growing number of storage devices and workloads. Users have an unprecedented, and somewhat overwhelming, number of data management options. At the same time, the fastest storage devices are only getting faster, and it is unclear on how well the existing file systems will adapt. Using emulation techniques, we evaluate five popular Linux file systems across a range of storage device latencies typical to low-end hard drives, latest high-performance persistent memory block devices, and in between. Our findings are often surprising. Depending on the workload, we find that some file systems can clearly scale with faster storage devices much better than others. Further, as storage device latency decreases, we find unexpected performance inversions across file systems. Finally, file system scalability in the higher device latency range is not representative of scalability in the lower, submillisecond, latency range. We then focus on Nilfs2 as an especially alarming example of an unexpectedly poor scalability and present detailed instructions for identifying bottlenecks in the I/O stack.}
+}
+
+@article{satyanarayanan1994lightweight,
+  title = {Lightweight Recoverable Virtual Memory},
+  author = {Satyanarayanan, Mahadev and Mashburn, Henry H and Kumar, Puneet and Steere, David C and Kistler, James J},
+  year = {1994},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  volume = {12},
+  number = {1},
+  pages = {33--57},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Recoverable virtual memoryrefers to regions of a virtual address space on which transactional guarantees are offered. This article describes RVM, an efficient, portable, and easily used implementation of recoverable virtual memory for Unix environments. A unique characteristic of RVM is that it allows independent control over the transactional properties of atomicity, permanence, and serializability. This leads to considerable flexibility in the use of RVM, potentially enlarging the range of applications that can benefit from transactions. It also simplifies the layering of functionality such as nesting and distribution. The article shows that RVM performs well over its intended range of usage even though it does not benefit from specialized operating system support. It also demonstrates the importance of intra- and inter-transaction optimizations.}
+}
+
+@article{sears2009segment,
+  title = {Segment-Based Recovery: Write-Ahead Logging Revisited},
+  author = {Sears, Russell and Brewer, Eric},
+  year = {2009},
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {2},
+  number = {1},
+  pages = {490--501},
+  publisher = {{VLDB Endowment}},
+  abstract = {Although existing write-ahead logging algorithms scale to conventional database workloads, their communication and synchronization overheads limit their usefulness for modern applications and distributed systems. We revisit write-ahead logging with an eye toward finer-grained concurrency and an increased range of workloads, then remove two core assumptions: that pages are the unit of recovery and that times-tamps (LSNs) should be stored on each page. Recovering individual application-level objects (rather than pages) simplifies the handing of systems with object sizes that differ from the page size. We show how to remove the need for LSNs on the page, which in turn enables DMA or zero-copy I/O for large objects, increases concurrency, and reduces communication between the application, buffer manager and log manager. Our experiments show that the looser coupling significantly reduces the impact of latency among the components. This makes the approach particularly applicable to large scale distributed systems, and enables a "cross pollination" of ideas from distributed systems and transactional storage. However, these advantages come at a cost; segments are incompatible with physiological redo, preventing a number of important optimizations. We show how allocation enables (or prevents) mixing of ARIES pages (and physiological redo) with segments. We present an allocation policy that avoids undesirable interactions that complicate other combinations of ARIES and LSN-free pages, and then present a proof that both approaches and our combination are correct. Many optimizations presented here were proposed in the past. However, we believe this is the first unified approach.}
+}
+
+@inproceedings{shapiro2011conflict,
+  title = {Conflict-Free Replicated Data Types},
+  booktitle = {Stabilization, Safety, and Security of Distributed Systems: 13th International Symposium, {{SSS}} 2011, Grenoble, France, October 10-12, 2011. {{Proceedings}} 13},
+  author = {Shapiro, Marc and Pregui{\c c}a, Nuno and Baquero, Carlos and Zawirski, Marek},
+  year = {2011},
+  pages = {386--400},
+  publisher = {{Springer}},
+  abstract = {Replicating data under Eventual Consistency (EC) allows any replica to accept updates without remote synchronisation. This ensures performance and scalability in large-scale distributed systems (e.g., clouds). However, published EC approaches are ad-hoc and error-prone. Under a formal Strong Eventual Consistency (SEC) model, we study sufficient conditions for convergence. A data type that satisfies these conditions is called a Conflict-free Replicated Data Type (CRDT). Replicas of any CRDT are guaranteed to converge in a self-stabilising manner, despite any number of failures. This paper formalises two popular approaches (state- and operation-based) and their relevant sufficient conditions. We study a number of useful CRDTs, such as sets with clean semantics, supporting both add and remove operations, and consider in depth the more complex Graph data type. CRDT types can be composed to develop large-scale distributed applications, and have interesting theoretical properties.}
 }
 
 @misc{shneorWritingStorageEngine2021,
@@ -355,12 +941,28 @@
   file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/slaney2008locality.pdf}
 }
 
+@incollection{stonebraker1976design,
+  title = {The Design and Implementation of {{INGRES}}},
+  booktitle = {Making Databases Work: The Pragmatic Wisdom of Michael Stonebraker},
+  author = {Stonebraker, Michael and Wong, Eugene and Kreps, Peter and Held, Gerald},
+  year = {1976},
+  pages = {561--605}
+}
+
 @article{sun2019end,
   title = {An End-to-End Learning-Based Cost Estimator},
   author = {Sun, Ji and Li, Guoliang},
   year = {2019},
   journal = {VLDB},
   abstract = {Cost and cardinality estimation is vital to query optimizer, which can guide the plan selection. However traditional empirical cost and cardinality estimation techniques cannot provide high-quality estimation, because they cannot capture the correlation between multiple columns. Recently the database community shows that the learning-based cardinality estimation is better than the empirical methods. However, existing learning-based methods have several limitations. Firstly, they can only estimate the cardinality, but cannot estimate the cost. Secondly, convolutional neural network (CNN) with average pooling is hard to represent complicated structures, e.g., complex predicates, and the model is hard to be generalized. To address these challenges, we propose an effective end-to-end learning-based cost estimation framework based on a tree-structured model, which can estimate both cost and cardinality simultaneously. To the best of our knowledge, this is the first end-to-end cost estimator based on deep learning. We propose effective feature extraction and encoding techniques, which consider both queries and physical operations in feature extraction. We embed these features into our tree-structured model. We propose an effective method to encode string values, which can improve the generalization ability for predicate matching. As it is prohibitively expensive to enumerate all string values, we design a patten-based method, which selects patterns to cover string values and utilizes the patterns to embed string values. We conducted experiments on real-world datasets and experimental results showed that our method outperformed baselines.}
+}
+
+@inproceedings{sweeney1996scalability,
+  title = {Scalability in the {{XFS}} File System.},
+  booktitle = {{{USENIX}} Annual Technical Conference},
+  author = {Sweeney, Adam and Doucette, Doug and Hu, Wei and Anderson, Curtis and Nishimoto, Mike and Peck, Geoff},
+  year = {1996},
+  volume = {15}
 }
 
 @inproceedings{tan2001efficient,
@@ -377,6 +979,14 @@
   title = {The {{TiKV}} Blog | {{Building}} a {{Large-scale Distributed Storage System Based}} on {{Raft}}},
   urldate = {2023-11-27},
   howpublished = {https://tikv.org/blog/building-distributed-storage-system-on-raft/}
+}
+
+@inproceedings{waldspurger1994lottery,
+  title = {Lottery Scheduling: {{Flexible}} Proportional-Share Resource Management},
+  booktitle = {Proceedings of the 1st {{USENIX}} Conference on Operating Systems Design and Implementation},
+  author = {Waldspurger, Carl A and Weihl, William E},
+  year = {1994},
+  pages = {1--es}
 }
 
 @inproceedings{wang2018building,
@@ -403,6 +1013,30 @@
   keywords = {acyclic joins,conjunctive query,inequality joins}
 }
 
+@article{welsh2001seda,
+  title = {{{SEDA}}: {{An}} Architecture for Well-Conditioned, Scalable Internet Services},
+  author = {Welsh, Matt and Culler, David and Brewer, Eric},
+  year = {2001},
+  journal = {ACM SIGOPS operating systems review},
+  volume = {35},
+  number = {5},
+  pages = {230--243},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {We propose a new design for highly concurrent Internet services, which we call the staged event-driven architecture (SEDA). SEDA is intended to support massive concurrency demands and simplify the construction of well-conditioned services. In SEDA, applications consist of a network of event-driven stages connected by explicit queues. This architecture allows services to be well-conditioned to load, preventing resources from being overcommitted when demand exceeds service capacity. SEDA makes use of a set of dynamic resource controllers to keep stages within their operating regime despite large fluctuations in load. We describe several control mechanisms for automatic tuning and load conditioning, including thread pool sizing, event batching, and adaptive load shedding. We present the SEDA design and an implementation of an Internet services platform based on this architecture. We evaluate the use of SEDA through two applications: a high-performance HTTP server and a packet router for the Gnutella peer-to-peer file sharing network. These results show that SEDA applications exhibit higher performance than traditional service designs, and are robust to huge variations in load.}
+}
+
+@article{wilkes1996hp,
+  title = {The {{HP AutoRAID}} Hierarchical Storage System},
+  author = {Wilkes, John and Golding, Richard and Staelin, Carl and Sullivan, Tim},
+  year = {1996},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  volume = {14},
+  number = {1},
+  pages = {108--136},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Configuring redundant disk arrays is a black art. To configure an array properly, a system administrator must understand the details of both the array and the workload it will support. Incorrect understanding of either, or changes in the workload over time, can lead to poor performance. We present a solution to this problem: a two-level storage hierarchy implemented inside a single disk-array controller. In the upper level of this hierarchy, two copies of active data are stored to provide full redundancy and excellent performance. In the lower level, RAID 5 parity protection is used to provide excellent storage cost for inactive data, at somewhat lower performance. The technology we describe in this article, know as HP AutoRAID, automatically and transparently manages migration of data blocks between these two levels as access patterns change. The result is a fully redundant storage system that is extremely easy to use, is suitable for a wide variety of workloads, is largely insensitive to dynamic workload changes, and performs much better than disk arrays with comparable numbers of spindles and much larger amounts of front-end RAM cache. Because the implementation of the HP AutoRAID technology is almost entirely in software, the additional hardware cost for these benefits is very small. We describe the HP AutoRAID technology in detail, provide performance data for an embodiment of it in a storage array, and summarize the results of simulation studies used to choose algorithms implemented in the array.}
+}
+
 @article{wu2019anna,
   title = {Anna: {{A}} Kvs for Any Scale},
   author = {Wu, Chenggang and Faleiro, Jose M and Lin, Yihan and Hellerstein, Joseph M},
@@ -413,4 +1047,13 @@
   pages = {344--358},
   publisher = {{IEEE}},
   abstract = {Modern cloud providers offer dense hardware with multiple cores and large memories, hosted in global platforms. This raises the challenge of implementing high-performance software systems that can effectively scale from a single core to multicore to the globe. Conventional wisdom says that software designed for one scale point needs to be rewritten when scaling up by 10 - 100{\texttimes} [1]. In contrast, we explore how a system can be architected to scale across many orders of magnitude by design. We explore this challenge in the context of a new key-value store system called Anna: a partitioned, multi-mastered system that achieves high performance and elasticity via wait-free execution and coordination-free consistency. Our design rests on a simple architecture of coordination-free actors that perform state update via merge of lattice-based composite data structures. We demonstrate that a wide variety of consistency models can be elegantly implemented in this architecture with unprecedented consistency, smooth fine-grained elasticity, and performance that far exceeds the state of the art.}
+}
+
+@inproceedings{yang2022balsa,
+  title = {Balsa: {{Learning}} a Query Optimizer without Expert Demonstrations},
+  booktitle = {Proceedings of the 2022 International Conference on Management of Data},
+  author = {Yang, Zongheng and Chiang, Wei-Lin and Luan, Sifei and Mittal, Gautam and Luo, Michael and Stoica, Ion},
+  year = {2022},
+  pages = {931--944},
+  abstract = {Query optimizers are a performance-critical component in every database system. Due to their complexity, optimizers take experts months to write and years to refine. In this work, we demonstrate for the first time that learning to optimize queries without learning from an expert optimizer is both possible and efficient. We present Balsa, a query optimizer built by deep reinforcement learning. Balsa first learns basic knowledge from a simple, environment-agnostic simulator, followed by safe learning in real execution. On the Join Order Benchmark, Balsa matches the performance of two expert query optimizers, both open-source and commercial, with two hours of learning, and outperforms them by up to 2.8{\texttimes} in workload runtime after a few more hours. Balsa thus opens the possibility of automatically learning to optimize in future compute environments where expert-designed optimizers do not exist.}
 }
