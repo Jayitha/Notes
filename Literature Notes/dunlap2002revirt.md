@@ -1,0 +1,19 @@
+---
+title: "ReVirt: Enabling intrusion analysis through virtual-machine logging and replay"
+authors: George W Dunlap, Samuel T King, Sukru Cinar, Murtaza A Basrai, Peter M Chen
+year: 2002
+url: ""
+Zotero URI: "zotero://select/items/@dunlap2002revirt"
+tags: to-read, George W-Dunlap, Samuel T-King, Sukru-Cinar, Murtaza A-Basrai, Peter M-Chen
+aliases: ReVirt: Enabling intrusion analysis through virtual-machine logging and replay
+---
+
+# ReVirt: Enabling intrusion analysis through virtual-machine logging and replay  
+_George W Dunlap, Samuel T King, Sukru Cinar, Murtaza A Basrai, Peter M Chen (2002)_
+
+Tags: `=join(this.file.tags, " ")`
+
+> [!abstract]-
+> Current system loggers have two problems: they depend on the integrity of the operating system being logged, and they do not save sufficient information to replay and analyze attacks that include any non-deterministic events. ReVirt removes the dependency on the target operating system by moving it into a virtual machine and logging below the virtual machine. This allows ReVirt to replay the system's execution before, during, and after an intruder compromises the system, even if the intruder replaces the target operating system. ReVirt logs enough information to replay a long-term execution of the virtual machine instruction-by-instruction. This enables it to provide arbitrarily detailed observations about what transpired on the system, even in the presence of non-deterministic attacks and executions. ReVirt adds reasonable time and space overhead. Overheads due to virtualization are imperceptible for interactive use and CPU-bound workloads, and 13–58% for kernel-intensive workloads. Logging adds 0–8% overhead, and logging traffic for our workloads can be stored on a single disk for several months.
+
+

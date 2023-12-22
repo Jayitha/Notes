@@ -1,0 +1,19 @@
+---
+title: "Analysis and simulation of a fair queueing algorithm"
+authors: Alan Demers, Srinivasan Keshav, Scott Shenker
+year: 1989
+url: ""
+Zotero URI: "zotero://select/items/@demers1989analysis"
+tags: to-read, Alan-Demers, Srinivasan-Keshav, Scott-Shenker
+aliases: Analysis and simulation of a fair queueing algorithm
+---
+
+# Analysis and simulation of a fair queueing algorithm  
+_Alan Demers, Srinivasan Keshav, Scott Shenker (1989)_
+
+Tags: `=join(this.file.tags, " ")`
+
+> [!abstract]-
+> We discuss gateway queueing algorithms and their role in controlling congestion in datagram networks. A fair queueing algorithm, based on an earlier suggestion by Nagle, is proposed. Analysis and simulations are used to compare this algorithm to other congestion control schemes. We find that fair queueing provides several important advantages over the usual first-come-first-serve queueing algorithm: fair allocation of bandwidth, lower delay for sources using less than their full share of bandwidth, and protection from ill-behaved sources.
+
+

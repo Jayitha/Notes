@@ -26,22 +26,85 @@
 - [[haerder1983principles]]
 - [[gray1981transaction]]
 - [[mohan1992aries]]
-- [[mohan1999repeating]] (Opt)
-- [[kuo1996model]] (Opt)
-- [[graefe2012survey]] (Opt)
+	- [[mohan1999repeating]] (Opt)
+	- [[kuo1996model]] (Opt)
+	- [[graefe2012survey]] (Opt)
 - [[sears2009segment]]
 - [[satyanarayanan1994lightweight]]
 - [[letia2009crdts]]
-- [[shapiro2011conflict]] (Opt)
+	- [[shapiro2011conflict]] (Opt)
 - [[bailis2014coordination]]
-- [[bailis2016scalable]] (Opt)
+	- [[bailis2016scalable]] (Opt)
 - [[lamport2019time]]
 - [[adya1995efficient]]
 - [[waldspurger1994lottery]]
-- [[welsh2001seda]] (Opt)
+	- [[welsh2001seda]] (Opt)
 - [[abeni1998integrating]]
-- [[goossens2003priority]] (Opt)
-- [[baruah2002implementing]] (Opt)
-- 
+	- [[goossens2003priority]] (Opt)
+	- [[baruah2002implementing]] (Opt)
+- [[pan2010composing]]
+	- [[blumofe1995cilk]]
+	- [[pan2009lithe]]
+- [[ghodsi2011dominant]]
+	- [[demers1989analysis]]
+- [[bugnion1997disco]]
+- [[barham2003xen]]
+	- [[hand2005virtual]]
+- [[clark2005live]]
+- [[satyanarayanan2009case]]
+- [[wolbach2008transient]]
+	- [[dunlap2002revirt]]
+	- [[lagar2009snowflock]]
+- [[ha2017you]]
+	- [[abe2016urgent]]
+	- [[satyanarayanan2017emergence]]
+- [[mor2019global]]
+	- [[mor2016toward]]
+	- [[zhang2015cloud]]
+- [[stoica2003chord]]
+- [[zhao2004tapestry]]
+	- [[rhea2004handling]]
+	- [[zhao2001tapestry]]
+	- [[rowstron2001pastry]]
+- [[decandia2007dynamo]]
+	- [[rowstronstorage]]
+- [[rhea2003pond]]
+	- [[kubiatowicz2000oceanstore]]
+- [[chandra2007paxos]]
+	- [[lamport1998part]]
+	- [[lamport2001paxos]]
+- [[ongaro2014search]]
+- [[lamport1982byzantine]]
+- [[castro1999practical]]
+	- [[gueta2019sbft]]
+	- [[chun2007attested]]
+	- [[castro2000proactive]]
+- [[ghemawat2003google]]
+- [[chang2008bigtable]]
+	- [[burrows2006chubby]]
+- [[pavlo2009comparison]]
+	- [[dean2008mapreduce]]
+	- [[stonebraker2010mapreduce]]
+	- [[abouzeid2009hadoopdb]]
+- [[zaharia2010spark]]
+	- [[zaharia2012resilient]]
+- [[stonebraker2018c]]
+	- [[lamb2012vertica]]
+	- [[abadi2013design]]
+	- [[bruno2009teaching]]
+- [[schuhknecht2013uncracked]]
+	- [[idreos2007database]]
+- [[engler1995exokernel]]
+	- [[bershad1994spin]]
+- [[klein2009sel4]]
+	- [[klein2014comprehensive]]
+	- [[rashd1991microkernel]]
+	- [[liedtke1996toward]]
+- [[zeldovich2011making]]
+	- [[efstathopoulos2005labels]]
+- [[chen2015using]]
+- [[lipp2020meltdown]]
+- [[kocher2020spectre]]
+	- [[van2018foreshadow]]
 - 
 - 

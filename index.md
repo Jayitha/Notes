@@ -13,6 +13,7 @@ SORT substring(file.name, 0, 1) ASC
 
 ## Streams
 
+[[UC Berkeley's CS286 - Graduate Database Systems]]
 [[Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems]]
 [[UC Berkeley's CS264a - Advanced Topics in Computer Systems]]
 ## Currently Reading
@@ -33,11 +34,5 @@ GROUP BY year
 SORT year DESC
 ```
 
-## To Read
+## [[To-Read]]
 
-```dataview
-LIST link(rows.file.link, rows.file.frontmatter.title) 
-FROM "Literature Notes" AND #to-read  
-GROUP BY year
-SORT year DESC
-```

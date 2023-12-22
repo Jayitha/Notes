@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d26ed8bf3393561b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tim-Kraska",
+                "query": "tag:Andreas-Kipf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "To-Read.md"
               }
             }
           },
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "To-Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "To-Read.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -179,20 +192,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "11802f7b03bb56fc",
+        "id": "5ae244179c9eb6d9",
         "type": "window",
         "children": [
           {
-            "id": "b29f435c75aff1d5",
+            "id": "82909f2f5f861048",
             "type": "tabs",
             "children": [
               {
-                "id": "cb2ad82522bd6648",
+                "id": "0ef234dfd72773d2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "index.md",
+                    "file": "To-Read.md",
                     "mode": "preview",
                     "source": false
                   }
@@ -211,44 +224,44 @@
       }
     ]
   },
-  "active": "cb2ad82522bd6648",
+  "active": "0ef234dfd72773d2",
   "lastOpenFiles": [
-    "docs/literature-notes/prabhakaran2005analysis.html",
-    "docs/literature-notes/patterson1988case.html",
-    "docs/literature-notes/park2008reconfigurable.html",
-    "docs/literature-notes/mohan1999repeating.html",
-    "docs/literature-notes/mohan1992aries.html",
-    "docs/literature-notes/mckusick1984fast.html",
-    "docs/literature-notes/letia2009crdts.html",
-    "docs/literature-notes/lee2015f2fs.html",
-    "docs/literature-notes/lamport2019time.html",
-    "docs/literature-notes/kuo1996model.html",
-    "docs/literature-notes/hellwig2009xfs.html",
+    "docs/literature-notes/schuhknecht2013uncracked.html",
+    "docs/literature-notes/satyanarayanan2017emergence.html",
+    "docs/literature-notes/satyanarayanan2009case.html",
+    "docs/literature-notes/rowstronstorage.html",
+    "docs/literature-notes/rowstron2001pastry.html",
+    "docs/literature-notes/rhea2004handling.html",
+    "docs/literature-notes/rhea2003pond.html",
+    "docs/literature-notes/rashd1991microkernel.html",
+    "docs/literature-notes/pavlo2009comparison.html",
+    "docs/literature-notes/pan2010composing.html",
+    "docs/literature-notes/pan2009lithe.html",
+    "index.md",
     "TIL/TIL - Rust.md",
+    "Misc/UC Berkeley's CS286 - Graduate Database Systems.md",
     "Misc/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
     "Misc/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
+    "Literature Notes/zhao2004tapestry.md",
+    "Literature Notes/zhao2001tapestry.md",
+    "Literature Notes/zhang2015cloud.md",
+    "Literature Notes/zeldovich2011making.md",
+    "Literature Notes/zaharia2012resilient.md",
+    "Literature Notes/zaharia2010spark.md",
     "Literature Notes/yang2022balsa.md",
+    "Literature Notes/wolbach2008transient.md",
     "Literature Notes/wilkes1996hp.md",
     "Literature Notes/welsh2001seda.md",
     "Literature Notes/waldspurger1994lottery.md",
+    "Literature Notes/van2018foreshadow.md",
     "Literature Notes/sweeney1996scalability.md",
+    "Literature Notes/stonebraker2018c.md",
+    "Literature Notes/stonebraker2010mapreduce.md",
     "Literature Notes/stonebraker1976design.md",
+    "Literature Notes/stoica2003chord.md",
     "Literature Notes/slaney2008locality.md",
     "Literature Notes/shapiro2011conflict.md",
     "Literature Notes/sears2009segment.md",
-    "Literature Notes/satyanarayanan1994lightweight.md",
-    "Literature Notes/santana2016fast.md",
-    "Literature Notes/saltzer1984end.md",
-    "Literature Notes/sabek2022can.md",
-    "Literature Notes/rosenblum1992design.md",
-    "Literature Notes/ritchie1978unix.md",
-    "Literature Notes/rao2000making.md",
-    "Literature Notes/prabhakaran2005analysis.md",
-    "Literature Notes/pavlo2017self.md",
-    "Literature Notes/patterson1988case.md",
-    "Literature Notes/park2008reconfigurable.md",
-    "Literature Notes/ooi2000indexing.md",
-    "Literature Notes/o1996log.md",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",
