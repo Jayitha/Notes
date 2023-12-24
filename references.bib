@@ -95,6 +95,18 @@
   publisher = {{Springer}}
 }
 
+@article{agrawal1987concurrency,
+  title = {Concurrency Control Performance Modeling: {{Alternatives}} and Implications},
+  author = {Agrawal, Rakesh and Carey, Michael J and Livny, Miron},
+  year = {1987},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {12},
+  number = {4},
+  pages = {609--654},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {A number of recent studies have examined the performance of concurrency control algorithms for database management systems. The results reported to date, rather than being definitive, have tended to be contradictory. In this paper, rather than presenting ``yet another algorithm performance study,'' we critically investigate the assumptions made in the models used in past studies and their implications. We employ a fairly complete model of a database environment for studying the relative performance of three different approaches to the concurrency control problem under a variety of modeling assumptions. The three approaches studied represent different extremes in how transaction conflicts are dealt with, and the assumptions addressed pertain to the nature of the database system's resources, how transaction restarts are modeled, and the amount of information available to the concurrency control algorithm about transactions' reference strings. We show that differences in the underlying assumptions explain the seemingly contradictory performance results. We also address the question of how realistic the various assumptions are for actual database systems.}
+}
+
 @article{albutiu2012massively,
   title = {Massively Parallel Sort-Merge Joins in Main Memory Multi-Core Database Systems},
   author = {Albutiu, Martina-Cezara and Kemper, Alfons and Neumann, Thomas},
@@ -239,6 +251,17 @@
   abstract = {ANSI SQL-92 [MS, ANSI] defines Isolation Levels in terms of phenomena: Dirty Reads, Non-Repeatable Reads, and Phantoms. This paper shows that these phenomena and the ANSI SQL definitions fail to properly characterize several popular isolation levels, including the standard locking implementations of the levels covered. Ambiguity in the statement of the phenomena is investigated and a more formal statement is arrived at; in addition new phenomena that better characterize isolation types are introduced. Finally, an important multiversion isolation type, called Snapshot Isolation, is defined.}
 }
 
+@article{bernstein1981concurrency,
+  title = {Concurrency Control in Distributed Database Systems},
+  author = {Bernstein, Philip A and Goodman, Nathan},
+  year = {1981},
+  journal = {ACM Computing Surveys (CSUR)},
+  volume = {13},
+  number = {2},
+  pages = {185--221},
+  publisher = {{ACM New York, NY, USA}}
+}
+
 @inproceedings{bershad1994spin,
   title = {{{SPIN}}: {{An}} Extensible Microkernel for Application-Specific Operating System Services},
   booktitle = {Proceedings of the 6th Workshop on {{ACM SIGOPS European}} Workshop: {{Matching}} Operating Systems to Application Needs},
@@ -302,6 +325,14 @@
   file = {/Users/jayithac/Zotero/storage/5Q8F2G3B/super-let.html}
 }
 
+@book{brodie2018making,
+  title = {Making Databases Work: {{The}} Pragmatic Wisdom of {{Michael Stonebraker}}},
+  author = {Brodie, Michael L},
+  year = {2018},
+  publisher = {{Association for Computing Machinery and Morgan \& Claypool}},
+  abstract = {At the ACM Awards banquet in June 2017, during the 50th anniversary celebration of the A.M. Turing Award, ACM announced the launch of the ACM A.M. Turing Book Series, a sub-series of ACM Books, to celebrate the winners of the A.M. Turing Award, computing's highest honor, the "Nobel Prize" for computing. This series aims to highlight the accomplishments of awardees, explaining their major contributions of lasting importance in computing. "Making Databases Work: The Pragmatic Wisdom of Michael Stonebraker," the first book in the series, celebrates Mike's contributions and impact. What accomplishments warranted computing's highest honor? How did Stonebraker do it? Who is Mike Stonebraker---researcher, professor, CTO, lecturer, innovative product developer, serial entrepreneur, and decades-long leader, and research evangelist for the database community. This book describes Mike's many contributions and evaluates them in light of the Turing Award. The book describes, in 36 chapters, the unique nature, significance, and impact of Mike's achievements in advancing modern database systems over more than 40 years. The stories involve technical concepts, projects, people, prototype systems, failures, lucky accidents, crazy risks, startups, products, venture capital, and lots of applications that drove Mike Stonebraker's achievements and career. Even if you have no interest in databases at all, you'll gain insights into the birth and evolution of Turing Award-worthy achievements from the perspectives of 39 remarkable computer scientists and professionals. Today, data is considered the world's most valuable resource ("The Economist," May 6, 2017), whether it is in the tens of millions of databases used to manage the world's businesses and governments, in the billions of databases in our smartphones and watches, or residing elsewhere, as yet unmanaged, awaiting the elusive next generation of database systems. Every one of the millions or billions of databases includes features that are celebrated by the 2014 A.M. Turing Award and are described in this book.}
+}
+
 @misc{brucedawsonComparingFloatingPoint2012,
   title = {Comparing {{Floating Point Numbers}}, 2012 {{Edition}}},
   author = {{brucedawson}},
@@ -351,6 +382,16 @@
   year = {2006},
   pages = {335--350},
   abstract = {We describe our experiences with the Chubby lock service, which is intended to provide coarse-grained locking as well as reliable (though low-volume) storage for a loosely-coupled distributed system. Chubby provides an interface much like a distributed file system with advisory locks, but the design emphasis is on availability and reliability, as opposed to high performance. Many instances of the service have been used for over a year, with several of them each handling a few tens of thousands of clients concurrently. The paper describes the initial design and expected use, compares it with actual use, and explains how the design had to be modified to accommodate the differences.}
+}
+
+@incollection{carey1991architecture,
+  title = {The Architecture of the {{EXODUS}} Extensible {{DBMS}}},
+  booktitle = {On Object-Oriented Database Systems},
+  author = {Carey, Michael J and DeWitt, David J and Frank, Daniel and Graefe, Goetz and Richardson, Joel E and Shekita, Eugene J and Muralikrlshna, M},
+  year = {1991},
+  pages = {231--256},
+  publisher = {{Springer}},
+  abstract = {With non-traditional application areas such as engineering design, image/voice data management, scientific/statistical applications, and artificial intelligence systems all clamoring for ways to store and efficiently process larger and larger volumes of data, it is clear that traditional database technology has been pushed to its limits. It also seems clear that no single database system will be capable of simultaneously meeting the functionality and performance requirements of such a diverse set of applications. In this paper we describe the initial design of EXODUS, an extensible database system that will facilitate the fast development of high-performance, application-specific database systems. EXODUS provides certain kernel facilities, including a versatile storage manager and a type manager. In addition, it provides an architectural framework for building application-specific database systems, tools to partially automate the generation of such systems, and libraries of software components (e.g., access methods) that are likely to be useful for many application domains.}
 }
 
 @inproceedings{castro1999practical,
@@ -485,6 +526,12 @@
   pages = {1--12},
   publisher = {{ACM New York, NY, USA}},
   abstract = {We discuss gateway queueing algorithms and their role in controlling congestion in datagram networks. A fair queueing algorithm, based on an earlier suggestion by Nagle, is proposed. Analysis and simulations are used to compare this algorithm to other congestion control schemes. We find that fair queueing provides several important advantages over the usual first-come-first-serve queueing algorithm: fair allocation of bandwidth, lower delay for sources using less than their full share of bandwidth, and protection from ill-behaved sources.}
+}
+
+@article{dewitt1990gamma,
+  title = {The {{Gamma}} Database Machine Project},
+  author = {DeWitt, David J and Ghandeharizadeh, Shahram and Schneider, Donovan A and Bricker, Allan and Hsiao, Hui-I and Rasmussen, Rick},
+  year = {1990}
 }
 
 @misc{DixinHomepage,
@@ -697,6 +744,15 @@
   abstract = {Database Management Systems (DBMSs) are a ubiquitous and critical component of modern computing, and the result of decades of research and development in both academia and industry. Historically, DBMSs were among the earliest multi-user server systems to be developed, and thus pioneered many systems design techniques for scalability and reliability now in use in many other contexts. While many of the algorithms and abstractions used by a DBMS are textbook material, there has been relatively sparse coverage in the literature of the systems design issues that make a DBMS work. This paper presents an architectural discussion of DBMS design principles, including process models, parallel architecture, storage system design, transaction system implementation, query processor and optimizer architectures, and typical shared components and utilities. Successful commercial and open-source systems are used as points of reference, particularly when multiple alternative designs have been adopted by different groups.}
 }
 
+@incollection{hellerstein2018looking,
+  title = {Looking Back at Postgres},
+  booktitle = {Making Databases Work: The Pragmatic Wisdom of Michael Stonebraker},
+  author = {Hellerstein, Joseph M},
+  year = {2018},
+  pages = {205--224},
+  abstract = {This is a recollection of the UC Berkeley Postgres project, which was led by Mike Stonebraker from the mid-1980's to the mid-1990's. The article was solicited for Stonebraker's Turing Award book, as one of many personal/historical recollections. As a result it focuses on Stonebraker's design ideas and leadership. But Stonebraker was never a coder, and he stayed out of the way of his development team. The Postgres codebase was the work of a team of brilliant students and the occasional university "staff programmers" who had little more experience (and only slightly more compensation) than the students. I was lucky to join that team as a student during the latter years of the project. I got helpful input on this writeup from some of the more senior students on the project, but any errors or omissions are mine. If you spot any such, please contact me and I will try to fix them.}
+}
+
 @article{hellwig2009xfs,
   title = {{{XFS}}: The Big Storage File System for {{Linux}}},
   author = {Hellwig, Christoph},
@@ -763,6 +819,18 @@
   abstract = {The query engines of most modern database systems are either based on vectorization or data-centric code generation. These two state-of-the-art query processing paradigms are fundamentally different in terms of system structure and query execution code. Both paradigms were used to build fast systems. However, until today it is not clear which paradigm yields faster query execution, as many implementation-specific choices obstruct a direct comparison of architectures. In this paper, we experimentally compare the two models by implementing both within the same test system. This allows us to use for both models the same query processing algorithms, the same data structures, and the same parallelization framework to ultimately create an apples-to-apples comparison. We find that both are efficient, but have different strengths and weaknesses. Vectorization is better at hiding cache miss latency, whereas data-centric compilation requires fewer CPU instructions, which benefits cache-resident workloads. Besides raw, single-threaded performance, we also investigate SIMD as well as multi-core parallelization and different hardware architectures. Finally, we analyze qualitative differences as a guide for system architects.}
 }
 
+@article{keshav2007read,
+  title = {How to Read a Paper},
+  author = {Keshav, Srinivasan},
+  year = {2007},
+  journal = {ACM SIGCOMM Computer Communication Review},
+  volume = {37},
+  number = {3},
+  pages = {83--84},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Researchers spend a great deal of time reading research papers. However, this skill is rarely taught, leading to much wasted effort. This article outlines a practical and efficient three-pass method for reading research papers. I also describe how to use this method to do a literature survey.}
+}
+
 @article{kipf2018learned,
   title = {Learned Cardinalities: {{Estimating}} Correlated Joins with Deep Learning},
   author = {Kipf, Andreas and Kipf, Thomas and Radke, Bernhard and Leis, Viktor and Boncz, Peter and Kemper, Alfons},
@@ -806,6 +874,18 @@
   abstract = {Modern processors use branch prediction and speculative execution to maximize performance. For example, if the destination of a branch depends on a memory value that is in the process of being read, CPUs will try to guess the destination and attempt to execute ahead. When the memory value finally arrives, the CPU either discards or commits the speculative computation. Speculative logic is unfaithful in how it executes, can access the victim's memory and registers, and can perform operations with measurable side effects. Spectre attacks involve inducing a victim to speculatively perform operations that would not occur during correct program execution and which leak the victim's confidential information via a side channel to the adversary. This paper describes practical attacks that combine methodology from side-channel attacks, fault attacks, and return-oriented programming that can read arbitrary memory from the victim's process. More broadly, the paper shows that speculative execution implementations violate the security assumptions underpinning numerous software security mechanisms, such as operating system process separation, containerization, just-in-time (JIT) compilation, and countermeasures to cache timing and side-channel attacks. These attacks represent a serious threat to actual systems because vulnerable speculative execution capabilities are found in microprocessors from Intel, AMD, and ARM that are used in billions of devices. Although makeshift processor-specific countermeasures are possible in some cases, sound solutions will require fixes to processor designs as well as updates to instruction set architectures (ISAs) to give hardware architects and software developers a common understanding as to what computation state CPU implementations are (and are not) permitted to leak.}
 }
 
+@article{kornacker1997concurrency,
+  title = {Concurrency and Recovery in Generalized Search Trees},
+  author = {Kornacker, Marcel and Mohan, C and Hellerstein, Joseph M},
+  year = {1997},
+  journal = {ACM SIGMOD Record},
+  volume = {26},
+  number = {2},
+  pages = {62--72},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {This paper presents general algorithms for concurrency control in tree-based access methods as well as a recovery protocol and a mechanism for ensuring repeatable read. The algorithms are developed in the context of the Generalized Search Tree (GiST) data structure, an index structure supporting an extensible set of queries and data types. Although developed in a GiST context, the algorithms are generally applicable to many tree-based access methods. The concurrency control protocol is based on an extension of the link technique originally developed for B-trees, and completely avoids holding node locks during I/Os. Repeatable read isolation is achieved with a novel combination of predicate locks and two-phase locking of data records. To our knowledge, this is the first time that isolation issues have been addressed outside the context of B-trees. A discussion of the fundamental structural differences between B-trees and more general tree structures like GiSTs explains why the algorithms developed here deviate from their B-tree counterparts. An implementation of GiSTs emulating B-trees in DB2/Common Server is underway.}
+}
+
 @inproceedings{kraska2018case,
   title = {The Case for Learned Index Structures},
   booktitle = {Proceedings of the 2018 International Conference on Management of Data},
@@ -841,6 +921,14 @@
   author = {Kubiatowicz, John and Lutz, Ken and Goldberg, Ken and Joseph, Anthony and Gonzalaz, Joseph},
   year = {2018},
   journal = {NSF Proposal}
+}
+
+@inproceedings{kung1979optimality,
+  title = {An Optimality Theory of Concurrency Control for Databases},
+  booktitle = {Proceedings of the 1979 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Kung, Hsing-Tsung and Papadimitriou, Christos H},
+  year = {1979},
+  pages = {116--126}
 }
 
 @article{kuo1996model,
@@ -926,6 +1014,18 @@
   abstract = {F2FS is a Linux file system designed to perform well on modern flash storage devices. The file system builds on append-only logging and its key design decisions were made with the characteristics of flash storage in mind. This paper describes the main design ideas, data structures, algorithms and the resulting performance of F2FS. Experimental results highlight the desirable performance of F2FS; on a state-of-the-art mobile system, it outperforms EXT4 under synthetic workloads by up to 3.1  (iozone) and 2  (SQLite). It reduces elapsed time of several realistic workloads by up to 40\%. On a server system, F2FS is shown to perform better than EXT4 by up to 2.5  (SATA SSD) and 1.8  (PCIe SSD).}
 }
 
+@article{lehman1981efficient,
+  title = {Efficient Locking for Concurrent Operations on {{B-trees}}},
+  author = {Lehman, Philip L and Yao, S Bing},
+  year = {1981},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {6},
+  number = {4},
+  pages = {650--670},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {The B-tree and its variants have been found to be highly useful (both theoretically and in practice) for storing large amounts of information, especially on secondary storage devices. We examine the problem of overcoming the inherent difficulty of concurrent operations on such structures, using a practical storage model. A single additional ``link'' pointer in each node allows a process to easily recover from tree modifications performed by other concurrent processes. Our solution compares favorably with earlier solutions in that the locking scheme is simpler (no read-locks are used) and only a (small) constant number of nodes are locked by any update process at any given time. An informal correctness proof for our system is given.}
+}
+
 @inproceedings{leis2013adaptive,
   title = {The Adaptive Radix Tree: {{ARTful}} Indexing for Main-Memory Databases},
   booktitle = {2013 {{IEEE}} 29th International Conference on Data Engineering ({{ICDE}})},
@@ -1001,6 +1101,26 @@
   langid = {english}
 }
 
+@article{lohman1991extensions,
+  title = {Extensions to {{Starburst}}: {{Objects}}, Types, Functions, and Rules},
+  author = {Lohman, Guy M and Lindsay, Bruce and Pirahesh, Hamid and Schiefer, K Bernhard},
+  year = {1991},
+  journal = {Communications of the ACM},
+  volume = {34},
+  number = {10},
+  pages = {94--109},
+  publisher = {{ACM New York, NY, USA}}
+}
+
+@inproceedings{mackert1986r,
+  title = {R* Optimizer Validation and Performance Evaluation for Local Queries},
+  booktitle = {Proceedings of the 1986 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {Mackert, Lothar F and Lohman, Guy M},
+  year = {1986},
+  pages = {84--95},
+  abstract = {Few database query optimizer models have been validated against actual performance. This paper presents the methodology and results of a thorough validation of the optimizer and evaluation of the performance of the experimental distributed relational database management system R*, which inherited and extended to a distributed environment the optimization algorithms of System R. Optimizer estimated costs and actual R* resources consumed were written to database tables using new SQL commands, permitting automated control from SQL application programs of test data collection and reduction. A number of tests were run over a wide variety of dynamically-created test databases, SQL queries, and system parameters. The results for single-table access, sorting, and local 2-table joins are reported here. The tests confirmed the accuracy of the majority of the I/O cost model, the significant contribution of CPU cost to total cost, and the need to model CPU cost in more detail than was done in System R. The R* optimizer now retains cost components separately and estimates the number of CPU instructions, including those for applying different kinds of predicates. The sensitivity of I/O cost to buffer space motivated the development of more detailed models of buffer utilization unclustered index scans and nested-loop joins often benefit from pages remaining in the buffers, whereas concurrent scans of the data pages and the index pages for multiple tables during joins compete for buffer share. Without an index on the join column of the inner table, the optimizer correctly avoids the nested-loop join, confirming the need for merge-scan joins. When the join column of the inner is indexed, the optimizer overestimates the cost of the nested-loop join, whose actual performance is very sensitive to three parameters that are extremely difficult to estimate (1) the join (result) cardinality, (2) the outer table's cardinality, and (3) the number of buffer pages available to store the inner table. Suggestions are given for improved database statistics, prefetch and page replacement strategies for the buffer manager, and the use of temporary indexes and Bloom filters (hashed semijoins) to reduce access of unneeded data.}
+}
+
 @article{marcus2019neo,
   title = {Neo: {{A}} Learned Query Optimizer},
   author = {Marcus, Ryan and Negi, Parimarjan and Mao, Hongzi and Zhang, Chi and Alizadeh, Mohammad and Kraska, Tim and Papaemmanouil, Olga and Tatbul, Nesime},
@@ -1039,6 +1159,18 @@
   number = {3},
   pages = {181--197},
   publisher = {{ACM New York, NY, USA}}
+}
+
+@article{mohan1986transaction,
+  title = {Transaction Management in the {{R}}* Distributed Database Management System},
+  author = {Mohan, C},
+  year = {1986},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {11},
+  number = {4},
+  pages = {378--396},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {This paper deals with the transaction management aspects of the R* distributed database system. It concentrates primarily on the description of the R* commit protocols, Presumed Abort (PA) and Presumed Commit (PC). PA and PC are extensions of the well-known, two-phase (2P) commit protocol. PA is optimized for read-only transactions and a class of multisite update transactions, and PC is optimized for other classes of multisite update transactions. The optimizations result in reduced intersite message traffic and log writes, and, consequently, a better response time. The paper also discusses R*'s approach toward distributed deadlock detection and resolution.}
 }
 
 @article{mohan1992aries,
@@ -1115,6 +1247,15 @@
   publisher = {{Springer}},
   abstract = {High-performance transaction system applications typically insert rows in a History table to provide an activity trace; at the same time the transaction system generates log records for purposes of system recovery. Both types of generated information can benefit from efficient indexing. An example in a well-known setting is the TPC-A benchmark application, modified to support efficient queries on the history for account activity for specific accounts. This requires an index by account-id on the fast-growing History table. Unfortunately, standard disk-based index structures such as the B-tree will effectively double the I/O cost of the transaction to maintain an index such as this in real time, increasing the total system cost up to fifty percent. Clearly a method for maintaining a real-time index at low cost is desirable. The log-structured mergetree (LSM-tree) is a disk-based data structure designed to provide low-cost indexing for a file experiencing a high rate of record inserts (and deletes) over an extended period. The LSM-tree uses an algorithm that defers and batches index changes, cascading the changes from a memory-based component through one or more disk components in an efficient manner reminiscent of merge sort. During this process all index values are continuously accessible to retrievals (aside from very short locking periods), either through the memory component or one of the disk components. The algorithm has greatly reduced disk arm movements compared to a traditional access methods such as B-trees, and will improve cost-performance in domains where disk arm costs for inserts with traditional access methods overwhelm storage media costs. The LSM-tree approach also generalizes to operations other than insert and delete. However, indexed finds requiring immediate response will lose I/O efficiency in some cases, so the LSM-tree is most useful in applications where index inserts are more common than finds that retrieve the entries. This seems to be a common property for history tables and log files, for example. The conclusions of Sect. 6 compare the hybrid use of memory and disk components in the LSM-tree access method with the commonly understood advantage of the hybrid method to buffer disk pages in memory.},
   file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/o1996log.pdf}
+}
+
+@inproceedings{o1997improved,
+  title = {Improved Query Performance with Variant Indexes},
+  booktitle = {Proceedings of the 1997 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
+  author = {O'Neil, Patrick and Quass, Dallan},
+  year = {1997},
+  pages = {38--49},
+  abstract = {The read-mostly environment of data warehousing makes it possible to use more complex indexes to speed up queries than in situations where concurrent updates are present. The current paper presents a short review of current indexing technology, including row-set representation by Bitmaps, and then introduces two approaches we call Bit-Sliced indexing and Projection indexing. A Projection index materializes all values of a column in RID order, and a Bit-Sliced index essentially takes an orthogonal bit-by-bit view of the same data. While some of these concepts started with the MODEL 204 product, and both Bit-Sliced and Projection indexing are now fully realized in Sybase IQ, this is the first rigorous examination of such indexing capabilities in the literature. We compare algorithms that become feasible with these variant index types against algorithms using more conventional indexes. The analysis demonstrates important performance advantages for variant indexes in some types of SQL aggregation, predicate evaluation, and grouping. The paper concludes by introducing a new method whereby multi-dimensional group-by queries, reminiscent of OLAP/Datacube queries but with more flexibility, can be very efficiently performed.}
 }
 
 @misc{ObsidianMarpElevating2023,
@@ -1320,6 +1461,12 @@
   abstract = {unix* is a general-purpose, multi-user, interactive operating system for the larger Digital Equipment Corporation pdp-11 and the Interdata 8/32 computers. It offers a number of features seldom found even in larger operating systems, including (i) A hierarchical file system incorporating demountable volumes, (ii) Compatible file, device, and inter-process I/O, (iii) The ability to initiate asynchronous processes, (iv) System command language selectable on a per-user basis, (v) Over 100 subsystems including a dozen languages, (vi) High degree of portability. This paper discusses the nature and implementation of the file system and of the user command interface.}
 }
 
+@misc{roscoe2007writing,
+  title = {Writing Reviews for Systems Conferences},
+  author = {Roscoe, Timothy},
+  year = {2007}
+}
+
 @article{rosenblum1992design,
   title = {The Design and Implementation of a Log-Structured File System},
   author = {Rosenblum, Mendel and Ousterhout, John K},
@@ -1512,6 +1659,23 @@
   author = {Stonebraker, Michael and Wong, Eugene and Kreps, Peter and Held, Gerald},
   year = {1976},
   pages = {561--605}
+}
+
+@book{stonebraker1987design,
+  title = {The Design of the {{Postgres}} Storage System},
+  author = {Stonebraker, Michael},
+  year = {1987}
+}
+
+@article{stonebraker1991postgres,
+  title = {The {{POSTGRES}} next Generation Database Management System},
+  author = {Stonebraker, Michael and Kemnitz, Greg},
+  year = {1991},
+  journal = {Communications of the ACM},
+  volume = {34},
+  number = {10},
+  pages = {78--92},
+  publisher = {{ACM New York, NY, USA}}
 }
 
 @incollection{stonebraker2018c,
