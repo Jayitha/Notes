@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1d1b1cdfb71b40",
+        "id": "1b5a067ca7a28b09",
         "type": "tabs",
         "children": [
           {
-            "id": "e5109003eb3cc87d",
+            "id": "361eb1399922f850",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d26ed8bf3393561b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
+                "file": "Literature Notes/gray1984logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,18 +58,18 @@
             }
           },
           {
-            "id": "5ba717ebb38d76b3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "fdb39e9dbfa42947",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ba717ebb38d76b3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
               "state": {}
             }
           }
@@ -89,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243
+    "width": 298
   },
   "right": {
     "id": "27476bb830b20702",
@@ -105,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "To-Read.md"
               }
             }
           },
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "To-Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "To-Read.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -186,44 +174,81 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e5109003eb3cc87d",
+  "floating": {
+    "id": "11fe34d3b36ec2f5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d93e87282e23b74e",
+        "type": "window",
+        "children": [
+          {
+            "id": "111782a609a7feb1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "502942c549b7f1ea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Read.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 510,
+        "y": 500,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "502942c549b7f1ea",
   "lastOpenFiles": [
-    "Literature Notes/brodie2018making.md",
-    "To-Read.md",
-    "index.md",
-    "Misc/UC Berkeley's CS286 - Graduate Database Systems.md",
-    "Literature Notes/kornacker1997concurrency.md",
-    "Literature Notes/o1997improved.md",
-    "Literature Notes/lehman1981efficient.md",
-    "Literature Notes/kung1979optimality.md",
-    "Literature Notes/agrawal1987concurrency.md",
-    "Literature Notes/bernstein1981concurrency.md",
-    "Literature Notes/carey1991architecture.md",
-    "Literature Notes/dewitt1990gamma.md",
-    "Literature Notes/hellerstein2018looking.md",
-    "Literature Notes/stonebraker1991postgres.md",
-    "Literature Notes/stonebraker1987design.md",
-    "Literature Notes/lohman1991extensions.md",
-    "Literature Notes/mackert1986r.md",
-    "Literature Notes/mohan1986transaction.md",
-    "Literature Notes/roscoe2007writing.md",
-    "Literature Notes/keshav2007read.md",
-    "docs/literature-notes/schuhknecht2013uncracked.html",
-    "docs/literature-notes/satyanarayanan2017emergence.html",
-    "docs/literature-notes/satyanarayanan2009case.html",
-    "docs/literature-notes/rowstronstorage.html",
     "docs/literature-notes/rowstron2001pastry.html",
+    "docs/literature-notes/rosenblum1992design.html",
+    "docs/literature-notes/roscoe2007writing.html",
+    "docs/literature-notes/ritchie1978unix.html",
     "docs/literature-notes/rhea2004handling.html",
     "docs/literature-notes/rhea2003pond.html",
+    "docs/literature-notes/revilak2011precisely.html",
+    "docs/literature-notes/rekatsinas2017holoclean.html",
     "docs/literature-notes/rashd1991microkernel.html",
-    "docs/literature-notes/pavlo2009comparison.html",
-    "docs/literature-notes/pan2010composing.html",
+    "docs/literature-notes/rao2000making.html",
+    "docs/literature-notes/raman2002partial.html",
+    "index.md",
     "TIL/TIL - Rust.md",
-    "Misc/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
-    "Misc/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
+    "Streams/UC Berkeley's CS286 - Graduate Database Systems.md",
+    "Streams/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
+    "Streams/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
     "Literature Notes/zhao2004tapestry.md",
     "Literature Notes/zhao2001tapestry.md",
     "Literature Notes/zhang2015cloud.md",
+    "Literature Notes/zeldovich2011making.md",
+    "Literature Notes/zaharia2012resilient.md",
+    "Literature Notes/zaharia2010spark.md",
+    "Literature Notes/yang2022balsa.md",
+    "Literature Notes/yang2019deep.md",
+    "Literature Notes/wu2018towards.md",
+    "Literature Notes/wolbach2008transient.md",
+    "Literature Notes/wilkes1996hp.md",
+    "Literature Notes/welsh2001seda.md",
+    "Literature Notes/weiss2010logoot.md",
+    "Literature Notes/waldspurger1994lottery.md",
+    "Literature Notes/verbitski2018amazon.md",
+    "Literature Notes/verbitski2017amazon.md",
+    "Literature Notes/veldhuizen2012leapfrog.md",
+    "Literature Notes/van2018foreshadow.md",
+    "Literature Notes/szekeres2020meerkat.md",
+    "Literature Notes/sweeney1996scalability.md",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Images/Pasted image 20231007023516.png",
     "Images/Pasted image 20231006101737.png",

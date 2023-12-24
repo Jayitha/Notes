@@ -1,0 +1,112 @@
+# UC Berkeley's CS286 - Graduate Database Systems
+
+[Link to website (2020)](https://cs286berkeley.net/sp20#today)
+[Link to website (2024)](https://cs286berkeley.net/#grading) - We'll try to keep up.
+
+
+
+- [ ] Introduction and Course Overview
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1xYb_nHPbjmVAF_ahUvdRx2OOxI_m9fUP0bpdOUepqXk/edit#heading=h.opw2qul7bk9m)
+	- [ ] [[hellerstein2007architecture]]
+		- [ ] [[chamberlin1981history]]
+		- [ ] [[stonebraker1976design]]
+		- [ ] [Database Genealogy Map](https://hpi.de/naumann/projects/rdbms-genealogy.html)
+		- [ ] [[keshav2007read]]
+		- [ ] [[roscoe2007writing]]
+
+- [ ]  Pioneering Systems Group #1: IBM
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1rOt8eAwTf4iIX-qzIRhatgbOmSJ--mh9Z7F0-ywjo3c/edit?usp=sharing)
+	- [ ] [[mohan1986transaction]]
+	- [ ] [[mackert1986r]]
+		- [ ] [[lohman1991extensions]]
+
+- [ ] Pioneering Systems Group #2: Berkeley
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/14LTjziRp3gCI_g8C8RQzx7dZeUx7PlsOYKX6kWutqiQ/edit?usp=sharing)
+	- [ ] [[stonebraker1991postgres]]
+	- [ ] [[stonebraker1987design]]
+		- [ ] [[hellerstein2018looking]]
+			- [ ] [Second System Effect](https://en.wikipedia.org/wiki/Second-system_effect) and [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
+- [ ] Pioneering Systems Group #3: Wisconsin
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1L9siK1VQn6e9tUWoA3TF16Y6lnEdEnsGte31NuxkdVM/edit#heading=h.opw2qul7bk9m)
+	- [ ] [[dewitt1990gamma]]
+	- [ ] [[carey1991architecture]]
+- [ ] Foundations of Concurrency Control: Bernstein and Goodman
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1mrS7GSb9GYhMo7PyUunfXdS79ZOXIhIoE5OZe9SWr0c/edit?usp=sharing)
+	- [ ] [[bernstein1981concurrency]]
+- [ ] Concurrency Control Performance
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1Huu1zMfD0Zh0rkQ0KoVomLd5RQr5hJdqhrFRMN32bWg/edit?usp=sharing)
+	- [ ] [[agrawal1987concurrency]]
+	- [ ] [[kung1979optimality]]
+- [ ] Indexing
+	- [ ] [[lehman1981efficient]]
+	- [ ] [[o1997improved]]
+	- [ ] [[o1996log]]
+		- [ ] [[kornacker1997concurrency]]
+- [ ] Introduction to Weak Isolation and Replica Consistency
+	- [ ] [Slides](https://drive.google.com/file/d/1hxAO9HCmcICEEgBmo4sPT8-JHMCF870P/view?usp=sharing)
+- [ ] Weak Isolation
+	- [ ] [[adya2000generalized]]
+	- [ ] [[crooks2017seeing]]
+	- [ ] [[revilak2011precisely]]
+		- [ ] [[bailis2016scalable]]
+		- [ ] [[bailis2013highly]]
+- [ ] Introduction to Application-Level Consistency
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1eYKGgqRfhB-KQRD2mC_E8Hm-YVgMkZO2JFd5mfAxJ3E/edit?usp=sharing)
+		- [ ] [[brewer2012cap]]
+		- [ ] [[hellerstein2020keeping]]
+- [ ] Application-Level Consistency
+	- [ ] [[helland2009building]]
+	- [ ] [[conway2012logic]]
+	- [ ] [[weiss2010logoot]]
+		- [ ] [[decandia2007dynamo]]
+		- [ ] [[alvaro2011consistency]]
+		- [ ] [[shapiro2011conflict]]
+- [ ] Introduction to Learning and Database Systems
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1fu-ihMbefbQErcRPcds5Bi2TxF4CxLmamWhvqMN3Mig/edit?usp=sharing)
+	- [ ] [Slides on CARDLearner](https://drive.google.com/file/d/18DMsYodshkmSmJJFS50LfbZK0vIyIqfn/view?usp=sharing)
+	- [ ] [Slides on Naru](https://drive.google.com/file/d/19f3smK7tHueBciHa5I0FAQEXFG_ZHJQc/view?usp=sharing)
+- [ ] Learning-Based Query Optimization
+	- [ ] [[yang2019deep]]
+	- [ ] [[marcus2019neo]]
+	- [ ] [[wu2018towards]]
+- [ ] Query Processing Revisited
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/1clzcplQ_CwQttAlyDmudbyMzmGZywYE9jK9E-zNADwQ/edit?usp=sharing)
+- [ ] New Approaches to Join Processing
+	- [ ] [[veldhuizen2012leapfrog]]
+	- [ ] [[avnur2000eddies]]
+	- [ ] [[deshpande2004lifting]]
+- [ ] Introduction to Approximate Query Processing
+	- [ ] [Lecture Notes](https://docs.google.com/document/d/19IJFdcP_41G9eXDxrTlkyfN9WXzt0l0sUMHd0I0JnHc/edit?usp=sharing)
+		- [ ] [[cormode2017data]]
+		- [ ] [[hellerstein1999interactive]]
+- [ ] Approximate Query Processing
+	- [ ] [[li2016wander]]
+	- [ ] [[rahman2017ve]]
+	- [ ] [[park2018verdictdb]]
+		- [ ] [[hellerstein1997online]]
+		- [ ] [[raman2002partial]]
+		- [ ] [[mozafari2017approximate]]
+- [ ] Main Memory Query Processing
+	- [ ] [[neumann2011efficiently]]
+	- [ ] [[leis2014morsel]]
+	- [ ] [[leis2018leanstore]]
+- [ ] Main Memory Concurrency Control
+	- [ ] [[larson2011high]]
+	- [ ] [[neumann2015fast]]
+	- [ ] [[huang2020opportunities]]
+		- [ ] [[szekeres2020meerkat]]
+- [ ] Programming Support for Database-Backed Applications
+	- [ ] [[bernstein2014orleans]]
+	- [ ] [[cheung2013optimizing]]
+	- [ ] [[bailis2015feral]]
+- [ ] Cloud Databases
+	- [ ] [[corbett2013spanner]]
+	- [ ] [[verbitski2017amazon]]
+	- [ ] [[verbitski2018amazon]]
+- [ ] Data Wrangling and Cleaning
+	- [ ] [[kandel2011wrangler]]
+	- [ ] [[mahdavi2019raha]]
+	- [ ] [[mudgal2018deep]]
+		- [ ] [[rekatsinas2017holoclean]]
+		- [ ] [[singh2016blinkfill]]
+		- [ ] [[krishnan2016activeclean]]

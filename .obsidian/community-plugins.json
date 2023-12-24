@@ -3,11 +3,11 @@
   "notion-like-tables",
   "obsidian-git",
   "dataview",
-  "obsidian-latex",
   "obsidian-citation-plugin",
-  "quick-latex",
   "webpage-html-export",
   "obsidian-advanced-uri",
   "creases",
-  "code-styler"
+  "code-styler",
+  "obsidian-latex",
+  "quick-latex"
 ]
