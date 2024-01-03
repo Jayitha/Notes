@@ -29,3 +29,8 @@ URL - https://pages.cs.wisc.edu/~remzi/OSTEP/
 [[Persistence]]
 # Security
 
+## References
+
+```dataview
+LIST file.frontmatter.title FROM outgoing([[]])
+```

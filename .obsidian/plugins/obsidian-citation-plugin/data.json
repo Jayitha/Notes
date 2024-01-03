@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "{{citekey}}",
   "literatureNoteFolder": "Literature Notes",
-  "literatureNoteContentTemplate": "---\ntitle: \"{{title}}\"\nauthors: {{authorString}}\nyear: {{year}}\nurl: \"{{URL}}\"\nZotero URI: \"{{zoteroSelectURI}}\"\ntags: to-read, {{#each entry.author}}{{this.given}}-{{this.family}}{{#unless @last}}, {{/unless}}{{/each}}\naliases: {{title}}\n---\n\n# {{title}}  \n_{{authorString}} ({{year}})_\n\nTags: `=join(this.file.tags, \" \")`\n\n> [!abstract]-\n> {{abstract}}\n\n\n",
+  "literatureNoteContentTemplate": "---\ntitle: \"{{title}}\"\nauthors: {{authorString}}\nyear: {{year}}\nurl: \"{{URL}}\"\nZotero URI: \"{{zoteroSelectURI}}\"\ntags: to-read, {{#each entry.author}}{{this.given}}-{{this.family}}{{#unless @last}}, {{/unless}}{{/each}}\naliases: {{title}}\n---\n\n# {{title}}  \n_{{authorString}} ({{year}})_\n\nTags: `=join(this.file.tags, \" \")`\n\n> [!abstract]-\n> {{abstract}}\n\n## References\n\n```dataview\nLIST file.frontmatter.title FROM outgoing([[]])\n```\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "",
   "citationExportPath": "references.bib"

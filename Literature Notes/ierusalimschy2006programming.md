@@ -583,7 +583,11 @@ goto s1            -- not needed to start the program
 ## 18 Iterators and the Generic For
 #todo
 
+## References
 
+```dataview
+LIST file.frontmatter.title FROM outgoing([[]])
+```
 
 
 

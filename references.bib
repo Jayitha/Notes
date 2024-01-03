@@ -144,6 +144,18 @@
   publisher = {{Arpaci-Dusseau Books}}
 }
 
+@article{astrahan1976system,
+  title = {System {{R}}: {{Relational}} Approach to Database Management},
+  author = {Astrahan, Morton M. and Blasgen, Mike W. and Chamberlin, Donald D. and Eswaran, Kapali P. and Gray, Jim N and Griffiths, Patricia P. and King, W Frank and Lorie, Raymond A. and McJones, Paul R. and Mehl, James W. and others},
+  year = {1976},
+  journal = {ACM Transactions on Database Systems (TODS)},
+  volume = {1},
+  number = {2},
+  pages = {97--137},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {System R is a database management system which provides a high level relational data interface. The systems provides a high level of data independence by isolating the end user as much as possible from underlying storage structures. The system permits definition of a variety of relational views on common underlying data. Data control features are provided, including authorization, integrity assertions, triggered transactions, a logging and recovery subsystem, and facilities for maintaining data consistency in a shared-update environment. This paper contains a description of the overall architecture and design of the system. At the present time the system is being implemented and the design evaluated. We emphasize that System R is a vehicle for research in database architecture, and is not planned as a product.}
+}
+
 @inproceedings{avnur2000eddies,
   title = {Eddies: {{Continuously}} Adaptive Query Processing},
   booktitle = {Proceedings of the 2000 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
@@ -459,6 +471,24 @@
   abstract = {This paper describes an asynchronous state-machine replication system that tolerates Byzantine faults, which can be caused by malicious attacks or software errors. Our system is the first to recover Byzantine-faulty replicas proactively and it performs well because it uses symmetric rather than public-key cryptography for authentication. The recovery mechanism allows us to tolerate any number of faults over the lifetime of the system provided fewer than 1/3 of the replicas become faulty within a window of vulnerability that is small under normal conditions. The window may increase under a denial-of-service attack but we can detect and respond to such attacks. The paper presents results of experiments showing that overall performance is good and that even a small window of vulnerability has little impact on service latency.}
 }
 
+@inproceedings{chamberlin1974sequel,
+  title = {{{SEQUEL}}: {{A}} Structured English Query Language},
+  booktitle = {Proceedings of the 1974 {{ACM SIGFIDET}} (Now {{SIGMOD}}) Workshop on {{Data}} Description, Access and Control},
+  author = {Chamberlin, Donald D and Boyce, Raymond F},
+  year = {1974},
+  pages = {249--264},
+  abstract = {In this paper we present the data manipulation facility for a structured English query language (SEQUEL) which can be used for accessing data in an integrated relational data base. Without resorting to the concepts of bound variables and quantifiers SEQUEL identifies a set of simple operations on tabular structures, which can be shown to be of equivalent power to the first order predicate calculus. A SEQUEL user is presented with a consistent set of keyword English templates which reflect how people use tables to obtain information. Moreover, the SEQUEL user is able to compose these basic templates in a structured manner in order to form more complex queries. SEQUEL is intended as a data base sublanguage for both the professional programmer and the more infrequent data base user.}
+}
+
+@inproceedings{chamberlin1975views,
+  title = {Views, Authorization, and Locking in a Relational Data Base System},
+  booktitle = {Proceedings of the {{May}} 19-22, 1975, National Computer Conference and Exposition},
+  author = {Chamberlin, Donald D and Gray, Jim N and Traiger, Irving L},
+  year = {1975},
+  pages = {425--430},
+  abstract = {In the interest of brevity we assume that the reader is familiar with the notion of a relational data base. In particular, we assume a familiarity with the work of Codd or Boyce and Chamberlin. The examples in this paper will be drawn from a data base which describes a department store and consists of three relations: EMP(NAME, SAL, MGR, DEPT) SALES(DEPT, ITEM, VOL) LOC(DEPT, FLOOR)}
+}
+
 @article{chamberlin1981history,
   title = {A History and Evaluation of {{System R}}},
   author = {Chamberlin, Donald D and Astrahan, Morton M and Blasgen, Michael W and Gray, James N and King, W Frank and Lindsay, Bruce G and Lorie, Raymond and Mehl, James W and Price, Thomas G and Putzolu, Franco and others},
@@ -532,6 +562,12 @@
   archiveprefix = {arxiv}
 }
 
+@techreport{childs1968feasibility,
+  title = {Feasibility of a Set-Theoretic Data Structure: A General Structure Based on a Reconstituted Definition of Relation},
+  author = {Childs, David L},
+  year = {1968}
+}
+
 @article{chun2007attested,
   title = {Attested Append-Only Memory: {{Making}} Adversaries Stick to Their Word},
   author = {Chun, Byung-Gon and Maniatis, Petros and Shenker, Scott and Kubiatowicz, John},
@@ -550,6 +586,28 @@
   author = {Clark, Christopher and Fraser, Keir and Hand, Steven and Hansen, Jacob Gorm and Jul, Eric and Limpach, Christian and Pratt, Ian and Warfield, Andrew},
   year = {2005},
   pages = {273--286}
+}
+
+@article{codd1970relational,
+  title = {A Relational Model of Data for Large Shared Data Banks},
+  author = {Codd, Edgar F},
+  year = {1970},
+  journal = {Communications of the ACM},
+  volume = {13},
+  number = {6},
+  pages = {377--387},
+  publisher = {{ACM New York, NY, USA}},
+  abstract = {Future users of large data banks must be protected from having to know how the data is organized in the machine (the internal representation). A prompting service which supplies such information is not a satisfactory solution. Activities of users at terminals and most application programs should remain unaffected when the internal representation of data is changed and even when some aspects of the external representation are changed. Changes in data representation will often be needed as a result of changes in query, update, and report traffic and natural growth in the types of stored information. Existing noninferential, formatted data systems provide users with tree-structured files or slightly more general network models of the data. In Section 1, inadequacies of these models are discussed. A model based on n-ary relations, a normal form for data base relations, and the concept of a universal data sublanguage are introduced. In Section 2, certain operations on relations (other than logical inference) are discussed and applied to the problems of redundancy and consistency in the user's model.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/codd1970relational.pdf}
+}
+
+@inproceedings{codd1971data,
+  title = {A Data Base Sublanguage Founded on the Relational Calculus},
+  booktitle = {Proceedings of the 1971 {{ACM SIGFIDET}} (Now {{SIGMOD}}) Workshop on Data Description, Access and Control},
+  author = {Codd, Edgar F},
+  year = {1971},
+  pages = {35--68},
+  abstract = {Three principal types of language for data base manipulation are identified: the low-level, procedure-oriented (typified by the CODASYL-proposed DML), the intermediate level, algebraic (typified by the Project MAC MacAIMS language), and the high level, relational calculus-based data sublanguage, an example of which is described in this paper. The language description is informal and stresses concepts and principles. Following this, arguments are presented for the superiority of the calculus-based type of data base sub-language over the algebraic, and for the algebraic over the low-level procedural. These arguments are particularly relevant to the questions of inter-system compatibility and standardization.}
 }
 
 @inproceedings{conway2012logic,
@@ -796,7 +854,8 @@
   title = {Granularity of Locks and Degrees of Consistency},
   author = {Gray, R Lorie J and Putzolu, {\relax GF} and Traiger, {\relax IL}},
   year = {1976},
-  journal = {Modeling in Data Base Management Systems, GM Nijssen ed., North Holland Pub}
+  journal = {Modeling in Data Base Management Systems, GM Nijssen ed., North Holland Pub},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/gray1976granularity.pdf}
 }
 
 @inproceedings{gray1981transaction,
@@ -999,7 +1058,8 @@
   number = {3},
   pages = {83--84},
   publisher = {{ACM New York, NY, USA}},
-  abstract = {Researchers spend a great deal of time reading research papers. However, this skill is rarely taught, leading to much wasted effort. This article outlines a practical and efficient three-pass method for reading research papers. I also describe how to use this method to do a literature survey.}
+  abstract = {Researchers spend a great deal of time reading research papers. However, this skill is rarely taught, leading to much wasted effort. This article outlines a practical and efficient three-pass method for reading research papers. I also describe how to use this method to do a literature survey.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/keshav2007read.pdf}
 }
 
 @article{kipf2018learned,
@@ -1268,6 +1328,18 @@
   eprint = {0907.0929},
   abstract = {A CRDT is a data type whose operations commute when they are concurrent. Replicas of a CRDT eventually converge without any complex concurrency control. As an existence proof, we exhibit a non-trivial CRDT: a shared edit buffer called Treedoc. We outline the design, implementation and performance of Treedoc. We discuss how the CRDT concept can be generalised, and its limitations.},
   archiveprefix = {arxiv}
+}
+
+@article{levien1967computer,
+  title = {A Computer System for Inference Execution and Data Retrieval},
+  author = {Levien, Roger Eli and Maron, {\relax ME}},
+  year = {1967},
+  journal = {Communications of the ACM},
+  volume = {10},
+  number = {11},
+  pages = {715--721},
+  publisher = {{ACM New York, NY, USA}},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/levien1967computer.pdf}
 }
 
 @inproceedings{li2016wander,
@@ -1774,7 +1846,8 @@
 @misc{roscoe2007writing,
   title = {Writing Reviews for Systems Conferences},
   author = {Roscoe, Timothy},
-  year = {2007}
+  year = {2007},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/roscoe2007writing.pdf}
 }
 
 @article{rosenblum1992design,
@@ -1799,9 +1872,10 @@
   abstract = {This paper presents the design and evaluation of Pastry, a scalable, distributed object location and routing substrate for wide-area peer-to-peer applications. Pastry performs application-level routing and object location in a potentially very large overlay network of nodes connected via the Internet. It can be used to support a variety of peer-to-peer applications, including global data storage, data sharing, group communication and naming. Each node in the Pastry network has a unique identifier (nodeId). When presented with a message and a key, a Pastry node efficiently routes the message to the node with a nodeId that is numerically closest to the key, among all currently live Pastry nodes. Each Pastry node keeps track of its immediate neighbors in the nodeId space, and notifies applications of new node arrivals, node failures and recoveries. Pastry takes into account network locality; it seeks to minimize the distance messages travel, according to a to scalar proximity metric like the number of IP routing hops Pastry is completely decentralized, scalable, and self-organizing; it automatically adapts to the arrival, departure and failure of nodes. Experimental results obtained with a prototype implementation on an emulated network of up to 100,000 nodes confirm Pastry's scalability and efficiency, its ability to self-organize and adapt to node failures, and its good network locality properties}
 }
 
-@article{rowstronstorage,
+@article{rowstron2001storage,
   title = {Storage Management and Caching in {{PAST}}},
   author = {Rowstron, Antony and Druschel, Peter},
+  year = {2001},
   journal = {A Large-scale, Persistent Peer-to-peer Storage Utility},
   pages = {188--201}
 }
@@ -1987,7 +2061,8 @@
   booktitle = {Making Databases Work: The Pragmatic Wisdom of Michael Stonebraker},
   author = {Stonebraker, Michael and Wong, Eugene and Kreps, Peter and Held, Gerald},
   year = {1976},
-  pages = {561--605}
+  pages = {561--605},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/stonebraker1987design.pdf}
 }
 
 @book{stonebraker1987design,

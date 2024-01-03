@@ -1,11 +1,17 @@
 ---
-title: "Granularity of locks and degrees of consistency"
+title: Granularity of locks and degrees of consistency
 authors: R Lorie J Gray, GF Putzolu, IL Traiger
 year: 1976
 url: ""
-Zotero URI: "zotero://select/items/@gray1976granularity"
-tags: to-read, R Lorie J-Gray, GF-Putzolu, IL-Traiger
-aliases: Granularity of locks and degrees of consistency
+Zotero URI: zotero://select/items/@gray1976granularity
+tags:
+  - R-Lorie
+  - J-Gray
+  - GF-Putzolu
+  - IL-Traiger
+  - reading
+aliases:
+  - Granularity of locks and degrees of consistency
 ---
 
 # Granularity of locks and degrees of consistency  
@@ -16,4 +22,8 @@ Tags: `=join(this.file.tags, " ")`
 > [!abstract]-
 > 
 
+## References
 
+```dataview
+LIST file.frontmatter.title FROM outgoing([[]])
+```

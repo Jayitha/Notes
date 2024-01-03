@@ -1,0 +1,19 @@
+---
+title: "Keep CALM and CRDT on"
+authors: Shadaj Laddad, Conor Power, Mae Milano, Alvin Cheung, Natacha Crooks, Joseph M Hellerstein
+year: 2022
+url: ""
+Zotero URI: "zotero://select/items/@laddad2022keep"
+tags: to-read, Shadaj-Laddad, Conor-Power, Mae-Milano, Alvin-Cheung, Natacha-Crooks, Joseph M-Hellerstein
+aliases: Keep CALM and CRDT on
+---
+
+# Keep CALM and CRDT on  
+_Shadaj Laddad, Conor Power, Mae Milano, Alvin Cheung, Natacha Crooks, Joseph M Hellerstein (2022)_
+
+Tags: `=join(this.file.tags, " ")`
+
+> [!abstract]-
+> Despite decades of research and practical experience, developers have few tools for programming reliable distributed applications without resorting to expensive coordination techniques. Conflict-free replicated datatypes (CRDTs) are a promising line of work that enable coordination-free replication and offer certain eventual consistency guarantees in a relatively simple object-oriented API. Yet CRDT guarantees extend only to data updates; observations of CRDT state are unconstrained and unsafe. We propose an agenda that embraces the simplicity of CRDTs, but provides richer, more uniform guarantees. We extend CRDTs with a query model that reasons about which queries are safe without coordination by applying monotonicity results from the CALM Theorem, and lay out a larger agenda for developing CRDT data stores that let developers safely and efficiently interact with replicated application state.
+
+

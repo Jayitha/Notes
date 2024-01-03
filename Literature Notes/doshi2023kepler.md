@@ -5,7 +5,7 @@ year: 2023
 url: ""
 Zotero URI: "zotero://select/items/@doshi2023kepler"
 tags: to-read, Lyric-Doshi, Vincent-Zhuang, Gaurav-Jain, Ryan-Marcus, Haoyu-Huang, Deniz-Altinbüken, Eugene-Brevdo, Campbell-Fraser
-aliases: Kepler: Robust learning for parametric query optimization
+aliases: "Kepler: Robust learning for parametric query optimization"
 ---
 
 # Kepler: Robust learning for parametric query optimization  

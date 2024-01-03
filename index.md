@@ -15,6 +15,7 @@ SORT substring(file.name, 0, 1) ASC
 
 [[UC Berkeley's CS286 - Graduate Database Systems]]
 [[Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems]]
+[[UC Berkeley's CS294-248 - Topics in Database Theory]]
 [[UC Berkeley's CS264a - Advanced Topics in Computer Systems]]
 ## Currently Reading
 

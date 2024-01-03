@@ -143,6 +143,7 @@ fac = lambda n. if n = 0 then 1 else n * fac(n - 1)*
 - A list is a sequence of items that are accessed sequentially. There are two functions used to access lists
 	1. car(list): list -> element - returns the first element of the list
 	2. cdr(list): list -> list - returns a list of all but the first element of the list
+
 ```
 car([2, 3, 4]) = 2
 cdr([2, 3, 4]) = [3, 4]
@@ -152,3 +153,48 @@ car(cdr([2, 3, 4])) = 3
 select(n, l) = lambda n,l. if n = 1 then car(s) else select(n-1, cdr(s))
 ```
 
+- You can represent trees using nested lists - used for indices like B-Trees
+- To construct a list you can use the `cons(<element>, <list>)` function which prepends `element` to the list
+
+```
+cons(paste, [jam, butter]) = [paste, jam, butter]
+```
+
+- The abstract Lists concept is usually implemented using a *linked* representation, with a pointer to a *list node* containing the first item, which has a pointer pointing to the next node and so on
+- It's possible to prepend a list with more than one item using the `cons` function. Therefore, it's important to copy the original list before `cons` if you want to create two different lists
+- There are two versions of recursion - down-going and up-going
+```
+--- function to copy list
+-- down-going
+dcopy = lambda s. if s = [] then []
+				  else cons(car(s), dcopy(cdr(s)))
+dcopy([2, 5, 7]) = [2, 5, 7]
+-- up-going
+ucopy = lambda s. ucop(s, [])
+ucop = lambda s,w. if s = [] then w
+				   else ucop(cdr(s), cons(car(s), w))
+ucopy([2, 5, 7]) = [7, 5, 2]
+--- intuitively, the down-going version has access to the last element before it constructs the final list which is not the case with the up-going version
+```
+- Predicate `atom(l)` returns `true` if `l` is atomic i.e. not a list or the empty list `[]` and `false` otherwise ex. `atom(2) = atom([]) = true; atom([2]) = false`
+- The book goes on to discuss how down-going recursion might be slower to execute because of all the space occupied on the stack. In fact, up-going recursion functions can be compiled into iteration + assignment programs ==> *removing tail recursion*
+```
+-- Other list and set processing operators
+member(x, s) -> checks if x is in s or is a subset of s
+A orelse B -> if A then true else B
+A andif B -> if not A then false else B
+intsec(la, lb) -> intersection
+subset(la, lb)
+equal(la, lb)
+```
+
+
+## 4 Representing Programs by Clauses: Prolog
+
+
+
+## References
+
+```dataview
+LIST file.frontmatter.title FROM outgoing([[]])
+```

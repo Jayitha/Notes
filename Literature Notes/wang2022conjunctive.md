@@ -1,0 +1,19 @@
+---
+title: "Conjunctive queries with comparisons"
+authors: Qichen Wang, Ke Yi
+year: 2022
+url: ""
+Zotero URI: "zotero://select/items/@wang2022conjunctive"
+tags: to-read, Qichen-Wang, Ke-Yi
+aliases: Conjunctive queries with comparisons
+---
+
+# Conjunctive queries with comparisons  
+_Qichen Wang, Ke Yi (2022)_
+
+Tags: `=join(this.file.tags, " ")`
+
+> [!abstract]-
+> Conjunctive queries with predicates in the form of comparisons that span multiple relations have regained interest recently, due to their relevance in OLAP queries, spatiotemporal databases, and machine learning over relational data. The standard technique, predicate pushdown, has limited efficacy on such comparisons. A technique by Willard can be used to process short comparisons that are adjacent in the join tree in time linear in the input size plus output size. In this paper, we describe a new algorithm for evaluating conjunctive queries with both short and long comparisons, and identify an acyclic condition under which linear time can be achieved. We have also implemented the new algorithm on top of Spark, and our experimental results demonstrate order-of-magnitude speedups over SparkSQL on a variety of graph pattern and analytical queries.
+
+

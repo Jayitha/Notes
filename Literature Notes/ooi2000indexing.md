@@ -21,3 +21,8 @@ The performance of hierarchical indexing structures like R-trees and R*-trees de
 The curse of dimensionality is so severe that the performance of hierarchical indexing structures is worse than a linear scan cite:[4, 5]
 Some other approaches are the VA-file cite:[4] and the [[Pyramid Technique]] cite:[5]
 
+## References
+
+```dataview
+LIST file.frontmatter.title FROM outgoing([[]])
+```

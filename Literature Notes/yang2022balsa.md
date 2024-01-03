@@ -5,7 +5,7 @@ year: 2022
 url: ""
 Zotero URI: "zotero://select/items/@yang2022balsa"
 tags: to-read, Zongheng-Yang, Wei-Lin-Chiang, Sifei-Luan, Gautam-Mittal, Michael-Luo, Ion-Stoica
-aliases: Balsa: Learning a query optimizer without expert demonstrations
+aliases: "Balsa: Learning a query optimizer without expert demonstrations"
 ---
 
 # Balsa: Learning a query optimizer without expert demonstrations  

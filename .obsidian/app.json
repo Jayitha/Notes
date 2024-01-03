@@ -1,7 +1,8 @@
 {
   "livePreview": true,
   "userIgnoreFilters": [
-    "docs/"
+    "docs/",
+    "Misc/Lua/"
   ],
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {
@@ -11,7 +12,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "foldIndent": true,
   "showFrontmatter": false,
   "showLineNumber": false,

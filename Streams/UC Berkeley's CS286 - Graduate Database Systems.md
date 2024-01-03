@@ -2,7 +2,7 @@
 
 [Link to website (2020)](https://cs286berkeley.net/sp20#today)
 [Link to website (2024)](https://cs286berkeley.net/#grading) - We'll try to keep up.
-
+Pre-requisites include ([[UC Berkeley's CS294-248 - Topics in Database Theory]] or [[UC Berkeley's CS264a - Advanced Topics in Computer Systems]])
 
 
 - [ ] Introduction and Course Overview
@@ -11,7 +11,7 @@
 		- [ ] [[chamberlin1981history]]
 		- [ ] [[stonebraker1976design]]
 		- [ ] [Database Genealogy Map](https://hpi.de/naumann/projects/rdbms-genealogy.html)
-		- [ ] [[keshav2007read]]
+		- [x] [[keshav2007read]]
 		- [ ] [[roscoe2007writing]]
 
 - [ ]  Pioneering Systems Group #1: IBM
