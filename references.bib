@@ -222,6 +222,16 @@
   abstract = {An efficient implementation of a hash join has been a highly researched problem for decades. Recently, the radix join has been shown to have superior performance over the alternatives (e.g., the non-partitioned hash join), albeit on synthetic microbenchmarks. Therefore, it is unclear whether one can simply replace the hash join in an RDBMS or use the radix join as a performance booster for selected queries. If the latter, it is still unknown when one should rely on the radix join to improve performance. In this paper, we address these questions, show how to integrate the radix join in Umbra, a code-generating DBMS, and make it competitive for selective queries by introducing a Bloom-filter based semi-join reducer. We have evaluated how well it runs when used in queries from more representative workloads like TPC-H. Surprisingly, the radix join brings a noticeable improvement in only one out of all 59 joins in TPC-H. Thus, with an extensive range of microbenchmarks, we have isolated the effects of the most important workload factors and synthesized the range of values where partitioning the data for the radix join pays off. Our analysis shows that the benefit of data partitioning quickly diminishes as soon as we deviate from the optimal parameters, and even late materialization rarely helps in real workloads. We thus, conclude that integrating the radix join within a code-generating database rarely justifies the increase in code and optimizer complexity and advise against it for processing real-world workloads.}
 }
 
+@article{bang2023optimizing,
+  title = {Optimizing the Cloud? {{Don}}'t Train Models. {{Build}} Oracles!},
+  author = {Bang, Tiemo and Power, Conor and Ameli, Siavash and Crooks, Natacha and Hellerstein, Joseph M},
+  year = {2023},
+  journal = {arXiv preprint arXiv:2308.06815},
+  eprint = {2308.06815},
+  abstract = {We propose cloud oracles, an alternative to machine learning for online optimization of cloud configurations. Our cloud oracle approach guarantees complete accuracy and explainability of decisions for problems that can be formulated as parametric convex optimizations. We give experimental evidence of this technique's efficacy and share a vision of research directions for expanding its applicability.},
+  archiveprefix = {arxiv}
+}
+
 @article{barham2003xen,
   title = {Xen and the Art of Virtualization},
   author = {Barham, Paul and Dragovic, Boris and Fraser, Keir and Hand, Steven and Harris, Tim and Ho, Alex and Neugebauer, Rolf and Pratt, Ian and Warfield, Andrew},
@@ -1518,6 +1528,15 @@
   abstract = {We propose a federated edge-computing architecture for management of data. Our vision is to enable a service provider model for "data-services", where a user can enter into economic agreements with an infrastructure maintainer to provide storage and communication of data, without necessarily trusting the infrastructure provider. Toward this vision, we present cryptographically hardened cohesive collections of data items called DataCapsules, and an overview of the underlying federated architecture, called Global Data Plane.}
 }
 
+@article{moseley2006out,
+  title = {Out of the Tar Pit},
+  author = {Moseley, Ben and Marks, Peter},
+  year = {2006},
+  journal = {Software Practice Advancement (SPA)},
+  volume = {2006},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/moseley2006out.pdf}
+}
+
 @inproceedings{mozafari2017approximate,
   title = {Approximate Query Engines: {{Commercial}} Challenges and Research Opportunities},
   booktitle = {Proceedings of the 2017 {{ACM}} International Conference on Management of Data},
@@ -2179,6 +2198,16 @@
   year = {2018},
   pages = {789--796},
   abstract = {Amazon Aurora is a high-throughput cloud-native relational database offered as part of Amazon Web Services (AWS). One of the more novel differences between Aurora and other relational databases is how it pushes redo processing to a multi-tenant scale-out storage service, purpose-built for Aurora. Doing so reduces networking traffic, avoids checkpoints and crash recovery, enables failovers to replicas without loss of data, and enables fault-tolerant storage that heals without database involvement. Traditional implementations that leverage distributed storage would use distributed consensus algorithms for commits, reads, replication, and membership changes and amplify cost of underlying storage. In this paper, we describe how Aurora avoids distributed consensus under most circumstances by establishing invariants and leveraging local transient state. Doing so improves performance, reduces variability, and lowers costs.}
+}
+
+@inproceedings{wadler1995monads,
+  title = {Monads for Functional Programming},
+  booktitle = {Advanced Functional Programming: {{First}} International Spring School on Advanced Functional Programming Techniques B{\aa}stad, Sweden, May 24{\textendash}30, 1995 Tutorial Text 1},
+  author = {Wadler, Philip},
+  year = {1995},
+  pages = {24--52},
+  publisher = {{Springer}},
+  abstract = {The use of monads to structure functional programs is described. Monads provide a convenient framework for simulating effects found in other languages, such as global state, exception handling, output, or non-determinism. Three case studies are looked at in detail: how monads ease the modification of a simple evaluator; how monads act as the basis of a datatype of arrays subject to in-place update; and how monads can be used to build parsers.}
 }
 
 @inproceedings{waldspurger1994lottery,
