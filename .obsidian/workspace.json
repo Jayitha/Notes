@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
-                "mode": "source",
+                "file": "Literature Notes/beyer1999nearest.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md"
+                "file": "Literature Notes/beyer1999nearest.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
+                "file": "Literature Notes/beyer1999nearest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
+                "file": "Literature Notes/beyer1999nearest.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -179,6 +179,14 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "894f923705e2e019",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 6
@@ -202,6 +210,9 @@
   },
   "active": "ddda33d452454770",
   "lastOpenFiles": [
+    "Literature Notes/beyer1999nearest.md",
+    "Templates/current paper.md",
+    "Glossary/Concurrency.md",
     "Glossary/Weak Law of Large Numbers.md",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
@@ -228,11 +239,9 @@
     "Glossary/Equi-Join.md",
     "Glossary/Converges in Probability.md",
     "Glossary/Chebyshev Metric.md",
-    "Literature Notes/beyer1999nearest.md",
     "Literature Notes/conway2012logic.md",
     "Glossary/Independent and Identically Distributed (IID).md",
     "Templates/definition.md",
-    "Templates/current paper.md",
     "Templates/outgoing links.md",
     "Literature Notes/kleppmann2014designing.md",
     "Literature Notes/abiteboul1995foundations.md",

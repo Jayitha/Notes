@@ -12,5 +12,8 @@
   "o-theme-settings@@o-faintselect": true,
   "o-theme-settings@@custom-primary@@dark": "#000000",
   "o-theme-settings@@custom-secondary@@dark": "#121212",
-  "sanctum@@color-accent-rgb-d": "92, 153, 124"
+  "sanctum@@color-accent-rgb-d": "92, 153, 124",
+  "sanctum@@table-hover-row": false,
+  "things-style@@fancy-code": true,
+  "things-style@@fancy-highlight": true
 }
