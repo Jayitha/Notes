@@ -3,9 +3,24 @@ title: "Spanner: Google's globally distributed database"
 authors: James C Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, Jeffrey John Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, others
 year: 2013
 url: ""
-Zotero URI: "zotero://select/items/@corbett2013spanner"
-tags: to-read, James C-Corbett, Jeffrey-Dean, Michael-Epstein, Andrew-Fikes, Christopher-Frost, Jeffrey John-Furman, Sanjay-Ghemawat, Andrey-Gubarev, Christopher-Heiser, Peter-Hochschild, -others
-aliases: Spanner: Google's globally distributed database
+Zotero URI: zotero://select/items/@corbett2013spanner
+tags:
+  - James
+  - C-Corbett
+  - Jeffrey-Dean
+  - Michael-Epstein
+  - Andrew-Fikes
+  - Christopher-Frost
+  - Jeffrey
+  - John-Furman
+  - Sanjay-Ghemawat
+  - Andrey-Gubarev
+  - Christopher-Heiser
+  - Peter-Hochschild
+  - -others
+  - reading
+aliases:
+  - "Spanner: Google's globally distributed database"
 ---
 
 # Spanner: Google's globally distributed database  

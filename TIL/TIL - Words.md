@@ -2,3 +2,4 @@ Words I come across in papers I'd like to use more when writing. Or maybe I shou
 
 - *Eschews* - deliberately avoid using; abstain from. [[moseley2006out]]
 - *Emphatically* - in a forceful way [[moseley2006out]]
+- *Obviates* - remove (a need or difficulty) [[kemper2010hyper]]

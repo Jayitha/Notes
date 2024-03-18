@@ -11,5 +11,6 @@
   "o-theme-settings@@o-font-general": "General Sans",
   "o-theme-settings@@o-faintselect": true,
   "o-theme-settings@@custom-primary@@dark": "#000000",
-  "o-theme-settings@@custom-secondary@@dark": "#121212"
+  "o-theme-settings@@custom-secondary@@dark": "#121212",
+  "sanctum@@color-accent-rgb-d": "92, 153, 124"
 }

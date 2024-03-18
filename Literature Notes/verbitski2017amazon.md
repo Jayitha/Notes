@@ -3,9 +3,21 @@ title: "Amazon aurora: Design considerations for high throughput cloud-native re
 authors: Alexandre Verbitski, Anurag Gupta, Debanjan Saha, Murali Brahmadesam, Kamal Gupta, Raman Mittal, Sailesh Krishnamurthy, Sandor Maurice, Tengiz Kharatishvili, Xiaofeng Bao
 year: 2017
 url: ""
-Zotero URI: "zotero://select/items/@verbitski2017amazon"
-tags: to-read, Alexandre-Verbitski, Anurag-Gupta, Debanjan-Saha, Murali-Brahmadesam, Kamal-Gupta, Raman-Mittal, Sailesh-Krishnamurthy, Sandor-Maurice, Tengiz-Kharatishvili, Xiaofeng-Bao
-aliases: Amazon aurora: Design considerations for high throughput cloud-native relational databases
+Zotero URI: zotero://select/items/@verbitski2017amazon
+tags:
+  - Alexandre-Verbitski
+  - Anurag-Gupta
+  - Debanjan-Saha
+  - Murali-Brahmadesam
+  - Kamal-Gupta
+  - Raman-Mittal
+  - Sailesh-Krishnamurthy
+  - Sandor-Maurice
+  - Tengiz-Kharatishvili
+  - Xiaofeng-Bao
+  - reading
+aliases:
+  - "Amazon aurora: Design considerations for high throughput cloud-native relational databases"
 ---
 
 # Amazon aurora: Design considerations for high throughput cloud-native relational databases  

@@ -45,7 +45,7 @@ Causes of Complexity - sometimes complexity is inherent in the problem, sometime
 1. Complexity caused by ==*State*== (a *stateful* system)
 	- "try it again", "reload the document" ... the presence of state makes programs hard to *understand*
 	- ==Specifically, it is the number of possible states that makes it complex== - The number of states grow exponentially; with each *extra bit* the number of states doubles
-	1. State on Testing 
+	1. State on Testing
 		- tests on one state tell you nothing about other states
 		- A common approach is to assume a clean initial state when testing - can't always *get away with this*
 		- The issues with testing, and the number of states compound
@@ -64,10 +64,11 @@ Causes of Complexity - sometimes complexity is inherent in the problem, sometime
 	> Complexity exhibits a nonlinear increase with size of code
 	> Dijkstra mused that there's some law of nature that the amount of intellectual effort needed grows with the square with the program length. He later argues that with powers of abstraction, the amount of intellectual effort needed need not grow more than proportional to program length
 	- Paper argues that with effective management of state and control, the non-linearity is uncertain
-4. Other causes include: duplicated code, dead code, unnecessary abstraction, missed abstraction, poor modularity, poor documentation... 
-	- ==Complexity breeds complexity== (secondary causes, if you don't understand code, it is likely you'll write duplicate code), 
-	- ==Simplicity is Hard== (effort is needed, first solution usually not simple) and 
+4. Other causes include: duplicated code, dead code, unnecessary abstraction, missed abstraction, poor modularity, poor documentation...
+	- ==Complexity breeds complexity== (secondary causes, if you don't understand code, it is likely you'll write duplicate code),
+	- ==Simplicity is Hard== (effort is needed, first solution usually not simple) and
 	- ==Power corrupts== (the more power that a language gives the programmer, the more wary one should be of the produced code; argues that garbage collection is good)
+<!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2024-03-15,1,230!2000-01-01,1,250!2000-01-01,1,250-->
 
 Classical approaches to manage complexity - Object-orientation, Functional Programming and Logic Programming
 
@@ -149,6 +150,7 @@ Theoretical and Practical Limitations
 - It's important to keep in mind, that once we introduce accidental state, however required it may be, we expose ourselves to the same problems that were discussed before
 
 Recommendations for dealing with required accidental complexity - ==Avoid and Separate==
+<!--SR:!2024-03-15,1,230-->
 
 ![[Pasted image 20240108115831.png]]
 
