@@ -1,6 +1,6 @@
 {
   "vaultName": "Notes",
-  "lastExport": 1710791335560,
+  "lastExport": 1710793157619,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title sanctum-default-light sanctum-black default-marker-odd default-marker-even",
   "useCustomHeadContent": false,
@@ -282,6 +282,7 @@
     "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
     "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
@@ -330,6 +331,7 @@
     "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
     "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
@@ -338,181 +340,181 @@
   ],
   "fileInfo": {
     "Glossary/Chebyshev Metric.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 254,
       "exportedPath": "glossary/chebyshev-metric.html",
       "dependencies": []
     },
     "Glossary/Concurrency.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 226,
       "exportedPath": "glossary/concurrency.html",
       "dependencies": []
     },
     "Glossary/Converges in Probability.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 789,
       "exportedPath": "glossary/converges-in-probability.html",
       "dependencies": []
     },
     "Glossary/Curse of Dimensionality.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 193,
       "exportedPath": "glossary/curse-of-dimensionality.html",
       "dependencies": []
     },
     "Glossary/Equi-Join.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 226,
       "exportedPath": "glossary/equi-join.html",
       "dependencies": []
     },
     "Glossary/iMinMax.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2630,
       "exportedPath": "glossary/iminmax.html",
       "dependencies": []
     },
     "Glossary/Independent and Identically Distributed (IID).md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 40,
       "exportedPath": "glossary/independent-and-identically-distributed-(iid).html",
       "dependencies": []
     },
     "Glossary/Locality Sensitive Hashing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 237,
       "exportedPath": "glossary/locality-sensitive-hashing.html",
       "dependencies": []
     },
     "Glossary/Persistence.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 226,
       "exportedPath": "glossary/persistence.html",
       "dependencies": []
     },
     "Glossary/Pyramid Technique.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1380,
       "exportedPath": "glossary/pyramid-technique.html",
       "dependencies": []
     },
     "Glossary/Slutsky's Theorem.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 516,
       "exportedPath": "glossary/slutsky's-theorem.html",
       "dependencies": []
     },
     "Glossary/The Relational Model.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 935,
       "exportedPath": "glossary/the-relational-model.html",
       "dependencies": []
     },
     "Glossary/Unstable Nearest Neighbor Query.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 434,
       "exportedPath": "glossary/unstable-nearest-neighbor-query.html",
       "dependencies": []
     },
     "Glossary/VA-File.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 285,
       "exportedPath": "glossary/va-file.html",
       "dependencies": []
     },
     "Glossary/Virtualization.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 227,
       "exportedPath": "glossary/virtualization.html",
       "dependencies": []
     },
     "Glossary/Weak Law of Large Numbers.md": {
-      "modifiedTime": 1710791335560,
-      "sourceSize": 378,
+      "modifiedTime": 1710793157619,
+      "sourceSize": 470,
       "exportedPath": "glossary/weak-law-of-large-numbers.html",
       "dependencies": []
     },
     "Literature Notes/lee2015f2fs.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1180,
       "exportedPath": "literature-notes/lee2015f2fs.html",
       "dependencies": []
     },
     "Literature Notes/abadi2006integrating.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1423,
       "exportedPath": "literature-notes/abadi2006integrating.html",
       "dependencies": []
     },
     "Literature Notes/abadi2008column.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2490,
       "exportedPath": "literature-notes/abadi2008column.html",
       "dependencies": []
     },
     "Literature Notes/abadi2013design.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1644,
       "exportedPath": "literature-notes/abadi2013design.html",
       "dependencies": []
     },
     "Literature Notes/abe2016urgent.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1527,
       "exportedPath": "literature-notes/abe2016urgent.html",
       "dependencies": []
     },
     "Literature Notes/abeni1998integrating.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1318,
       "exportedPath": "literature-notes/abeni1998integrating.html",
       "dependencies": []
     },
     "Literature Notes/abiteboul1995foundations.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 502,
       "exportedPath": "literature-notes/abiteboul1995foundations.html",
       "dependencies": []
     },
     "Literature Notes/abouzeid2009hadoopdb.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2056,
       "exportedPath": "literature-notes/abouzeid2009hadoopdb.html",
       "dependencies": []
     },
     "Literature Notes/adya1995efficient.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1917,
       "exportedPath": "literature-notes/adya1995efficient.html",
       "dependencies": []
     },
     "Literature Notes/adya2000generalized.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1156,
       "exportedPath": "literature-notes/adya2000generalized.html",
       "dependencies": []
     },
     "Literature Notes/agrawal1987concurrency.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1722,
       "exportedPath": "literature-notes/agrawal1987concurrency.html",
       "dependencies": []
     },
     "Literature Notes/albutiu2012massively.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2016,
       "exportedPath": "literature-notes/albutiu2012massively.html",
       "dependencies": []
     },
     "Literature Notes/alvaro2011consistency.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 586,
       "exportedPath": "literature-notes/alvaro2011consistency.html",
       "dependencies": []
     },
     "Literature Notes/arpacidusseau2018operating.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 5354,
       "exportedPath": "literature-notes/arpacidusseau2018operating.html",
       "dependencies": [
@@ -520,463 +522,463 @@
       ]
     },
     "Literature Notes/astrahan1976system.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1551,
       "exportedPath": "literature-notes/astrahan1976system.html",
       "dependencies": []
     },
     "Literature Notes/avnur2000eddies.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1603,
       "exportedPath": "literature-notes/avnur2000eddies.html",
       "dependencies": []
     },
     "Literature Notes/bailis2013highly.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1675,
       "exportedPath": "literature-notes/bailis2013highly.html",
       "dependencies": []
     },
     "Literature Notes/bailis2014coordination.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2187,
       "exportedPath": "literature-notes/bailis2014coordination.html",
       "dependencies": []
     },
     "Literature Notes/bailis2015feral.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2076,
       "exportedPath": "literature-notes/bailis2015feral.html",
       "dependencies": []
     },
     "Literature Notes/bailis2016scalable.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2006,
       "exportedPath": "literature-notes/bailis2016scalable.html",
       "dependencies": []
     },
     "Literature Notes/bandle2021partition.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2107,
       "exportedPath": "literature-notes/bandle2021partition.html",
       "dependencies": []
     },
     "Literature Notes/barham2003xen.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1992,
       "exportedPath": "literature-notes/barham2003xen.html",
       "dependencies": []
     },
     "Literature Notes/baruah2002implementing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1004,
       "exportedPath": "literature-notes/baruah2002implementing.html",
       "dependencies": []
     },
     "Literature Notes/beaver2010finding.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 558,
       "exportedPath": "literature-notes/beaver2010finding.html",
       "dependencies": []
     },
     "Literature Notes/berchtold1998pyramid.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2604,
       "exportedPath": "literature-notes/berchtold1998pyramid.html",
       "dependencies": []
     },
     "Literature Notes/berenson1995critique.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1169,
       "exportedPath": "literature-notes/berenson1995critique.html",
       "dependencies": []
     },
     "Literature Notes/bernstein1981concurrency.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 463,
       "exportedPath": "literature-notes/bernstein1981concurrency.html",
       "dependencies": []
     },
     "Literature Notes/bernstein2014orleans.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 630,
       "exportedPath": "literature-notes/bernstein2014orleans.html",
       "dependencies": []
     },
     "Literature Notes/bershad1994spin.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1511,
       "exportedPath": "literature-notes/bershad1994spin.html",
       "dependencies": []
     },
     "Literature Notes/beyer1999nearest.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 4910,
       "exportedPath": "literature-notes/beyer1999nearest.html",
       "dependencies": []
     },
     "Literature Notes/blumofe1995cilk.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1768,
       "exportedPath": "literature-notes/blumofe1995cilk.html",
       "dependencies": []
     },
     "Literature Notes/bos2023rust.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 760,
       "exportedPath": "literature-notes/bos2023rust.html",
       "dependencies": []
     },
     "Literature Notes/brewer2012cap.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 872,
       "exportedPath": "literature-notes/brewer2012cap.html",
       "dependencies": []
     },
     "Literature Notes/brodie2018making.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2527,
       "exportedPath": "literature-notes/brodie2018making.html",
       "dependencies": []
     },
     "Literature Notes/bruno2009teaching.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1336,
       "exportedPath": "literature-notes/bruno2009teaching.html",
       "dependencies": []
     },
     "Literature Notes/bugnion1997disco.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1901,
       "exportedPath": "literature-notes/bugnion1997disco.html",
       "dependencies": []
     },
     "Literature Notes/burrows2006chubby.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1114,
       "exportedPath": "literature-notes/burrows2006chubby.html",
       "dependencies": []
     },
     "Literature Notes/carey1991architecture.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1772,
       "exportedPath": "literature-notes/carey1991architecture.html",
       "dependencies": []
     },
     "Literature Notes/castro1999practical.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 420,
       "exportedPath": "literature-notes/castro1999practical.html",
       "dependencies": []
     },
     "Literature Notes/castro2000proactive.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1295,
       "exportedPath": "literature-notes/castro2000proactive.html",
       "dependencies": []
     },
     "Literature Notes/chamberlin1974sequel.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1311,
       "exportedPath": "literature-notes/chamberlin1974sequel.html",
       "dependencies": []
     },
     "Literature Notes/chamberlin1975views.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 933,
       "exportedPath": "literature-notes/chamberlin1975views.html",
       "dependencies": []
     },
     "Literature Notes/chamberlin1981history.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1273,
       "exportedPath": "literature-notes/chamberlin1981history.html",
       "dependencies": []
     },
     "Literature Notes/chandra2007paxos.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 856,
       "exportedPath": "literature-notes/chandra2007paxos.html",
       "dependencies": []
     },
     "Literature Notes/chang2008bigtable.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1614,
       "exportedPath": "literature-notes/chang2008bigtable.html",
       "dependencies": []
     },
     "Literature Notes/chen2015using.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1980,
       "exportedPath": "literature-notes/chen2015using.html",
       "dependencies": []
     },
     "Literature Notes/cheung2013optimizing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2058,
       "exportedPath": "literature-notes/cheung2013optimizing.html",
       "dependencies": []
     },
     "Literature Notes/chun2007attested.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2158,
       "exportedPath": "literature-notes/chun2007attested.html",
       "dependencies": []
     },
     "Literature Notes/clark2005live.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 656,
       "exportedPath": "literature-notes/clark2005live.html",
       "dependencies": []
     },
     "Literature Notes/codd1970relational.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1601,
       "exportedPath": "literature-notes/codd1970relational.html",
       "dependencies": []
     },
     "Literature Notes/codd1971data.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1121,
       "exportedPath": "literature-notes/codd1971data.html",
       "dependencies": []
     },
     "Literature Notes/conway2012logic.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1811,
       "exportedPath": "literature-notes/conway2012logic.html",
       "dependencies": []
     },
     "Literature Notes/corbett2013spanner.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1553,
       "exportedPath": "literature-notes/corbett2013spanner.html",
       "dependencies": []
     },
     "Literature Notes/cormode2017data.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 283,
       "exportedPath": "literature-notes/cormode2017data.html",
       "dependencies": []
     },
     "Literature Notes/crooks2017seeing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1911,
       "exportedPath": "literature-notes/crooks2017seeing.html",
       "dependencies": []
     },
     "Literature Notes/dean2008mapreduce.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1251,
       "exportedPath": "literature-notes/dean2008mapreduce.html",
       "dependencies": []
     },
     "Literature Notes/decandia2007dynamo.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1931,
       "exportedPath": "literature-notes/decandia2007dynamo.html",
       "dependencies": []
     },
     "Literature Notes/demers1989analysis.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1037,
       "exportedPath": "literature-notes/demers1989analysis.html",
       "dependencies": []
     },
     "Literature Notes/deshpande2004lifting.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 517,
       "exportedPath": "literature-notes/deshpande2004lifting.html",
       "dependencies": []
     },
     "Literature Notes/dewitt1990gamma.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 613,
       "exportedPath": "literature-notes/dewitt1990gamma.html",
       "dependencies": []
     },
     "Literature Notes/doshi2023kepler.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1706,
       "exportedPath": "literature-notes/doshi2023kepler.html",
       "dependencies": []
     },
     "Literature Notes/doxsey2016introducing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1438,
       "exportedPath": "literature-notes/doxsey2016introducing.html",
       "dependencies": []
     },
     "Literature Notes/dunlap2002revirt.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1778,
       "exportedPath": "literature-notes/dunlap2002revirt.html",
       "dependencies": []
     },
     "Literature Notes/efstathopoulos2005labels.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1556,
       "exportedPath": "literature-notes/efstathopoulos2005labels.html",
       "dependencies": []
     },
     "Literature Notes/engler1995exokernel.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 611,
       "exportedPath": "literature-notes/engler1995exokernel.html",
       "dependencies": []
     },
     "Literature Notes/freitag2020adopting.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2027,
       "exportedPath": "literature-notes/freitag2020adopting.html",
       "dependencies": []
     },
     "Literature Notes/gervasi2019will.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1176,
       "exportedPath": "literature-notes/gervasi2019will.html",
       "dependencies": []
     },
     "Literature Notes/ghemawat2003google.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 409,
       "exportedPath": "literature-notes/ghemawat2003google.html",
       "dependencies": []
     },
     "Literature Notes/ghodsi2011dominant.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 670,
       "exportedPath": "literature-notes/ghodsi2011dominant.html",
       "dependencies": []
     },
     "Literature Notes/goossens2003priority.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1075,
       "exportedPath": "literature-notes/goossens2003priority.html",
       "dependencies": []
     },
     "Literature Notes/graefe2012survey.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1402,
       "exportedPath": "literature-notes/graefe2012survey.html",
       "dependencies": []
     },
     "Literature Notes/gray1976granularity.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 552,
       "exportedPath": "literature-notes/gray1976granularity.html",
       "dependencies": []
     },
     "Literature Notes/gray1981transaction.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 396,
       "exportedPath": "literature-notes/gray1981transaction.html",
       "dependencies": []
     },
     "Literature Notes/gray1984logic.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 10249,
       "exportedPath": "literature-notes/gray1984logic.html",
       "dependencies": []
     },
     "Literature Notes/gueta2019sbft.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1948,
       "exportedPath": "literature-notes/gueta2019sbft.html",
       "dependencies": []
     },
     "Literature Notes/ha2017you.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1420,
       "exportedPath": "literature-notes/ha2017you.html",
       "dependencies": []
     },
     "Literature Notes/haerder1983principles.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 445,
       "exportedPath": "literature-notes/haerder1983principles.html",
       "dependencies": []
     },
     "Literature Notes/hand2005virtual.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 613,
       "exportedPath": "literature-notes/hand2005virtual.html",
       "dependencies": []
     },
     "Literature Notes/helland2009building.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2098,
       "exportedPath": "literature-notes/helland2009building.html",
       "dependencies": []
     },
     "Literature Notes/hellerstein1997online.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1363,
       "exportedPath": "literature-notes/hellerstein1997online.html",
       "dependencies": []
     },
     "Literature Notes/hellerstein1999interactive.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1542,
       "exportedPath": "literature-notes/hellerstein1999interactive.html",
       "dependencies": []
     },
     "Literature Notes/hellerstein2007architecture.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1524,
       "exportedPath": "literature-notes/hellerstein2007architecture.html",
       "dependencies": []
     },
     "Literature Notes/hellerstein2018looking.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1225,
       "exportedPath": "literature-notes/hellerstein2018looking.html",
       "dependencies": []
     },
     "Literature Notes/hellerstein2020keeping.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 458,
       "exportedPath": "literature-notes/hellerstein2020keeping.html",
       "dependencies": []
     },
     "Literature Notes/hellwig2009xfs.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 375,
       "exportedPath": "literature-notes/hellwig2009xfs.html",
       "dependencies": []
     },
     "Literature Notes/hentschel2018column.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2095,
       "exportedPath": "literature-notes/hentschel2018column.html",
       "dependencies": []
     },
     "Literature Notes/huang2020opportunities.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1732,
       "exportedPath": "literature-notes/huang2020opportunities.html",
       "dependencies": []
     },
     "Literature Notes/idreos2007database.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 428,
       "exportedPath": "literature-notes/idreos2007database.html",
       "dependencies": []
     },
     "Literature Notes/ierusalimschy2006programming.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 19060,
       "exportedPath": "literature-notes/ierusalimschy2006programming.html",
       "dependencies": []
     },
     "Literature Notes/kandel2011wrangler.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1726,
       "exportedPath": "literature-notes/kandel2011wrangler.html",
       "dependencies": []
     },
     "Literature Notes/kemper2010hyper.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 3824,
       "exportedPath": "literature-notes/kemper2010hyper.html",
       "dependencies": [
@@ -984,13 +986,13 @@
       ]
     },
     "Literature Notes/kersten2018everything.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1976,
       "exportedPath": "literature-notes/kersten2018everything.html",
       "dependencies": []
     },
     "Literature Notes/keshav2007read.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 3500,
       "exportedPath": "literature-notes/keshav2007read.html",
       "dependencies": [
@@ -998,253 +1000,253 @@
       ]
     },
     "Literature Notes/kipf2018learned.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1231,
       "exportedPath": "literature-notes/kipf2018learned.html",
       "dependencies": []
     },
     "Literature Notes/klein2009sel4.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1962,
       "exportedPath": "literature-notes/klein2009sel4.html",
       "dependencies": []
     },
     "Literature Notes/klein2014comprehensive.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2042,
       "exportedPath": "literature-notes/klein2014comprehensive.html",
       "dependencies": []
     },
     "Literature Notes/kleppmann2014designing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 740,
       "exportedPath": "literature-notes/kleppmann2014designing.html",
       "dependencies": []
     },
     "Literature Notes/kocher2020spectre.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2605,
       "exportedPath": "literature-notes/kocher2020spectre.html",
       "dependencies": []
     },
     "Literature Notes/kornacker1997concurrency.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1640,
       "exportedPath": "literature-notes/kornacker1997concurrency.html",
       "dependencies": []
     },
     "Literature Notes/kraska2018case.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1544,
       "exportedPath": "literature-notes/kraska2018case.html",
       "dependencies": []
     },
     "Literature Notes/krishnan2016activeclean.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1659,
       "exportedPath": "literature-notes/krishnan2016activeclean.html",
       "dependencies": []
     },
     "Literature Notes/kristo2020case.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1634,
       "exportedPath": "literature-notes/kristo2020case.html",
       "dependencies": []
     },
     "Literature Notes/kubiatowicz2000oceanstore.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1458,
       "exportedPath": "literature-notes/kubiatowicz2000oceanstore.html",
       "dependencies": []
     },
     "Literature Notes/kung1979optimality.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 499,
       "exportedPath": "literature-notes/kung1979optimality.html",
       "dependencies": []
     },
     "Literature Notes/kuo1996model.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 635,
       "exportedPath": "literature-notes/kuo1996model.html",
       "dependencies": []
     },
     "Literature Notes/laddad2022keep.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1437,
       "exportedPath": "literature-notes/laddad2022keep.html",
       "dependencies": []
     },
     "Literature Notes/lagar2009snowflock.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2005,
       "exportedPath": "literature-notes/lagar2009snowflock.html",
       "dependencies": []
     },
     "Literature Notes/lamb2012vertica.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1182,
       "exportedPath": "literature-notes/lamb2012vertica.html",
       "dependencies": []
     },
     "Literature Notes/lamport1982byzantine.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 432,
       "exportedPath": "literature-notes/lamport1982byzantine.html",
       "dependencies": []
     },
     "Literature Notes/lamport1998part.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 313,
       "exportedPath": "literature-notes/lamport1998part.html",
       "dependencies": []
     },
     "Literature Notes/lamport2001paxos.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 915,
       "exportedPath": "literature-notes/lamport2001paxos.html",
       "dependencies": []
     },
     "Literature Notes/lamport2019time.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 433,
       "exportedPath": "literature-notes/lamport2019time.html",
       "dependencies": []
     },
     "Literature Notes/larson2011high.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1775,
       "exportedPath": "literature-notes/larson2011high.html",
       "dependencies": []
     },
     "Literature Notes/lehman1981efficient.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1189,
       "exportedPath": "literature-notes/lehman1981efficient.html",
       "dependencies": []
     },
     "Literature Notes/leis2013adaptive.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1694,
       "exportedPath": "literature-notes/leis2013adaptive.html",
       "dependencies": []
     },
     "Literature Notes/leis2014morsel.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2243,
       "exportedPath": "literature-notes/leis2014morsel.html",
       "dependencies": []
     },
     "Literature Notes/leis2015good.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1558,
       "exportedPath": "literature-notes/leis2015good.html",
       "dependencies": []
     },
     "Literature Notes/leis2018leanstore.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1557,
       "exportedPath": "literature-notes/leis2018leanstore.html",
       "dependencies": []
     },
     "Literature Notes/letia2009crdts.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 841,
       "exportedPath": "literature-notes/letia2009crdts.html",
       "dependencies": []
     },
     "Literature Notes/li2016wander.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1674,
       "exportedPath": "literature-notes/li2016wander.html",
       "dependencies": []
     },
     "Literature Notes/liedtke1996toward.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 315,
       "exportedPath": "literature-notes/liedtke1996toward.html",
       "dependencies": []
     },
     "Literature Notes/lipp2020meltdown.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 871,
       "exportedPath": "literature-notes/lipp2020meltdown.html",
       "dependencies": []
     },
     "Literature Notes/lohman1991extensions.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 579,
       "exportedPath": "literature-notes/lohman1991extensions.html",
       "dependencies": []
     },
     "Literature Notes/mackert1986r.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2722,
       "exportedPath": "literature-notes/mackert1986r.html",
       "dependencies": []
     },
     "Literature Notes/mahdavi2019raha.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1774,
       "exportedPath": "literature-notes/mahdavi2019raha.html",
       "dependencies": []
     },
     "Literature Notes/marcus2019neo.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1677,
       "exportedPath": "literature-notes/marcus2019neo.html",
       "dependencies": []
     },
     "Literature Notes/marcus2020benchmarking.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1515,
       "exportedPath": "literature-notes/marcus2020benchmarking.html",
       "dependencies": []
     },
     "Literature Notes/marcus2021bao.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1581,
       "exportedPath": "literature-notes/marcus2021bao.html",
       "dependencies": []
     },
     "Literature Notes/mckusick1984fast.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 485,
       "exportedPath": "literature-notes/mckusick1984fast.html",
       "dependencies": []
     },
     "Literature Notes/mohan1986transaction.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1103,
       "exportedPath": "literature-notes/mohan1986transaction.html",
       "dependencies": []
     },
     "Literature Notes/mohan1992aries.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1242,
       "exportedPath": "literature-notes/mohan1992aries.html",
       "dependencies": []
     },
     "Literature Notes/mohan1999repeating.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 313,
       "exportedPath": "literature-notes/mohan1999repeating.html",
       "dependencies": []
     },
     "Literature Notes/mor2016toward.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1601,
       "exportedPath": "literature-notes/mor2016toward.html",
       "dependencies": []
     },
     "Literature Notes/mor2019global.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1148,
       "exportedPath": "literature-notes/mor2019global.html",
       "dependencies": []
     },
     "Literature Notes/moseley2006out.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 12825,
       "exportedPath": "literature-notes/moseley2006out.html",
       "dependencies": [
@@ -1253,781 +1255,787 @@
       ]
     },
     "Literature Notes/mozafari2017approximate.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1387,
       "exportedPath": "literature-notes/mozafari2017approximate.html",
       "dependencies": []
     },
     "Literature Notes/mudgal2018deep.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1964,
       "exportedPath": "literature-notes/mudgal2018deep.html",
       "dependencies": []
     },
     "Literature Notes/nathan2020learning.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1420,
       "exportedPath": "literature-notes/nathan2020learning.html",
       "dependencies": []
     },
     "Literature Notes/neumann2011efficiently.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1450,
       "exportedPath": "literature-notes/neumann2011efficiently.html",
       "dependencies": []
     },
     "Literature Notes/neumann2015fast.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1883,
       "exportedPath": "literature-notes/neumann2015fast.html",
       "dependencies": []
     },
     "Literature Notes/o1996log.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2645,
       "exportedPath": "literature-notes/o1996log.html",
       "dependencies": []
     },
     "Literature Notes/o1997improved.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1657,
       "exportedPath": "literature-notes/o1997improved.html",
       "dependencies": []
     },
     "Literature Notes/ongaro2014search.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1201,
       "exportedPath": "literature-notes/ongaro2014search.html",
       "dependencies": []
     },
     "Literature Notes/ooi2000indexing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1591,
       "exportedPath": "literature-notes/ooi2000indexing.html",
       "dependencies": []
     },
     "Literature Notes/pan2009lithe.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 502,
       "exportedPath": "literature-notes/pan2009lithe.html",
       "dependencies": []
     },
     "Literature Notes/pan2010composing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1517,
       "exportedPath": "literature-notes/pan2010composing.html",
       "dependencies": []
     },
     "Literature Notes/park2008reconfigurable.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1544,
       "exportedPath": "literature-notes/park2008reconfigurable.html",
       "dependencies": []
     },
     "Literature Notes/park2018verdictdb.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2295,
       "exportedPath": "literature-notes/park2018verdictdb.html",
       "dependencies": []
     },
     "Literature Notes/patterson1988case.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1167,
       "exportedPath": "literature-notes/patterson1988case.html",
       "dependencies": []
     },
     "Literature Notes/pavlo2009comparison.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1832,
       "exportedPath": "literature-notes/pavlo2009comparison.html",
       "dependencies": []
     },
     "Literature Notes/pavlo2017self.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 732,
       "exportedPath": "literature-notes/pavlo2017self.html",
       "dependencies": []
     },
     "Literature Notes/petrov2019database.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 456,
       "exportedPath": "literature-notes/petrov2019database.html",
       "dependencies": []
     },
     "Literature Notes/prabhakaran2005analysis.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1526,
       "exportedPath": "literature-notes/prabhakaran2005analysis.html",
       "dependencies": []
     },
     "Literature Notes/rahman2017ve.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2270,
       "exportedPath": "literature-notes/rahman2017ve.html",
       "dependencies": []
     },
     "Literature Notes/raman2002partial.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1782,
       "exportedPath": "literature-notes/raman2002partial.html",
       "dependencies": []
     },
     "Literature Notes/rao2000making.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2128,
       "exportedPath": "literature-notes/rao2000making.html",
       "dependencies": []
     },
     "Literature Notes/rashd1991microkernel.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 501,
       "exportedPath": "literature-notes/rashd1991microkernel.html",
       "dependencies": []
     },
     "Literature Notes/rekatsinas2017holoclean.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1557,
       "exportedPath": "literature-notes/rekatsinas2017holoclean.html",
       "dependencies": []
     },
     "Literature Notes/revilak2011precisely.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1725,
       "exportedPath": "literature-notes/revilak2011precisely.html",
       "dependencies": []
     },
     "Literature Notes/rhea2003pond.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1481,
       "exportedPath": "literature-notes/rhea2003pond.html",
       "dependencies": []
     },
     "Literature Notes/rhea2004handling.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 465,
       "exportedPath": "literature-notes/rhea2004handling.html",
       "dependencies": []
     },
     "Literature Notes/ritchie1978unix.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1040,
       "exportedPath": "literature-notes/ritchie1978unix.html",
       "dependencies": []
     },
     "Literature Notes/roscoe2007writing.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 360,
       "exportedPath": "literature-notes/roscoe2007writing.html",
       "dependencies": []
     },
     "Literature Notes/rosenblum1992design.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1591,
       "exportedPath": "literature-notes/rosenblum1992design.html",
       "dependencies": []
     },
     "Literature Notes/rowstron2001pastry.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2005,
       "exportedPath": "literature-notes/rowstron2001pastry.html",
       "dependencies": []
     },
     "Literature Notes/rowstron2001storage.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 410,
       "exportedPath": "literature-notes/rowstron2001storage.html",
       "dependencies": []
     },
     "Literature Notes/sabek2022can.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1891,
       "exportedPath": "literature-notes/sabek2022can.html",
       "dependencies": []
     },
     "Literature Notes/saltzer1984end.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 444,
       "exportedPath": "literature-notes/saltzer1984end.html",
       "dependencies": []
     },
     "Literature Notes/samuel2021hydroflow.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 553,
       "exportedPath": "literature-notes/samuel2021hydroflow.html",
       "dependencies": []
     },
     "Literature Notes/santana2016fast.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1715,
       "exportedPath": "literature-notes/santana2016fast.html",
       "dependencies": []
     },
     "Literature Notes/satyanarayanan1994lightweight.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1448,
       "exportedPath": "literature-notes/satyanarayanan1994lightweight.html",
       "dependencies": []
     },
     "Literature Notes/satyanarayanan2009case.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2265,
       "exportedPath": "literature-notes/satyanarayanan2009case.html",
       "dependencies": []
     },
     "Literature Notes/satyanarayanan2017emergence.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1058,
       "exportedPath": "literature-notes/satyanarayanan2017emergence.html",
       "dependencies": []
     },
     "Literature Notes/schuhknecht2013uncracked.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2334,
       "exportedPath": "literature-notes/schuhknecht2013uncracked.html",
       "dependencies": []
     },
     "Literature Notes/sears2009segment.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2132,
       "exportedPath": "literature-notes/sears2009segment.html",
       "dependencies": []
     },
     "Literature Notes/shapiro2011conflict.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1477,
       "exportedPath": "literature-notes/shapiro2011conflict.html",
       "dependencies": []
     },
     "Literature Notes/silberschatz2005database.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 442,
       "exportedPath": "literature-notes/silberschatz2005database.html",
       "dependencies": []
     },
     "Literature Notes/singh2016blinkfill.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1572,
       "exportedPath": "literature-notes/singh2016blinkfill.html",
       "dependencies": []
     },
     "Literature Notes/slaney2008locality.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 915,
       "exportedPath": "literature-notes/slaney2008locality.html",
       "dependencies": []
     },
     "Literature Notes/stoica2003chord.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1538,
       "exportedPath": "literature-notes/stoica2003chord.html",
       "dependencies": []
     },
     "Literature Notes/stonebraker1976design.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 733,
       "exportedPath": "literature-notes/stonebraker1976design.html",
       "dependencies": []
     },
     "Literature Notes/stonebraker1987design.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 385,
       "exportedPath": "literature-notes/stonebraker1987design.html",
       "dependencies": []
     },
     "Literature Notes/stonebraker1991postgres.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 471,
       "exportedPath": "literature-notes/stonebraker1991postgres.html",
       "dependencies": []
     },
     "Literature Notes/stonebraker2010mapreduce.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 781,
       "exportedPath": "literature-notes/stonebraker2010mapreduce.html",
       "dependencies": []
     },
     "Literature Notes/stonebraker2018c.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1637,
       "exportedPath": "literature-notes/stonebraker2018c.html",
       "dependencies": []
     },
     "Literature Notes/sweeney1996scalability.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 551,
       "exportedPath": "literature-notes/sweeney1996scalability.html",
       "dependencies": []
     },
     "Literature Notes/szekeres2020meerkat.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1829,
       "exportedPath": "literature-notes/szekeres2020meerkat.html",
       "dependencies": []
     },
     "Literature Notes/van2018foreshadow.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2281,
       "exportedPath": "literature-notes/van2018foreshadow.html",
       "dependencies": []
     },
     "Literature Notes/veldhuizen2012leapfrog.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1880,
       "exportedPath": "literature-notes/veldhuizen2012leapfrog.html",
       "dependencies": []
     },
     "Literature Notes/verbitski2017amazon.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2125,
       "exportedPath": "literature-notes/verbitski2017amazon.html",
       "dependencies": []
     },
     "Literature Notes/verbitski2018amazon.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1937,
       "exportedPath": "literature-notes/verbitski2018amazon.html",
       "dependencies": []
     },
     "Literature Notes/waldspurger1994lottery.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 512,
       "exportedPath": "literature-notes/waldspurger1994lottery.html",
       "dependencies": []
     },
     "Literature Notes/wang2022conjunctive.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1222,
       "exportedPath": "literature-notes/wang2022conjunctive.html",
       "dependencies": []
     },
     "Literature Notes/weiss2010logoot.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1466,
       "exportedPath": "literature-notes/weiss2010logoot.html",
       "dependencies": []
     },
     "Literature Notes/welsh2001seda.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1710,
       "exportedPath": "literature-notes/welsh2001seda.html",
       "dependencies": []
     },
     "Literature Notes/wilkes1996hp.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2020,
       "exportedPath": "literature-notes/wilkes1996hp.html",
       "dependencies": []
     },
     "Literature Notes/wolbach2008transient.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1431,
       "exportedPath": "literature-notes/wolbach2008transient.html",
       "dependencies": []
     },
     "Literature Notes/wu2018towards.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1908,
       "exportedPath": "literature-notes/wu2018towards.html",
       "dependencies": []
     },
     "Literature Notes/yang2019deep.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1810,
       "exportedPath": "literature-notes/yang2019deep.html",
       "dependencies": []
     },
     "Literature Notes/yang2022balsa.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1534,
       "exportedPath": "literature-notes/yang2022balsa.html",
       "dependencies": []
     },
     "Literature Notes/zaharia2010spark.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 566,
       "exportedPath": "literature-notes/zaharia2010spark.html",
       "dependencies": []
     },
     "Literature Notes/zaharia2012resilient.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 894,
       "exportedPath": "literature-notes/zaharia2012resilient.html",
       "dependencies": []
     },
     "Literature Notes/zeldovich2011making.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1224,
       "exportedPath": "literature-notes/zeldovich2011making.html",
       "dependencies": []
     },
     "Literature Notes/zhang2015cloud.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1707,
       "exportedPath": "literature-notes/zhang2015cloud.html",
       "dependencies": []
     },
     "Literature Notes/zhao2001tapestry.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 609,
       "exportedPath": "literature-notes/zhao2001tapestry.html",
       "dependencies": []
     },
     "Literature Notes/zhao2004tapestry.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1524,
       "exportedPath": "literature-notes/zhao2004tapestry.html",
       "dependencies": []
     },
     "Streams/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 3378,
       "exportedPath": "streams/ryan-marcus'-cis-6500-–-advanced-topics-in-database-systems.html",
       "dependencies": []
     },
     "Streams/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2783,
       "exportedPath": "streams/uc-berkeley's-cs264a-advanced-topics-in-computer-systems.html",
       "dependencies": []
     },
     "Streams/UC Berkeley's CS286 - Graduate Database Systems.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 5062,
       "exportedPath": "streams/uc-berkeley's-cs286-graduate-database-systems.html",
       "dependencies": []
     },
     "Streams/UC Berkeley's CS294-248 - Topics in Database Theory.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 3797,
       "exportedPath": "streams/uc-berkeley's-cs294-248-topics-in-database-theory.html",
       "dependencies": []
     },
     "TIL/TIL - Rust.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 2015,
       "exportedPath": "til/til-rust.html",
       "dependencies": []
     },
     "TIL/TIL - Words.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 299,
       "exportedPath": "til/til-words.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 768,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "To-Read.md": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 151,
       "exportedPath": "to-read.html",
       "dependencies": []
     },
     "lib/media/pasted-image-20240203110534.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 384022,
       "exportedPath": "lib/media/pasted-image-20240203110534.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240202140825.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 110315,
       "exportedPath": "lib/media/pasted-image-20240202140825.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20231226173413.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 446524,
       "exportedPath": "lib/media/pasted-image-20231226173413.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240105205838.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 87848,
       "exportedPath": "lib/media/pasted-image-20240105205838.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240108115831.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 100239,
       "exportedPath": "lib/media/pasted-image-20240108115831.png",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1710791335560,
-      "sourceSize": 82389,
+      "modifiedTime": 1710793157619,
+      "sourceSize": 172057,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 157356,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1710793157619,
+      "sourceSize": 2104,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
     "lib/styles/theme.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 396498,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 418,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 6278,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1710791335560,
+      "modifiedTime": 1710793157619,
       "sourceSize": 88,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
