@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298,
-    "collapsed": true
+    "width": 298
   },
   "right": {
     "id": "27476bb830b20702",
@@ -203,6 +202,7 @@
   },
   "active": "ddda33d452454770",
   "lastOpenFiles": [
+    "Glossary/Weak Law of Large Numbers.md",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
     "docs/lib/styles/main-styles.css",
@@ -214,7 +214,6 @@
     "docs/lib/media/favicon.png",
     "docs/lib/scripts/minisearch.js",
     "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media/pasted-image-20240203110534.png",
     "docs/lib/media/pasted-image-20240202140825.png",
@@ -229,7 +228,6 @@
     "Glossary/Equi-Join.md",
     "Glossary/Converges in Probability.md",
     "Glossary/Chebyshev Metric.md",
-    "Glossary/Weak Law of Large Numbers.md",
     "Literature Notes/beyer1999nearest.md",
     "Literature Notes/conway2012logic.md",
     "Glossary/Independent and Identically Distributed (IID).md",
