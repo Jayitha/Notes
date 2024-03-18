@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ddda33d452454770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature Notes/beyer1999nearest.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Notes/beyer1999nearest.md"
+                "file": "Glossary/Slutsky's Theorem.md"
               }
             }
           },
@@ -129,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Notes/beyer1999nearest.md",
+                "file": "Glossary/Slutsky's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Notes/beyer1999nearest.md",
+                "file": "Glossary/Slutsky's Theorem.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -208,35 +195,42 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "ddda33d452454770",
+  "active": "6cc516d2f74859bb",
   "lastOpenFiles": [
-    "Literature Notes/beyer1999nearest.md",
-    "Templates/current paper.md",
-    "Glossary/Concurrency.md",
-    "Glossary/Weak Law of Large Numbers.md",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
-    "docs/lib/styles/main-styles.css",
+    "docs/lib/styles/theme.css",
     "docs/lib/styles/supported-plugins.css",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles/other-plugins.css",
+    "docs/lib/styles/main-styles.css",
+    "docs/lib/styles/snippets.css",
     "docs/lib/styles/obsidian.css",
-    "docs/lib/scripts/graph-data.js",
+    "docs/lib/styles/global-variable-styles.css",
+    "docs/lib/styles",
     "docs/lib/media/favicon.png",
+    "docs/lib/scripts/webpage.js",
     "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
     "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/lib/media/pasted-image-20240203110534.png",
-    "docs/lib/media/pasted-image-20240202140825.png",
-    "Glossary/Virtualization.md",
-    "Glossary/Unstable Nearest Neighbor Query.md",
-    "Glossary/The Relational Model.md",
+    "To-Read.md",
+    "docs/lib/media/pasted-image-20231226173413.png",
     "Glossary/Slutsky's Theorem.md",
+    "docs/lib/media/pasted-image-20240203110534.png",
+    "Literature Notes/kemper2010hyper.md",
+    "TIL/TIL - Words.md",
+    "TIL/TIL - Rust.md",
+    "Glossary/Weak Law of Large Numbers.md",
+    "Glossary/Virtualization.md",
     "Glossary/Pyramid Technique.md",
     "Glossary/Persistence.md",
-    "Glossary/Locality Sensitive Hashing.md",
     "Glossary/iMinMax.md",
     "Glossary/Equi-Join.md",
+    "Glossary/Curse of Dimensionality.md",
+    "Glossary/Concurrency.md",
+    "Literature Notes/beyer1999nearest.md",
+    "Templates/current paper.md",
+    "docs/lib/media/pasted-image-20240202140825.png",
+    "Glossary/Unstable Nearest Neighbor Query.md",
+    "Glossary/The Relational Model.md",
+    "Glossary/Locality Sensitive Hashing.md",
     "Glossary/Converges in Probability.md",
     "Glossary/Chebyshev Metric.md",
     "Literature Notes/conway2012logic.md",
@@ -244,18 +238,11 @@
     "Templates/definition.md",
     "Templates/outgoing links.md",
     "Literature Notes/kleppmann2014designing.md",
-    "Literature Notes/abiteboul1995foundations.md",
-    "index.md",
-    "Literature Notes/petrov2019database.md",
-    "TIL/TIL - Rust.md",
-    "Literature Notes/verbitski2017amazon.md",
-    "Literature Notes/corbett2013spanner.md",
     "Images/Pasted image 20240203110534.png",
     "Images/Pasted image 20240202140825.png",
     "docs/lib/media/pasted-image-20240108115831.png",
     "docs/lib/media/pasted-image-20240105205838.png",
     "Images/Pasted image 20240108115831.png",
-    "Images/Pasted image 20240105205838.png",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Algorithmic Framework.canvas"
   ]

@@ -15,5 +15,9 @@
   "sanctum@@color-accent-rgb-d": "92, 153, 124",
   "sanctum@@table-hover-row": false,
   "things-style@@fancy-code": true,
-  "things-style@@fancy-highlight": true
+  "things-style@@fancy-highlight": true,
+  "minimal-style@@dark-mode-style": "minimal-dark-black",
+  "minimal-style@@accent-d": 20,
+  "minimal-style@@base-d": 7,
+  "sanctum@@dark-mode-contrast-mode": "sanctum-black"
 }
