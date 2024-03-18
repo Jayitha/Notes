@@ -30,7 +30,7 @@
   "authorName": "",
   "vaultTitle": "Notes",
   "exportPreset": "website",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "graphAttractionForce": 1.52,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,

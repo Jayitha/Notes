@@ -8,11 +8,16 @@ Let $A_{1}, A_{2}, \ldots$ be [[Independent and Identically Distributed (IID)|II
 $$\frac{1}{m} \sum\limits_{i = 1}^{m} A_{i} \rightarrow_{p} \mu$$
 
 
-> [!aside|right +++]
+> [!aside|right +]
 > Testing aside
 
 
 ![[Slutsky's Theorem]]
+
+- [I] An idea!
+- [i] Info
+- [d] Ooo danger!
+
 
 
 

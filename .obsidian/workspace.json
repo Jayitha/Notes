@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md"
+                "file": "To-Read.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
+                "file": "To-Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
+                "file": "To-Read.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -208,51 +208,88 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8feb0a71372c1fd4",
+  "floating": {
+    "id": "79824e9c484249f5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0272f9fdf2392393",
+        "type": "window",
+        "children": [
+          {
+            "id": "ca9849de5e0b9b1c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7a12313dbe97d876",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Read.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7a12313dbe97d876",
   "lastOpenFiles": [
-    "docs/lib/search-index.json",
-    "docs/lib/metadata.json",
-    "docs/lib/styles/theme.css",
-    "docs/lib/styles/supported-plugins.css",
-    "docs/lib/styles/snippets.css",
-    "docs/lib/styles/obsidian.css",
-    "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles",
-    "docs/lib/media/favicon.png",
-    "docs/lib/scripts/webpage.js",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
+    "docs/literature-notes/rashd1991microkernel.html",
+    "docs/literature-notes/rao2000making.html",
+    "docs/literature-notes/raman2002partial.html",
+    "docs/literature-notes/rahman2017ve.html",
+    "docs/literature-notes/prabhakaran2005analysis.html",
+    "docs/literature-notes/petrov2019database.html",
+    "docs/literature-notes/pavlo2017self.html",
+    "docs/literature-notes/pavlo2009comparison.html",
+    "docs/literature-notes/patterson1988case.html",
+    "docs/literature-notes/park2018verdictdb.html",
+    "docs/literature-notes/park2008reconfigurable.html",
     "docs/lib/media/pasted-image-20240108115831.png",
     "docs/lib/media/pasted-image-20240105205838.png",
     "docs/lib/media/pasted-image-20231226173413.png",
     "docs/lib/media/pasted-image-20240202140825.png",
-    "To-Read.md",
     "docs/lib/media/pasted-image-20240203110534.png",
-    "Glossary/Weak Law of Large Numbers.md",
-    "Glossary/Slutsky's Theorem.md",
-    "Literature Notes/rahman2017ve.md",
-    "Literature Notes/prabhakaran2005analysis.md",
-    "Literature Notes/petrov2019database.md",
-    "Literature Notes/pavlo2017self.md",
-    "Literature Notes/pavlo2009comparison.md",
-    "Literature Notes/patterson1988case.md",
-    "Literature Notes/park2018verdictdb.md",
-    "Literature Notes/park2008reconfigurable.md",
-    "Literature Notes/pan2010composing.md",
-    "Literature Notes/ooi2000indexing.md",
-    "Literature Notes/ongaro2014search.md",
-    "Literature Notes/o1997improved.md",
-    "Literature Notes/o1996log.md",
-    "Literature Notes/neumann2015fast.md",
-    "Literature Notes/neumann2011efficiently.md",
-    "Literature Notes/nathan2020learning.md",
-    "Literature Notes/mudgal2018deep.md",
-    "Literature Notes/moseley2006out.md",
-    "Glossary/Converges in Probability.md",
-    "Glossary/Concurrency.md",
-    "Literature Notes/kemper2010hyper.md",
+    "index.md",
     "TIL/TIL - Words.md",
+    "TIL/TIL - Rust.md",
+    "Streams/UC Berkeley's CS294-248 - Topics in Database Theory.md",
+    "Streams/UC Berkeley's CS286 - Graduate Database Systems.md",
+    "Streams/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
+    "Streams/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
+    "Literature Notes/zhao2004tapestry.md",
+    "Literature Notes/zhao2001tapestry.md",
+    "Literature Notes/zhang2015cloud.md",
+    "Literature Notes/zeldovich2011making.md",
+    "Literature Notes/zaharia2012resilient.md",
+    "Literature Notes/zaharia2010spark.md",
+    "Literature Notes/yang2022balsa.md",
+    "Literature Notes/yang2019deep.md",
+    "Literature Notes/wu2018towards.md",
+    "Literature Notes/wolbach2008transient.md",
+    "Literature Notes/wilkes1996hp.md",
+    "Literature Notes/welsh2001seda.md",
+    "Literature Notes/weiss2010logoot.md",
+    "Literature Notes/wang2022conjunctive.md",
+    "Literature Notes/waldspurger1994lottery.md",
+    "Literature Notes/verbitski2018amazon.md",
+    "Literature Notes/verbitski2017amazon.md",
+    "Literature Notes/veldhuizen2012leapfrog.md",
+    "docs/lib/media/favicon.png",
+    "docs/lib/media/874d8b8e340f75575caa.svg",
     "Images/Pasted image 20240203110534.png",
     "Images/Pasted image 20240202140825.png",
     "Images/Pasted image 20240108115831.png",
