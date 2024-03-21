@@ -1,14 +1,17 @@
 [
-  "obsidian-style-settings",
   "notion-like-tables",
-  "obsidian-git",
-  "dataview",
   "obsidian-citation-plugin",
-  "webpage-html-export",
   "obsidian-advanced-uri",
+  "obsidian42-brat",
+  "calendar",
+  "dataview",
   "obsidian-latex",
+  "obsidian-git",
+  "image-captions",
   "quick-latex",
   "obsidian-spaced-repetition",
-  "calendar",
-  "obsidian42-brat"
+  "obsidian-style-settings",
+  "webpage-html-export",
+  "folder-note-plugin",
+  "waypoint"
 ]

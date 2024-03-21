@@ -4,7 +4,7 @@ tags:
 papers:
 ---
 [[beyer1999nearest]]
-> [!aside|right +++]
+> [!aside|in]
 > See [[Converges in Probability]] 
 > for definition of $\rightarrow_p$
 
@@ -12,7 +12,16 @@ Let $A_{1}, A_{2}, \ldots$ be [[Independent and Identically Distributed (IID)|II
 $$\frac{1}{m} \sum\limits_{i = 1}^{m} A_{i} \rightarrow_{p} \mu$$
 
 
-> [!aside|right +]
+<s class="aside-right">something</s>
+<s class="aside-right">some text</s>
+
+
+
+
+ok
+
+
+> [!aside|in]
 > Testing aside
 
 

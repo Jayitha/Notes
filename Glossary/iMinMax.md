@@ -37,6 +37,23 @@ $$q_{j} = \begin{cases} \left[j + max_{i=1}^{d} x_{i1},\; j + x_{j2}\right] & mi
 
 - 
 
+I'd love to test this indexing structure to see how it behaves. In high dimensions where NN is meaningless, does the iMinMax indexing improve upon simple scanning? What would the evaluation metrics look like?
+
+1. Number of tuples accessed?
+2. Collisions?
+3. Is the added space overhead worth it?
+4. Point query vs Range query
+5. Selectivity of the range query
+
+From the Database Encyclopedia, approaches to handle high dimensional indexing include
+
+1. Dimensionality reduction
+2. Data compression
+3. Optimized I/O schedules (page size optimization and fast index scan)
+4. Hierarchy flattening
+5. Optimizing the shape of page regions
+6. Clustering
+
 
 
 

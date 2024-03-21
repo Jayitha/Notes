@@ -104,6 +104,21 @@
   abstract = {Commercial databases support different isolation levels to allow programmers to trade off consistency for a potential gain in performance. The isolation levels are defined in the current ANSI standard, but the definitions are ambiguous and revised definitions proposed to correct the problem are too constrained since they allow only pessimistic (locking) implementations. This paper presents new specifications for the ANSI levels. Our specifications are portable: they apply not only to locking implementations, but also to optimistic and multi-version concurrency control schemes. Furthermore, unlike earlier definitions, our new specifications handle predicates in a correct and flexible manner at all levels.}
 }
 
+@inproceedings{aggarwal2001on,
+  title = {On the Surprising Behavior of Distance Metrics in High Dimensional Spaces},
+  booktitle = {Database Theory - {{ICDT}} 2001, 8th International Conference, London, {{UK}}, January 4-6, 2001, Proceedings},
+  author = {Aggarwal, Charu C. and Hinneburg, Alexander and Keim, Daniel A.},
+  editor = {den Bussche, Jan Van and Vianu, Victor},
+  year = {2001},
+  series = {Lecture Notes in Computer Science},
+  volume = {1973},
+  pages = {420--434},
+  publisher = {Springer},
+  doi = {10.1007/3-540-44503-X\_27},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Tue, 14 May 2019 10:00:54 +0200}
+}
+
 @article{aggarwal2018neural,
   title = {Neural Networks and Deep Learning},
   author = {Aggarwal, Charu C and others},
@@ -552,7 +567,8 @@
   number = {10},
   pages = {632--646},
   publisher = {ACM New York, NY, USA},
-  abstract = {System R, an experimental database system, was constructed to demonstrate that the usability advantages of the relational data model can be realized in a system with the complete function and high performance required for everyday production use. This paper describes the three principal phases of the System R project and discusses some of the lessons learned from System R about the design of relational systems and database systems in general.}
+  abstract = {System R, an experimental database system, was constructed to demonstrate that the usability advantages of the relational data model can be realized in a system with the complete function and high performance required for everyday production use. This paper describes the three principal phases of the System R project and discusses some of the lessons learned from System R about the design of relational systems and database systems in general.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/chamberlin1981history.pdf}
 }
 
 @inproceedings{chandra2007paxos,
@@ -592,6 +608,19 @@
   year = {2015},
   pages = {18--37},
   abstract = {FSCQ is the first file system with a machine-checkable proof (using the Coq proof assistant) that its implementation meets its specification and whose specification includes crashes. FSCQ provably avoids bugs that have plagued previous file systems, such as performing disk writes without sufficient barriers or forgetting to zero out directory blocks. If a crash happens at an inopportune time, these bugs can lead to data loss. FSCQ's theorems prove that, under any sequence of crashes followed by reboots, FSCQ will recover the file system correctly without losing data. To state FSCQ's theorems, this paper introduces the Crash Hoare logic (CHL), which extends traditional Hoare logic with a crash condition, a recovery procedure, and logical address spaces for specifying disk states at different abstraction levels. CHL also reduces the proof effort for developers through proof automation. Using CHL, we developed, specified, and proved the correctness of the FSCQ file system. Although FSCQ's design is relatively simple, experiments with FSCQ running as a user-level file system show that it is sufficient to run Unix applications with usable performance. FSCQ's specifications and proofs required significantly more work than the implementation, but the work was manageable even for a small team of a few researchers.}
+}
+
+@article{chen2018explaining,
+  title = {Explaining the Success of Nearest Neighbor Methods in Prediction},
+  author = {Chen, George H. and Shah, Devavrat},
+  year = {2018},
+  journal = {Found. Trends Mach. Learn.},
+  volume = {10},
+  number = {5-6},
+  pages = {337--588},
+  doi = {10.1561/2200000064},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Thu, 18 Jun 2020 22:08:17 +0200}
 }
 
 @article{cheung2013optimizing,
@@ -851,6 +880,18 @@
   abstract = {Current system loggers have two problems: they depend on the integrity of the operating system being logged, and they do not save sufficient information to replay and analyze attacks that include any non-deterministic events. ReVirt removes the dependency on the target operating system by moving it into a virtual machine and logging below the virtual machine. This allows ReVirt to replay the system's execution before, during, and after an intruder compromises the system, even if the intruder replaces the target operating system. ReVirt logs enough information to replay a long-term execution of the virtual machine instruction-by-instruction. This enables it to provide arbitrarily detailed observations about what transpired on the system, even in the presence of non-deterministic attacks and executions. ReVirt adds reasonable time and space overhead. Overheads due to virtualization are imperceptible for interactive use and CPU-bound workloads, and 13--58\% for kernel-intensive workloads. Logging adds 0--8\% overhead, and logging traffic for our workloads can be stored on a single disk for several months.}
 }
 
+@article{durrant2009nearest,
+  title = {When Is `Nearest Neighbour'Meaningful: {{A}} Converse Theorem and Implications},
+  author = {Durrant, Robert J and Kab{\'a}n, Ata},
+  year = {2009},
+  journal = {Journal of Complexity},
+  volume = {25},
+  number = {4},
+  pages = {385--397},
+  publisher = {Elsevier},
+  abstract = {Beyer et al. gave a sufficient condition for the high dimensional phenomenon known as the concentration of distances. Their work has pinpointed serious problems due to nearest neighbours not being meaningful in high dimensions. Here we establish the converse of their result, in order to answer the question as to when nearest neighbour is still meaningful in arbitrarily high dimensions. We then show for a class of realistic data distributions having non-i.i.d. dimensions, namely the family of linear latent variable models, that the Euclidean distance will not concentrate as long as the amount of `relevant' dimensions grows no slower than the overall data dimensions. This condition is, of course, often not met in practice. After numerically validating our findings, we examine real data situations in two different areas (text-based document collections and gene expression arrays), which suggest that the presence or absence of distance concentration in high dimensional problems plays a role in making the data hard or easy to work with.}
+}
+
 @article{efstathopoulos2005labels,
   title = {Labels and Event Processes in the {{Asbestos}} Operating System},
   author = {Efstathopoulos, Petros and Krohn, Maxwell and VanDeBogart, Steve and Frey, Cliff and Ziegler, David and Kohler, Eddie and Mazieres, David and Kaashoek, Frans and Morris, Robert},
@@ -899,6 +940,16 @@
   pages = {1891--1904},
   publisher = {VLDB Endowment},
   abstract = {Worst-case optimal join algorithms are attractive from a theoretical point of view, as they offer asymptotically better runtime than binary joins on certain types of queries. In particular, they avoid enumerating large intermediate results by processing multiple input relations in a single multi-way join. However, existing implementations incur a sizable overhead in practice, primarily since they rely on suitable ordered index structures on their input. Systems that support worst-case optimal joins often focus on a specific problem domain, such as read-only graph analytic queries, where extensive precomputation allows them to mask these costs. In this paper, we present a comprehensive implementation approach for worst-case optimal joins that is practical within general-purpose relational database management systems supporting both hybrid transactional and analytical workloads. The key component of our approach is a novel hash-based worst-case optimal join algorithm that relies only on data structures that can be built efficiently during query execution. Furthermore, we implement a hybrid query optimizer that intelligently and transparently combines both binary and multi-way joins within the same query plan. We demonstrate that our approach far outperforms existing systems when worst-case optimal joins are beneficial while sacrificing no performance when they are not.}
+}
+
+@book{friedman2005reasoned,
+  title = {The Reasoned Schemer},
+  author = {Friedman, Daniel P. and Byrd, William E. and Kiselyov, Oleg},
+  year = {2005},
+  publisher = {MIT Press},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  isbn = {978-0-262-56214-0},
+  timestamp = {Wed, 06 Apr 2011 15:25:01 +0200}
 }
 
 @article{gervasi2019will,
@@ -1017,6 +1068,16 @@
   booktitle = {{{HotOS}}},
   author = {Hand, Steven and Warfield, Andrew and Fraser, Keir and Kotsovinos, Evangelos and Magenheimer, Daniel J},
   year = {2005}
+}
+
+@inproceedings{he2012on,
+  title = {On the Difficulty of Nearest Neighbor Search},
+  booktitle = {Proceedings of the 29th International Conference on Machine Learning, {{ICML}} 2012, Edinburgh, Scotland, {{UK}}, June 26 - July 1, 2012},
+  author = {He, Junfeng and Kumar, Sanjiv and Chang, Shih-Fu},
+  year = {2012},
+  publisher = {icml.cc / Omnipress},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Wed, 03 Apr 2019 17:43:34 +0200}
 }
 
 @article{helland2009building,
@@ -1140,6 +1201,19 @@
   title = {Introduction - {{How Query Engines Work}}},
   urldate = {2023-07-04},
   howpublished = {https://howqueryengineswork.com/00-introduction.html}
+}
+
+@article{kaban2011on,
+  title = {On the Distance Concentration Awareness of Certain Data Reduction Techniques},
+  author = {Kab{\'a}n, Ata},
+  year = {2011},
+  journal = {Pattern Recognition},
+  volume = {44},
+  number = {2},
+  pages = {265--277},
+  doi = {10.1016/J.PATCOG.2010.08.018},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Mon, 24 Feb 2020 08:30:12 +0100}
 }
 
 @inproceedings{kandel2011wrangler,
@@ -1945,6 +2019,18 @@
   abstract = {In distributed query processing, data shuffle is one of the most costly operations. We examined scaling limitations to data shuffle that current systems and the research literature do not solve. As the number of input and output partitions increases, na{\"i}ve shuffling will result in high fan-out and fan-in. There are practical limits to fan-out, as a consequence of limits on memory buffers, network ports and I/O handles. There are practical limits to fan-in because it multiplies the communication errors due to faults in commodity clusters impeding progress. Existing solutions that limit fan-out and fan-in do so at the cost of scaling quadratically in the number of nodes in the data flow graph. This dominates the costs of shuffling large datasets. We propose a novel algorithm called Hyper Dimension Shuffle that we have introduced in production in SCOPE, Microsoft's internal big data analytics system. Hyper Dimension Shuffle is inspired by the divide and conquer concept, and utilizes a recursive partitioner with intermediate aggregations. It yields quasilinear complexity of the shuffling graph with tight guarantees on fan-out and fan-in. We demonstrate how it avoids the shuffling graph blow-up of previous algorithms to shuffle at petabyte-scale efficiently on both synthetic benchmarks and real applications.}
 }
 
+@article{radovanovic2010hubs,
+  title = {Hubs in Space: {{Popular}} Nearest Neighbors in High-Dimensional Data},
+  author = {Radovanovic, Milos and Nanopoulos, Alexandros and Ivanovic, Mirjana},
+  year = {2010},
+  journal = {Journal of Machine Learning Research},
+  volume = {11},
+  pages = {2487--2531},
+  doi = {10.5555/1756006.1953015},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Thu, 02 Jun 2022 13:58:57 +0200}
+}
+
 @article{rahman2017ve,
   title = {I've Seen" Enough" Incrementally Improving Visualizations to Support Rapid Decision Making},
   author = {Rahman, Sajjadur and Aliakbarpour, Maryam and Kong, Ha Kyung and Blais, Eric and Karahalios, Karrie and Parameswaran, Aditya and Rubinfield, Ronitt},
@@ -2436,6 +2522,18 @@
   abstract = {Conjunctive queries with predicates in the form of comparisons that span multiple relations have regained interest recently, due to their relevance in OLAP queries, spatiotemporal databases, and machine learning over relational data. The standard technique, predicate pushdown, has limited efficacy on such comparisons. A technique by Willard can be used to process short comparisons that are adjacent in the join tree in time linear in the input size plus output size. In this paper, we describe a new algorithm for evaluating conjunctive queries with both short and long comparisons, and identify an acyclic condition under which linear time can be achieved. We have also implemented the new algorithm on top of Spark, and our experimental results demonstrate order-of-magnitude speedups over SparkSQL on a variety of graph pattern and analytical queries.},
   isbn = {978-1-4503-9249-5},
   keywords = {acyclic joins,conjunctive query,inequality joins}
+}
+
+@inproceedings{weiss2008spectral,
+  title = {Spectral Hashing},
+  booktitle = {Advances in Neural Information Processing Systems 21, Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems, Vancouver, British Columbia, Canada, December 8-11, 2008},
+  author = {Weiss, Yair and Torralba, Antonio and Fergus, Robert},
+  editor = {Koller, Daphne and Schuurmans, Dale and Bengio, Yoshua and Bottou, L{\'e}on},
+  year = {2008},
+  pages = {1753--1760},
+  publisher = {Curran Associates, Inc.},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  timestamp = {Mon, 16 May 2022 15:41:51 +0200}
 }
 
 @article{weiss2010logoot,

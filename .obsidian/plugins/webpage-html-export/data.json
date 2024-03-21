@@ -1,8 +1,10 @@
 {
-  "settingsVersion": "1.8.01",
+  "settingsVersion": "1.8.1-2b",
   "makeOfflineCompatible": false,
   "inlineAssets": false,
-  "includePluginCSS": "dataview",
+  "includePluginCSS": [
+    "dataview"
+  ],
   "includeSvelteCSS": true,
   "titleProperty": "",
   "customHeadContentPath": "",
@@ -11,6 +13,7 @@
   "sidebarWidth": "20em",
   "minOutlineCollapse": 2,
   "startOutlineCollapsed": false,
+  "relativeOutlineLinks": false,
   "allowFoldingHeadings": true,
   "allowFoldingLists": true,
   "allowResizingSidebars": true,
@@ -23,14 +26,14 @@
   "addOutline": false,
   "addFileNav": true,
   "addSearchBar": true,
-  "addGraphView": false,
+  "addGraphView": true,
   "addTitle": true,
   "addRSSFeed": true,
   "siteURL": "https://jayitha.github.io/Notes/",
   "authorName": "Jayitha Cherapanamjeri",
   "vaultTitle": "Notes",
   "exportPreset": "website",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "graphAttractionForce": 1.52,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -53,6 +56,15 @@
       "index.md",
       "To-Read.md"
     ]
+  ],
+  "filePickerBlacklist": [
+    "(^|\\/)node_modules\\/",
+    "(^|\\/)dist\\/",
+    "(^|\\/)dist-ssr\\/",
+    "(^|\\/)\\.vscode\\/"
+  ],
+  "filePickerWhitelist": [
+    "\\.\\w+$"
   ],
   "inlineCSS": false,
   "inlineJS": false,

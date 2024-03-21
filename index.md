@@ -1,22 +1,8 @@
 
-# Glossary
-
-```dataview 
-LIST rows.file.link
-FROM "Glossary"
-SORT rows.file.name ASC
-GROUP BY substring(file.name, 0, 1)
-SORT substring(file.name, 0, 1) ASC
-```
 
 # Papers and Books
 
-## Streams
-
-[[UC Berkeley's CS286 - Graduate Database Systems]]
-[[Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems]]
-[[UC Berkeley's CS294-248 - Topics in Database Theory]]
-[[UC Berkeley's CS264a - Advanced Topics in Computer Systems]]
+![[Streams]]
 ## Currently Reading
 
 ```dataview
@@ -35,5 +21,4 @@ GROUP BY year
 SORT year DESC
 ```
 
-## [[To-Read]]
 
