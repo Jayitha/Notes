@@ -693,6 +693,15 @@
   abstract = {Three principal types of language for data base manipulation are identified: the low-level, procedure-oriented (typified by the CODASYL-proposed DML), the intermediate level, algebraic (typified by the Project MAC MacAIMS language), and the high level, relational calculus-based data sublanguage, an example of which is described in this paper. The language description is informal and stresses concepts and principles. Following this, arguments are presented for the superiority of the calculus-based type of data base sub-language over the algebraic, and for the algebraic over the low-level procedural. These arguments are particularly relevant to the questions of inter-system compatibility and standardization.}
 }
 
+@inproceedings{cohen2006full,
+  title = {Full Disjunctions: {{Polynomial-delay}} Iterators in Action},
+  booktitle = {Proceedings of the 32nd International Conference on {{Very}} Large Data Bases},
+  author = {Cohen, Sara and Fadida, Itzhak and Kanza, Yaron and Kimelfeld, Benny and Sagiv, Yehoshua},
+  year = {2006},
+  pages = {739--750},
+  publisher = {Citeseer}
+}
+
 @misc{composablecodex,
   title = {"{{The Composable Codex}}"},
   author = {Data, Voltron},
@@ -749,6 +758,15 @@
   year = {2016},
   pages = {215--226},
   abstract = {We live in the golden age of distributed computing. Public cloud platforms now offer virtually unlimited compute and storage resources on demand. At the same time, the Software-as-a-Service (SaaS) model brings enterprise-class systems to users who previously could not afford such systems due to their cost and complexity. Alas, traditional data warehousing systems are struggling to fit into this new environment. For one thing, they have been designed for fixed resources and are thus unable to leverage the cloud's elasticity. For another thing, their dependence on complex ETL pipelines and physical tuning is at odds with the flexibility and freshness requirements of the cloud's new types of semi-structured data and rapidly evolving workloads. We decided a fundamental redesign was in order. Our mission was to build an enterprise-ready data warehousing solution for the cloud. The result is the Snowflake Elastic Data Warehouse, or "Snowflake" for short. Snowflake is a multi-tenant, transactional, secure, highly scalable and elastic system with full SQL support and built-in extensions for semi-structured and schema-less data. The system is offered as a pay-as-you-go service in the Amazon cloud. Users upload their data to the cloud and can immediately manage and query it using familiar tools and interfaces. Implementation began in late 2012 and Snowflake has been generally available since June 2015. Today, Snowflake is used in production by a growing number of small and large organizations alike. The system runs several million queries per day over multiple petabytes of data. In this paper, we describe the design of Snowflake and its novel multi-cluster, shared-data architecture. The paper highlights some of the key features of Snowflake: extreme elasticity and availability, semi-structured and schema-less data, time travel, and end-to-end security. It concludes with lessons learned and an outlook on ongoing work.}
+}
+
+@inproceedings{danaparamita2011queryviz,
+  title = {{{QueryViz}}: Helping Users Understand {{SQL}} Queries and Their Patterns},
+  booktitle = {Proceedings of the 14th International Conference on Extending Database Technology},
+  author = {Danaparamita, Jonathan and Gatterbauer, Wolfgang},
+  year = {2011},
+  pages = {558--561},
+  abstract = {We present QueryViz, a novel visualization tool for SQL queries that reduces the time needed to read and understand existing queries. It targets two principal audiences: (i) users who often issue the same or similar queries and who need to quickly browse through a repository of existing queries; and (ii) novices that try to familiarize themselves with the logic behind alternative patterns of SQL queries. QueryViz uses as input only two strings: the database schema and the SQL query. It can thus serve as light-weight add-on to existing database systems and is also available via an online interface at http://queryviz.com. In this demonstration, we explain our visual alphabet, walk through the visualization algorithm, and let users experience the difference in understanding SQL queries from text or our graphical representation while browsing through repositories of well-known textbook SQL queries.}
 }
 
 @article{dean2008mapreduce,
@@ -904,6 +922,14 @@
   abstract = {Asbestos, a new prototype operating system, provides novel labeling and isolation mechanisms that help contain the effects of exploitable software flaws. Applications can express a wide range of policies with Asbestos's kernel-enforced label mechanism, including controls on inter-process communication and system-wide information flow. A new event process abstraction provides lightweight, isolated contexts within a single process, allowing the same process to act on behalf of multiple users while preventing it from leaking any single user's data to any other user. A Web server that uses Asbestos labels to isolate user data requires about 1.5 memory pages per user, demonstrating that additional security can come at an acceptable cost.}
 }
 
+@misc{elmasri2016fundamentals,
+  title = {Fundamentals of Database Systems},
+  author = {Elmasri, Ramez and Navathe, Shamkant B},
+  year = {2016},
+  publisher = {Pearson},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/elmasri2016fundamentals.pdf}
+}
+
 @article{engler1995exokernel,
   title = {Exokernel: {{An}} Operating System Architecture for Application-Level Resource Management},
   author = {Engler, Dawson R and Kaashoek, M Frans and O'Toole Jr, James},
@@ -930,6 +956,14 @@
   file = {/Users/jayithac/Zotero/storage/V8MNAZ4R/floating-point-gui.de.html}
 }
 
+@book{forta2019sql,
+  title = {{{SQL}} in 10 Minutes a Day, Sams Teach Yourself},
+  author = {Forta, Ben},
+  year = {2019},
+  publisher = {Sams Publishing},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/forta2019sql.pdf}
+}
+
 @article{freitag2020adopting,
   title = {Adopting Worst-Case Optimal Joins in Relational Database Systems},
   author = {Freitag, Michael and Bandle, Maximilian and Schmidt, Tobias and Kemper, Alfons and Neumann, Thomas},
@@ -950,6 +984,33 @@
   bibsource = {dblp computer science bibliography, https://dblp.org},
   isbn = {978-0-262-56214-0},
   timestamp = {Wed, 06 Apr 2011 15:25:01 +0200}
+}
+
+@book{garcia2008database,
+  title = {Database Systems: The Complete Book},
+  author = {{Garcia-Molina}, Hector},
+  year = {2008},
+  publisher = {Pearson Education India}
+}
+
+@article{gatterbauer2022principles,
+  title = {Principles of Query Visualization},
+  author = {Gatterbauer, Wolfgang and Dunne, Cody and Jagadish, {\relax HV} and Riedewald, Mirek},
+  year = {2022},
+  journal = {arXiv preprint arXiv:2208.01613},
+  eprint = {2208.01613},
+  abstract = {Query Visualization (QV) is the problem of transforming a given query into a graphical representation that helps humans understand its meaning. This task is notably different from designing a Visual Query Language (VQL) that helps a user compose a query. This article discusses the principles of relational query visualization and its potential for simplifying user interactions with relational data.},
+  archiveprefix = {arxiv}
+}
+
+@article{gatterbauer2024reasonable,
+  title = {On the Reasonable Effectiveness of Relational Diagrams: {{Explaining}} Relational Query Patterns and the Pattern Expressiveness of Relational Languages},
+  author = {Gatterbauer, Wolfgang and Dunne, Cody},
+  year = {2024},
+  journal = {arXiv preprint arXiv:2401.04758},
+  eprint = {2401.04758},
+  abstract = {Comparing relational languages by their logical expressiveness is well understood. Less well understood is how to compare relational languages by their ability to represent relational query patterns. Indeed, what are query patterns other than "a certain way of writing a query"? And how can query patterns be defined across procedural and declarative languages, irrespective of their syntax? To the best of our knowledge, we provide the first semantic definition of relational query patterns by using a variant of structure-preserving mappings between the relational tables of queries. This formalism allows us to analyze the relative pattern expressiveness of relational language fragments and create a hierarchy of languages with equal logical expressiveness yet different pattern expressiveness. Notably, for the non-disjunctive language fragment, we show that relational calculus can express a larger class of patterns than the basic operators of relational algebra. Our language-independent definition of query patterns opens novel paths for assisting database users. For example, these patterns could be leveraged to create visual query representations that faithfully represent query patterns, speed up interpretation, and provide visual feedback during query editing. As a concrete example, we propose Relational Diagrams, a complete and sound diagrammatic representation of safe relational calculus that is provably (i) unambiguous, (ii) relationally complete, and (iii) able to represent all query patterns for unions of non-disjunctive queries. Among all diagrammatic representations for relational queries that we are aware of, ours is the only one with these three properties. Furthermore, our anonymously preregistered user study shows that Relational Diagrams allow users to recognize patterns meaningfully faster and more accurately than SQL.},
+  archiveprefix = {arxiv}
 }
 
 @article{gervasi2019will,
@@ -1488,6 +1549,18 @@
   eprint = {1201.0228},
   abstract = {A database system optimized for in-memory storage can support much higher transaction rates than current systems. However, standard concurrency control methods used today do not scale to the high transaction rates achievable by such systems. In this paper we introduce two efficient concurrency control methods specifically designed for main-memory databases. Both use multiversioning to isolate read-only transactions from updates but differ in how atomicity is ensured: one is optimistic and one is pessimistic. To avoid expensive context switching, transactions never block during normal processing but they may have to wait before commit to ensure correct serialization ordering. We also implemented a main-memory optimized version of single-version locking. Experimental results show that while single-version locking works well when transactions are short and contention is low performance degrades under more demanding conditions. The multiversion schemes have higher overhead but are much less sensitive to hotspots and the presence of long-running transactions.},
   archiveprefix = {arxiv}
+}
+
+@article{laue2020simple,
+  title = {A Simple and Efficient Tensor Calculus for Machine Learning},
+  author = {Laue, S{\"o}ren and Mitterreiter, Matthias and Giesen, Joachim},
+  year = {2020},
+  journal = {Fundamenta Informaticae},
+  volume = {177},
+  number = {2},
+  pages = {157--179},
+  publisher = {IOS Press},
+  abstract = {Computing derivatives of tensor expressions, also known as tensor calculus, is a fundamental task in machine learning. A key concern is the efficiency of evaluating the expressions and their derivatives that hinges on the representation of these expressions. Recently, an algorithm for computing higher order derivatives of tensor expressions like Jacobians or Hessians has been introduced that is a few orders of magnitude faster than previous state-of-the-art approaches. Unfortunately, the approach is based on Ricci notation and hence cannot be incorporated into automatic differentiation frameworks from deep learning like TensorFlow, PyTorch, autograd, or JAX that use the simpler Einstein notation. This leaves two options, to either change the underlying tensor representation in these frameworks or to develop a new, provably correct algorithm based on Einstein notation. Obviously, the first option is impractical. Hence, we pursue the second option. Here, we show that using Ricci notation is not necessary for an efficient tensor calculus and develop an equally efficient method for the simpler Einstein notation. It turns out that turning to Einstein notation enables further improvements that lead to even better efficiency. The methods that are described in this paper for computing derivatives of matrix and tensor expressions have been implemented in the online tool www.MatrixCalculus.org}
 }
 
 @inproceedings{lee2015f2fs,
@@ -2043,6 +2116,14 @@
   abstract = {Data visualization is an effective mechanism for identifying trends, insights, and anomalies in data. On large datasets, however, generating visualizations can take a long time, delaying the extraction of insights, hampering decision making, and reducing exploration time. One solution is to use online sampling-based schemes to generate visualizations faster while improving the displayed estimates incrementally, eventually converging to the exact visualization computed on the entire data. However, the intermediate visualizations are approximate, and often fluctuate drastically, leading to potentially incorrect decisions. We propose sampling-based incremental visualization algorithms that reveal the "salient" features of the visualization quickly---with a 46{\texttimes} speedup relative to baselines---while minimizing error, thus enabling rapid and error-free decision making. We demonstrate that these algorithms are optimal in terms of sample complexity, in that given the level of interactivity, they generate approximations that take as few samples as possible. We have developed the algorithms in the context of an incremental visualization tool, titled IncVisage, for trendline and heatmap visualizations. We evaluate the usability of IncVisage via user studies and demonstrate that users are able to make effective decisions with incrementally improving visualizations, especially compared to vanilla online-sampling based schemes.}
 }
 
+@book{ramakrishnan2002database,
+  title = {Database Management Systems},
+  author = {Ramakrishnan, Raghu and Gehrke, Johannes},
+  year = {2002},
+  publisher = {McGraw-Hill, Inc.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/ramakrishnan2002database.pdf}
+}
+
 @inproceedings{raman2002partial,
   title = {Partial Results for Online Query Processing},
   booktitle = {Proceedings of the 2002 {{ACM SIGMOD}} International Conference on {{Management}} of Data},
@@ -2317,7 +2398,8 @@
   title = {Database Systems Concepts},
   author = {Silberschatz, Abraham and Korth, Henry and Sudarshan, Shashank},
   year = {2005},
-  publisher = {McGraw-Hill, Inc.}
+  publisher = {McGraw-Hill, Inc.},
+  file = {/Users/jayithac/Library/CloudStorage/GoogleDrive-jayithareddyp@gmail.com/My Drive/Papers/silberschatz2005database.pdf}
 }
 
 @article{singh2016blinkfill,
@@ -2445,6 +2527,17 @@
   howpublished = {https://tikv.org/blog/building-distributed-storage-system-on-raft/}
 }
 
+@inproceedings{tziavelis2020optimal,
+  title = {Optimal Algorithms for Ranked Enumeration of Answers to Full Conjunctive Queries},
+  booktitle = {Proceedings of the {{VLDB}} Endowment. {{International}} Conference on Very Large Data Bases},
+  author = {Tziavelis, Nikolaos and Ajwani, Deepak and Gatterbauer, Wolfgang and Riedewald, Mirek and Yang, Xiaofeng},
+  year = {2020},
+  volume = {13},
+  pages = {1582},
+  publisher = {NIH Public Access},
+  abstract = {We study ranked enumeration of join-query results according to very general orders defined by selective dioids. Our main contribution is a framework for ranked enumeration over a class of dynamic programming problems that generalizes seemingly different problems that had been studied in isolation. To this end, we extend classic algorithms that find the k-shortest paths in a weighted graph. For full conjunctive queries, including cyclic ones, our approach is optimal in terms of the time to return the top result and the delay between results. These optimality properties are derived for the widely used notion of data complexity, which treats query size as a constant. By performing a careful cost analysis, we are able to uncover a previously unknown trade-off between two incomparable enumeration approaches: one has lower complexity when the number of returned results is small, the other when the number is very large. We theoretically and empirically demonstrate the superiority of our techniques over batch algorithms, which produce the full result and then sort it. Our technique is not only faster for returning the first few results, but on some inputs beats the batch algorithm even when all results are produced.}
+}
+
 @inproceedings{van2018foreshadow,
   title = {Foreshadow: {{Extracting}} the Keys to the Intel \{\vphantom\}{{SGX}}\vphantom\{\} Kingdom with Transient \{\vphantom\}{{Out-of-Order}}\vphantom\{\} Execution},
   booktitle = {27th {{USENIX}} Security Symposium ({{USENIX}} Security 18)},
@@ -2452,6 +2545,15 @@
   year = {2018},
   pages = {991--1008},
   abstract = {Trusted execution environments, and particularly the Software Guard eXtensions (SGX) included in recent Intel x86 processors, gained significant traction in recent years. A long track of research papers, and increasingly also real-world industry applications, take advantage of the strong hardware-enforced confidentiality and integrity guarantees provided by Intel SGX. Ultimately, enclaved execution holds the compelling potential of securely offloading sensitive computations to untrusted remote platforms. We present Foreshadow, a practical software-only microarchitectural attack that decisively dismantles the security objectives of current SGX implementations. Crucially, unlike previous SGX attacks, we do not make any assumptions on the victim enclave's code and do not necessarily require kernel-level access. At its core, Foreshadow abuses a speculative execution bug in modern Intel processors, on top of which we develop a novel exploitation methodology to reliably leak plaintext enclave secrets from the CPU cache. We demonstrate our attacks by extracting full cryptographic keys from Intel's vetted architectural enclaves, and validate their correctness by launching rogue production enclaves and forging arbitrary local and remote attestation responses. The extracted remote attestation keys affect millions of devices.}
+}
+
+@inproceedings{van2019anytime,
+  title = {Anytime Approximation in Probabilistic Databases via Scaled Dissociations},
+  booktitle = {Proceedings of the 2019 International Conference on Management of Data},
+  author = {{Van den Heuvel}, Maarten and Ivanov, Peter and Gatterbauer, Wolfgang and Geerts, Floris and Theobald, Martin},
+  year = {2019},
+  pages = {1295--1312},
+  abstract = {Speeding up probabilistic inference remains a key challenge in probabilistic databases (PDBs) and the related area of statistical relational learning (SRL). Since computing probabilities for query answers is \#P-hard, even for fairly simple conjunctive queries, both the PDB and SRL communities have proposed a number of approximation techniques over the years. The two prevalent techniques are either (i) MCMC-style sampling or (ii) branch-and-bound (B\&B) algorithms that iteratively improve model-based bounds using a combination of variable substitution and elimination. We propose a new anytime B\&B approximation scheme that encompasses all prior model-based approximation schemes proposed in the PDB and SRL literature. Our approach relies on the novel idea of "scaled dissociation" which can improve both the upper and lower bounds of existing modelbased algorithms. We apply our approach to the well-studied problem of evaluating self-join-free conjunctive queries over tuple-independent PDBs, and show a consistent reduction in approximation error in our experiments on TPC-H, Yago3, and a synthetic benchmark setting.}
 }
 
 @article{veldhuizen2012leapfrog,

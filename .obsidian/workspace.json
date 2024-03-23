@@ -8,33 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6cc516d2f74859bb",
+            "id": "8feb0a71372c1fd4",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossary/Slutsky's Theorem.md",
+                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8feb0a71372c1fd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary/Weak Law of Large Numbers.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Read.md"
+                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md"
               }
             }
           },
@@ -129,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Read.md",
+                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Read.md",
+                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -198,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -208,91 +196,54 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "79824e9c484249f5",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0272f9fdf2392393",
-        "type": "window",
-        "children": [
-          {
-            "id": "ca9849de5e0b9b1c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7a12313dbe97d876",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Read.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1440,
-        "height": 900,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7a12313dbe97d876",
+  "active": "8feb0a71372c1fd4",
   "lastOpenFiles": [
-    "docs/literature-notes/rashd1991microkernel.html",
-    "docs/literature-notes/rao2000making.html",
-    "docs/literature-notes/raman2002partial.html",
-    "docs/literature-notes/rahman2017ve.html",
-    "docs/literature-notes/prabhakaran2005analysis.html",
-    "docs/literature-notes/petrov2019database.html",
-    "docs/literature-notes/pavlo2017self.html",
-    "docs/literature-notes/pavlo2009comparison.html",
-    "docs/literature-notes/patterson1988case.html",
-    "docs/literature-notes/park2018verdictdb.html",
-    "docs/literature-notes/park2008reconfigurable.html",
+    "docs/images/pasted-image-20240323115112.png",
+    "docs/images/pasted-image-20240323114830.png",
+    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages/unit-1-sql.html",
+    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages/topic-1-data-models-and-query-languages.html",
+    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management.html",
+    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages",
+    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management",
+    "docs/literature-notes/van2019anytime.html",
+    "docs/literature-notes/ramakrishnan2002database.html",
+    "docs/literature-notes/gatterbauer2024reasonable.html",
+    "docs/literature-notes/gatterbauer2022principles.html",
+    "docs/literature-notes/garcia2008database.html",
+    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
+    "Glossary/Union.md",
+    "Glossary/Excel.md",
+    "Glossary/PostgreSQL.md",
+    "Glossary/Top-k Query.md",
+    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management.md",
+    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Topic 1 - Data Models and Query Languages.md",
+    "Glossary/Referential Integrity.md",
+    "Glossary/Bag Semantics.md",
+    "Glossary/Semantics of a SQL Query.md",
+    "Glossary/Monotone Queries.md",
+    "Glossary/Relational Diagrams.md",
+    "Glossary/Commutativity & Associativity.md",
+    "Glossary/Matrix Chain Multiplication.md",
+    "Glossary/Correlated Nested Queries.md",
+    "Glossary/Nested Queries.md",
+    "Glossary/Join Types.md",
+    "Glossary/Null.md",
+    "Glossary/Coalesce.md",
+    "Glossary/Distinct.md",
+    "Glossary/Common Table Expressions.md",
+    "Glossary/Full Disjunction.md",
+    "Glossary/Glossary.md",
+    "Images/Pasted image 20240323115112.png",
+    "Images/Pasted image 20240323114830.png",
+    "Literature Notes/elmasri2016fundamentals.md",
+    "Literature Notes/garcia2008database.md",
     "docs/lib/media/pasted-image-20240108115831.png",
     "docs/lib/media/pasted-image-20240105205838.png",
     "docs/lib/media/pasted-image-20231226173413.png",
     "docs/lib/media/pasted-image-20240202140825.png",
     "docs/lib/media/pasted-image-20240203110534.png",
-    "index.md",
-    "TIL/TIL - Words.md",
-    "TIL/TIL - Rust.md",
-    "Streams/UC Berkeley's CS294-248 - Topics in Database Theory.md",
-    "Streams/UC Berkeley's CS286 - Graduate Database Systems.md",
-    "Streams/UC Berkeley's CS264a - Advanced Topics in Computer Systems.md",
-    "Streams/Ryan Marcus' CIS 6500 – Advanced Topics in Database Systems.md",
-    "Literature Notes/zhao2004tapestry.md",
-    "Literature Notes/zhao2001tapestry.md",
-    "Literature Notes/zhang2015cloud.md",
-    "Literature Notes/zeldovich2011making.md",
-    "Literature Notes/zaharia2012resilient.md",
-    "Literature Notes/zaharia2010spark.md",
-    "Literature Notes/yang2022balsa.md",
-    "Literature Notes/yang2019deep.md",
-    "Literature Notes/wu2018towards.md",
-    "Literature Notes/wolbach2008transient.md",
-    "Literature Notes/wilkes1996hp.md",
-    "Literature Notes/welsh2001seda.md",
-    "Literature Notes/weiss2010logoot.md",
-    "Literature Notes/wang2022conjunctive.md",
-    "Literature Notes/waldspurger1994lottery.md",
-    "Literature Notes/verbitski2018amazon.md",
-    "Literature Notes/verbitski2017amazon.md",
-    "Literature Notes/veldhuizen2012leapfrog.md",
     "docs/lib/media/favicon.png",
     "docs/lib/media/874d8b8e340f75575caa.svg",
-    "Images/Pasted image 20240203110534.png",
-    "Images/Pasted image 20240202140825.png",
-    "Images/Pasted image 20240108115831.png",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Algorithmic Framework.canvas"
   ]
