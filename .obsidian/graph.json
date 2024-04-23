@@ -1,22 +1,51 @@
 {
   "collapse-filter": false,
-  "search": "",
-  "showTags": true,
+  "search": "-path:\"Literature Notes\" -path:\"Daily Notes\"  -path:Templates  -path:Presentations  ",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Glossary/Algorithms  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Glossary  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Literature Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.6,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.8012433795785707,
-  "close": false
+  "linkDistance": 78,
+  "scale": 1.3937288504403844,
+  "close": true
 }

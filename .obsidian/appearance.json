@@ -1,10 +1,10 @@
 {
-  "accentColor": "#59dfbd",
+  "accentColor": "",
   "cssTheme": "Sanctum",
   "baseFontSize": 18,
   "theme": "obsidian",
   "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "textFontFamily": "Noto Sans Batak",
   "enabledCssSnippets": [
     "center-images",
     "empty-headers"

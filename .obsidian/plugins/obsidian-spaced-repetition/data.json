@@ -15,9 +15,9 @@
     "randomizeCardOrder": null,
     "flashcardCardOrder": "DueFirstRandom",
     "flashcardDeckOrder": "PrevDeckComplete_Sequential",
-    "convertHighlightsToClozes": false,
+    "convertHighlightsToClozes": true,
     "convertBoldTextToClozes": false,
-    "convertCurlyBracketsToClozes": true,
+    "convertCurlyBracketsToClozes": false,
     "singleLineCardSeparator": "::",
     "singleLineReversedCardSeparator": ":::",
     "multilineCardSeparator": "?",
@@ -28,7 +28,7 @@
       "#review"
     ],
     "noteFoldersToIgnore": [],
-    "openRandomNote": true,
+    "openRandomNote": false,
     "autoNextNote": true,
     "disableFileMenuReviewOptions": false,
     "maxNDaysNotesReviewQueue": 365,
@@ -40,7 +40,7 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2024-03-23",
+  "buryDate": "2024-04-23",
   "buryList": [],
   "historyDeck": null
 }

@@ -1,10 +1,11 @@
 ---
 aliases: 
-tags: 
+tags:
+  - review
 papers:
 ---
 [[beyer1999nearest]]
-Let $\vec{A_{1}}, \vec{A_{2}}, \ldots$ be random vectors (of the same arity) and $g$ be a continuous function. If $\vec{A_{m}} \rightarrow_{p} \vec{c}$ and $g(\vec{c})$ is finite then $g(\vec{A_{m}}) \rightarrow_{p} g(\vec{c})$
+Let $\vec{A_{1}}, \vec{A_{2}}, \ldots$ be random vectors (of the same arity) and $g$ be a continuous function. If $\vec{A_{m}} \rightarrow_{p} \vec{c}$  (i.e. [[Converges in Probability]]) and $g(\vec{c})$ is finite then $g(\vec{A_{m}}) \rightarrow_{p} g(\vec{c})$
 
 Related Corollaries:
 

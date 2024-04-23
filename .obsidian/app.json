@@ -2,7 +2,9 @@
   "livePreview": true,
   "userIgnoreFilters": [
     "docs/",
-    "Misc/Lua/"
+    "Misc/Lua/",
+    "Typst Report/",
+    "Book/"
   ],
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {
@@ -21,5 +23,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Glossary",
   "showInlineTitle": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "showUnsupportedFiles": true
 }

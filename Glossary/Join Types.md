@@ -1,9 +1,9 @@
 ---
 aliases: 
-tags: 
+tags:
+  - review
 papers:
 ---
-?
 [[Unit 1 - SQL]]
 ![[Pasted image 20240323115112.png]]
 Starting from top left, going the "U" and then the center

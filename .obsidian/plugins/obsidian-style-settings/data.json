@@ -12,12 +12,15 @@
   "o-theme-settings@@o-faintselect": true,
   "o-theme-settings@@custom-primary@@dark": "#000000",
   "o-theme-settings@@custom-secondary@@dark": "#121212",
-  "sanctum@@color-accent-rgb-d": "92, 153, 124",
-  "sanctum@@table-hover-row": false,
-  "things-style@@fancy-code": true,
-  "things-style@@fancy-highlight": true,
-  "minimal-style@@dark-mode-style": "minimal-dark-black",
-  "minimal-style@@accent-d": 20,
-  "minimal-style@@base-d": 7,
-  "sanctum@@dark-mode-contrast-mode": "sanctum-black"
+  "sanctum@@active-line-accent": "transparent",
+  "sanctum@@aside-border": false,
+  "sanctum@@clean-embeds": true,
+  "sanctum@@indentation-guide-active": "var(--interactive)",
+  "sanctum@@wrap-nav-titles": true,
+  "sanctum@@blockquote-marker": true,
+  "sanctum@@blockquote-border": true,
+  "sanctum@@blockquote-font-style": "oblique",
+  "sanctum@@file-line-width": 45,
+  "sanctum@@dark-mode-contrast-mode": "sanctum-black",
+  "sanctum@@highlight@@dark": "#BE34A680"
 }

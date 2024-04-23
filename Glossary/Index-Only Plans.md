@@ -1,6 +1,7 @@
 ---
 aliases: 
-tags: 
+tags:
+  - review
 papers:
 ---
 The database can satisfy queries with just the indices without having to access actual data pages

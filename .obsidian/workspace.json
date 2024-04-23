@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e6c6541773e516bc",
+        "id": "2d9afeab67a31f2b",
         "type": "tabs",
         "children": [
           {
-            "id": "8feb0a71372c1fd4",
+            "id": "59e3cc79003cb82b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
+                "file": "Literature Notes/bertsekas2008introduction.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "bdd2bc784724bcae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 208.50247192382812
   },
   "right": {
     "id": "27476bb830b20702",
@@ -95,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md"
+                "file": "index.md"
               }
             }
           },
@@ -116,14 +131,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -133,18 +148,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
+                "file": "index.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "7603aa63579ba730",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           },
           {
@@ -160,7 +167,15 @@
             }
           },
           {
-            "id": "98d93f18579f2536",
+            "id": "04c4985df4fd1327",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "11abe26355ac121d",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -168,82 +183,95 @@
             }
           },
           {
-            "id": "894f923705e2e019",
+            "id": "87c722ecbdc4fbff",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec89162b219305ff",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
               "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
+    "width": 473.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "8feb0a71372c1fd4",
+  "active": "bdd2bc784724bcae",
   "lastOpenFiles": [
-    "docs/images/pasted-image-20240323115112.png",
-    "docs/images/pasted-image-20240323114830.png",
-    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages/unit-1-sql.html",
-    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages/topic-1-data-models-and-query-languages.html",
-    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management.html",
-    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management/topic-1-data-models-and-query-languages",
-    "docs/streams/wolfgang-gatterbauer's-cs-7240-principles-of-scalable-data-management",
-    "docs/literature-notes/van2019anytime.html",
-    "docs/literature-notes/ramakrishnan2002database.html",
-    "docs/literature-notes/gatterbauer2024reasonable.html",
-    "docs/literature-notes/gatterbauer2022principles.html",
-    "docs/literature-notes/garcia2008database.html",
-    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Unit 1 - SQL.md",
-    "Glossary/Union.md",
-    "Glossary/Excel.md",
-    "Glossary/PostgreSQL.md",
-    "Glossary/Top-k Query.md",
-    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management.md",
-    "Streams/Wolfgang Gatterbauer's CS 7240 Principles of Scalable Data Management/Topic 1 - Data Models and Query Languages/Topic 1 - Data Models and Query Languages.md",
-    "Glossary/Referential Integrity.md",
-    "Glossary/Bag Semantics.md",
-    "Glossary/Semantics of a SQL Query.md",
-    "Glossary/Monotone Queries.md",
-    "Glossary/Relational Diagrams.md",
-    "Glossary/Commutativity & Associativity.md",
-    "Glossary/Matrix Chain Multiplication.md",
-    "Glossary/Correlated Nested Queries.md",
-    "Glossary/Nested Queries.md",
-    "Glossary/Join Types.md",
-    "Glossary/Null.md",
-    "Glossary/Coalesce.md",
-    "Glossary/Distinct.md",
-    "Glossary/Common Table Expressions.md",
-    "Glossary/Full Disjunction.md",
-    "Glossary/Glossary.md",
-    "Images/Pasted image 20240323115112.png",
-    "Images/Pasted image 20240323114830.png",
-    "Literature Notes/elmasri2016fundamentals.md",
-    "Literature Notes/garcia2008database.md",
-    "docs/lib/media/pasted-image-20240108115831.png",
-    "docs/lib/media/pasted-image-20240105205838.png",
-    "docs/lib/media/pasted-image-20231226173413.png",
-    "docs/lib/media/pasted-image-20240202140825.png",
-    "docs/lib/media/pasted-image-20240203110534.png",
-    "docs/lib/media/favicon.png",
+    "To-Read.md",
+    "Literature Notes/bertsekas2008introduction.md",
+    "Title.md",
+    "Glossary/The Two-Envelope Paradox.md",
+    "Glossary/Elements of a Probabilistic Model.md",
+    "Glossary/Poisson Random Variable.md",
+    "Glossary/Binomial Random Variable.md",
+    "Glossary/Independence.md",
+    "Glossary/Expectation.md",
+    "Glossary/Variance.md",
+    "Glossary/Conditional Independence.md",
+    "Glossary/Geometric Random Variable.md",
+    "Glossary/Total Expectation Theorem.md",
+    "Glossary/Moments.md",
+    "Glossary/Total Probability Theorem.md",
+    "Glossary/Multiplication Rule.md",
+    "Glossary/Probability Mass Function.md",
+    "Glossary/Probability Law.md",
+    "Glossary/Discrete Uniform Random Variable.md",
+    "Glossary/Bernoulli Random Variable.md",
+    "Templates/definition.md",
+    "Glossary/Expected Value Rule.md",
+    "Glossary/Standard Deviation.md",
+    "Glossary/Conditional Probability.md",
+    "Glossary/Properties of Conditional Probability.md",
+    "Glossary/Bertrand's Paradox.md",
+    "Images/Pasted image 20240418155835.png",
+    "Images/Pasted image 20240411154026.png",
+    "Glossary/Classification of Skew Handling Algorithms",
+    "Glossary/Handling Skew/Task Partitioning/Fragment Replicate",
+    "Images/Pasted image 20240324145131.png",
+    "Images/sharednothing.png",
+    "Images/sharednothing.drawio.pdf",
+    "preamble.sty",
+    "Glossary/Background/Conventional Join Topographies",
+    "Glossary/Other Settings/Other Join Operators",
+    "Glossary/Skew/Classification of Skew Effects/Partition Skew",
+    "Glossary/Skew/Classification of Skew Effects",
+    "Glossary/Skew/Modelling Skew",
+    "Glossary/Skew",
+    "Images/Pasted image 20240321181210.png",
     "docs/lib/media/874d8b8e340f75575caa.svg",
+    "docs/lib/media/pasted-image-20240206234322.png",
+    "docs/lib/media/pasted-image-20240206234235.png",
+    "docs/lib/media/pasted-image-20240206231044.png",
+    "docs/lib/media/pasted-image-20240206231011.png",
+    "Algorithm State Diagram.canvas",
+    "Algorithm State Machine Initial.canvas",
     "Private/Competitive Skyline Cliques/Untitled.canvas",
     "Algorithmic Framework.canvas"
   ]

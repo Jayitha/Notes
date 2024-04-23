@@ -1,6 +1,7 @@
 ---
 aliases: 
-tags: 
+tags:
+  - review
 papers: "[[beyer1999nearest]]"
 ---
 [[beyer1999nearest]]

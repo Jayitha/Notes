@@ -1,6 +1,7 @@
 ---
 aliases: 
-tags: 
+tags:
+  - review
 papers:
 ---
 Eliminate duplicates using the {{`DISTINCT`}} clause

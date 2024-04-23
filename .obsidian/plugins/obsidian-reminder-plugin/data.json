@@ -1,0 +1,38 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Literature Notes/bertsekas2008introduction.md": [
+      {
+        "title": "Get properties for independence and conditional independence from exercises",
+        "time": "2024-04-29",
+        "rowNumber": 43
+      }
+    ],
+    "Glossary/The Two-Envelope Paradox.md": [
+      {
+        "title": "Didn’t really understand this, circle back",
+        "time": "2024-05-06",
+        "rowNumber": 9
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": false,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

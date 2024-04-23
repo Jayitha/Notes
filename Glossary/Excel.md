@@ -1,7 +1,8 @@
 ---
 aliases:
   - Microsoft Excel
-tags: 
+tags:
+  - review
 papers:
 ---
 [[Unit 1 - SQL]]
